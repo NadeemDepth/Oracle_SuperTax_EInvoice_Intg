@@ -1,0 +1,115 @@
+{
+    "timestamp": "2026-09-23T21:47:51.097524",
+    "document_no": "27072627097",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27072627097",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "27072627097",
+                    "Dt": "23/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "09AADCC2080N1ZG",
+                    "LglNm": "COMMDEL CONSULTING SERVICES PRIVATE LIMITED",
+                    "TrdNm": "COMMDEL CONSULTING SERVICES PRIVATE LIMITED",
+                    "Pos": "09",
+                    "Addr1": "A-74, Sector-58",
+                    "Addr2": "NOIDA, Noida,,Gautambuddha Nagar",
+                    "Loc": "Noida",
+                    "Pin": "201301",
+                    "Stcd": "09"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "Commdel IOCL Remote SOC Monitoring and Response Service  for 60 Assets (Includes upto 20 servers) Period : 01-07-2026 to 30-09-2026",
+                        "HsnCd": "998319",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 885000,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 159300,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 885000,
+                        "AssAmt": 885000.0,
+                        "TotItemVal": 1044300.0
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 885000.0,
+                    "CgstVal": 0.0,
+                    "SgstVal": 0.0,
+                    "IgstVal": 159300,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": 0.0,
+                    "TotInvVal": 1044300.0
+                },
+                "ShipDtls": {
+                    "LglNm": "COMMDEL CONSULTING SERVICES PRIVATE LIMITED",
+                    "TrdNm": "COMMDEL CONSULTING SERVICES PRIVATE LIMITED",
+                    "Addr1": "A-74, Sector-58",
+                    "Addr2": "NOIDA, Noida,,Gautambuddha Nagar",
+                    "Loc": "Noida",
+                    "Stcd": "09",
+                    "Pin": "201301"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 122610116167941,
+                "AckDate": "2026-09-23 21:47:53",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "f4848d07803883d9137baa60bb7767dd583bdff1a9c511629efba23e6a0073de",
+                "DocDtls": {
+                    "No": "27072627097",
+                    "Dt": "23/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "27072627097",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdBQUJDSTk2NjlSMVpIXCIsXCJCdXllckdzdGluXCI6XCIwOUFBRENDMjA4ME4xWkdcIixcIkRvY05vXCI6XCIyNzA3MjYyNzA5N1wiLFwiRG9jVHlwXCI6XCJJTlZcIixcIkRvY0R0XCI6XCIyMy8wOS8yMDI2XCIsXCJUb3RJbnZWYWxcIjoxMDQ0MzAwLjAsXCJJdGVtQ250XCI6MSxcIk1haW5Ic25Db2RlXCI6XCI5OTgzMTlcIixcIklyblwiOlwiZjQ4NDhkMDc4MDM4ODNkOTEzN2JhYTYwYmI3NzY3ZGQ1ODNiZGZmMWE5YzUxMTYyOWVmYmEyM2U2YTAwNzNkZVwiLFwiSXJuRHRcIjpcIjIwMjYtMDktMjMgMjE6NDc6NTNcIn0ifQ.3ZJYAkNh4eqyfMVsLFoAIMXi-Klh5yeIt6eYSTSIBnU_k-G5vsbMQYoqQOxcMgd0GPjEqsF3lIVVv6PrbWKWIqSWfQXX1qDniaWVzmwrRLBxQj228FKxhUkPMNYWYSx5_KNi9WwQeUSaKMLSVfY82fsHMQUOPD54b6SEyY_Mw17__H6LcaI2uGRyPAL20fbRqVWdnkS1UxwHPTl1WdWv9yR5MUwO-6uvk5zrKkW-byq2yLXq46zxM7RW-OvTiw3pvbk21SrwbwVszklvzaPunXTR5Lzps2qtlNv0w4UIPfqbB4OwPjtuMJkP8LRlEVMDFpBihSTyuRpf8Ygu_bwm-w",
+                "QrCode": "{\"SellerGstin\":\"27AABCI9669R1ZH\",\"BuyerGstin\":\"09AADCC2080N1ZG\",\"DocNo\":\"27072627097\",\"DocTyp\":\"INV\",\"DocDt\":\"23/09/2026\",\"TotInvVal\":1044300.0,\"ItemCnt\":1,\"MainHsnCode\":\"998319\",\"Irn\":\"f4848d07803883d9137baa60bb7767dd583bdff1a9c511629efba23e6a0073de\",\"IrnDt\":\"2026-09-23 21:47:53\"}",
+                "EncodedId": "NDU5MjQ5"
+            }
+        ]
+    },
+    "error": null
+}

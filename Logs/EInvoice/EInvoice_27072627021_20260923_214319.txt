@@ -1,0 +1,115 @@
+{
+    "timestamp": "2026-09-23T21:43:19.679432",
+    "document_no": "27072627021",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27072627021",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "CRN",
+                    "No": "27072627021",
+                    "Dt": "23/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "08JPRD00134B1DH",
+                    "LglNm": "Department of Information Technology & Communication",
+                    "TrdNm": "Department of Information Technology & Communication",
+                    "Pos": "08",
+                    "Addr1": "Technical Director & Joint Secretary,",
+                    "Addr2": "DOIT&C, Yojna Bhavan,,,",
+                    "Loc": "Jaipur",
+                    "Pin": "302005",
+                    "Stcd": "08"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "Facility Management Charges for Rajasthan State Data Centre (RSDC) Phase-I, III, IV at Jaipur: Qtr-19 (20 Feb 2026 to 19 May 2026)",
+                        "HsnCd": "998311",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 40228845.8,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 7241192.24,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 40228845.8,
+                        "AssAmt": 40228845.8,
+                        "TotItemVal": 47470038.04
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 40228845.8,
+                    "CgstVal": 0.0,
+                    "SgstVal": 0.0,
+                    "IgstVal": 7241192.24,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": 0.04,
+                    "TotInvVal": 47470038.08
+                },
+                "ShipDtls": {
+                    "LglNm": "Department of Information Technology & Communication",
+                    "TrdNm": "Department of Information Technology & Communication",
+                    "Addr1": "Technical Director & Joint Secretary,",
+                    "Addr2": "DOIT&C, Yojna Bhavan,,,",
+                    "Loc": "Jaipur",
+                    "Stcd": "08",
+                    "Pin": "302005"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 122610116167145,
+                "AckDate": "2026-09-23 21:43:21",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "044ab88575149d7065eb45f6e02d793ad763549cf8668ba29d66496b838fbb55",
+                "DocDtls": {
+                    "No": "27072627021",
+                    "Dt": "23/09/2026",
+                    "Typ": "CRN"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "27072627021",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdBQUJDSTk2NjlSMVpIXCIsXCJCdXllckdzdGluXCI6XCIwOEpQUkQwMDEzNEIxREhcIixcIkRvY05vXCI6XCIyNzA3MjYyNzAyMVwiLFwiRG9jVHlwXCI6XCJDUk5cIixcIkRvY0R0XCI6XCIyMy8wOS8yMDI2XCIsXCJUb3RJbnZWYWxcIjo0NzQ3MDAzOC4wOCxcIkl0ZW1DbnRcIjoxLFwiTWFpbkhzbkNvZGVcIjpcIjk5ODMxMVwiLFwiSXJuXCI6XCIwNDRhYjg4NTc1MTQ5ZDcwNjVlYjQ1ZjZlMDJkNzkzYWQ3NjM1NDljZjg2NjhiYTI5ZDY2NDk2YjgzOGZiYjU1XCIsXCJJcm5EdFwiOlwiMjAyNi0wOS0yMyAyMTo0MzoyMVwifSJ9.u8yEkT3gT2lBMg46g872HnSPJ27q-8Y1AIRP6-rPf5oKZlkST2pfXXxhpz4JMVV-5JBkkWH9eQgrfpPI_zHCI64MjpnNnofA84Tn6HqMDKvkjq1k9bAexDGkTBa2poMCtAXawVJulwyuDXpieN06411b-_JGXV6zItee1b3_LjeGImLVmYjQ1R9P4qzHFwRQaqAvTSpQ6yY6Cjtfs1rnLLfxW5NdUahhXfqhRllALFEeATOtRKB-gSnFxhm3ZyafqNibM63Ronal_sb0amaaXuEz1qsGvSRzshwxvdv8BDSdhLJ1exNgXti5n5TRcjz4qdnX7kGnk2dvw-XB6hQ_vg",
+                "QrCode": "{\"SellerGstin\":\"27AABCI9669R1ZH\",\"BuyerGstin\":\"08JPRD00134B1DH\",\"DocNo\":\"27072627021\",\"DocTyp\":\"CRN\",\"DocDt\":\"23/09/2026\",\"TotInvVal\":47470038.08,\"ItemCnt\":1,\"MainHsnCode\":\"998311\",\"Irn\":\"044ab88575149d7065eb45f6e02d793ad763549cf8668ba29d66496b838fbb55\",\"IrnDt\":\"2026-09-23 21:43:21\"}",
+                "EncodedId": "NDU5MTY3"
+            }
+        ]
+    },
+    "error": null
+}

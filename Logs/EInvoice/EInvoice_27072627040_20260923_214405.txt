@@ -1,0 +1,163 @@
+{
+    "timestamp": "2026-09-23T21:44:05.142529",
+    "document_no": "27072627040",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27072627040",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "27072627040",
+                    "Dt": "23/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "08AAAAD2759G2ZS",
+                    "LglNm": "DAUSA CENTRAL COOPERATIVE BANK LIMITED",
+                    "TrdNm": "DAUSA CENTRAL COOPERATIVE BANK LIMITED",
+                    "Pos": "08",
+                    "Addr1": "Managing Director-",
+                    "Addr2": "0, Pradhan Karyalya, Sahkar Bhawan,Khan Bhakari Road,",
+                    "Loc": "Dausa",
+                    "Pin": "303303",
+                    "Stcd": "08"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "AMC Services: Period: 1st April 2026 to 30th June 2026",
+                        "HsnCd": "998313",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 57992.02,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 10438.56,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 57992.02,
+                        "AssAmt": 57992.02,
+                        "TotItemVal": 68430.58
+                    },
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "FMS Services: Period: 1st April 2026 to 30th June 2026",
+                        "HsnCd": "998311",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 141131.96,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 25403.75,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "2",
+                        "TotAmt": 141131.96,
+                        "AssAmt": 141131.96,
+                        "TotItemVal": 166535.71
+                    },
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "\"3rd Yr Renewal of ISO 27000 and 20000 Certificates\"",
+                        "HsnCd": "998311",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 3036.43,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 546.56,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "3",
+                        "TotAmt": 3036.43,
+                        "AssAmt": 3036.43,
+                        "TotItemVal": 3582.99
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 202160.41,
+                    "CgstVal": 0.0,
+                    "SgstVal": 0.0,
+                    "IgstVal": 36388.87,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": -0.28,
+                    "TotInvVal": 238549.0
+                },
+                "ShipDtls": {
+                    "LglNm": "DAUSA CENTRAL COOPERATIVE BANK LIMITED",
+                    "TrdNm": "DAUSA CENTRAL COOPERATIVE BANK LIMITED",
+                    "Addr1": "Managing Director-",
+                    "Addr2": "0, Pradhan Karyalya, Sahkar Bhawan,Khan Bhakari Road,",
+                    "Loc": "Dausa",
+                    "Stcd": "08",
+                    "Pin": "303303"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 122610116167321,
+                "AckDate": "2026-09-23 21:44:07",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "aed13982883866ea7607df290f2003e6ed0db5069d7e471d9e59fc2294f233fc",
+                "DocDtls": {
+                    "No": "27072627040",
+                    "Dt": "23/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "27072627040",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdBQUJDSTk2NjlSMVpIXCIsXCJCdXllckdzdGluXCI6XCIwOEFBQUFEMjc1OUcyWlNcIixcIkRvY05vXCI6XCIyNzA3MjYyNzA0MFwiLFwiRG9jVHlwXCI6XCJJTlZcIixcIkRvY0R0XCI6XCIyMy8wOS8yMDI2XCIsXCJUb3RJbnZWYWxcIjoyMzg1NDkuMCxcIkl0ZW1DbnRcIjozLFwiTWFpbkhzbkNvZGVcIjpcIjk5ODMxMVwiLFwiSXJuXCI6XCJhZWQxMzk4Mjg4Mzg2NmVhNzYwN2RmMjkwZjIwMDNlNmVkMGRiNTA2OWQ3ZTQ3MWQ5ZTU5ZmMyMjk0ZjIzM2ZjXCIsXCJJcm5EdFwiOlwiMjAyNi0wOS0yMyAyMTo0NDowN1wifSJ9.hemQoJiwcC2jLhWs7fEQfSn5Q44Pj6aAa3-lBniIDjGJy_rE5vBgL7GDmy_X_blENuFt4bjZqW_QsEAFd_X6evoEv7G9ZGTHpGq7r1W3cMGFZ6RYIh2EhF7nvunN0pdDzuXtrOHTdQ-h6Bg3e_k729RZkF4ehyzAo3IoWZkqM-0pzUVCiwfQ1DoUvLbsgZjG5hZ7RoL9q3GzRYHfUe0YGdMcK6LymV_gmXztu7ME1Yg83ITkjZSRWKfTshEiT9UDFo9KFrVL0gPiJsFIgMiv9SCzS-Z-XQA-G13sQvW8C5Gx9Al6Us0QwTSSdWN506IDrRB-eWA7EoN84FMZhM-Nag",
+                "QrCode": "{\"SellerGstin\":\"27AABCI9669R1ZH\",\"BuyerGstin\":\"08AAAAD2759G2ZS\",\"DocNo\":\"27072627040\",\"DocTyp\":\"INV\",\"DocDt\":\"23/09/2026\",\"TotInvVal\":238549.0,\"ItemCnt\":3,\"MainHsnCode\":\"998311\",\"Irn\":\"aed13982883866ea7607df290f2003e6ed0db5069d7e471d9e59fc2294f233fc\",\"IrnDt\":\"2026-09-23 21:44:07\"}",
+                "EncodedId": "NDU5MTg2"
+            }
+        ]
+    },
+    "error": null
+}

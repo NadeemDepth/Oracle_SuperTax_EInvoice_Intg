@@ -1,0 +1,115 @@
+{
+    "timestamp": "2026-09-23T21:41:00.613072",
+    "document_no": "27062627217",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27062627217",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "27062627217",
+                    "Dt": "23/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "09AACCP7457K2ZU",
+                    "LglNm": "PINE LABS LIMITED",
+                    "TrdNm": "PINE LABS LIMITED",
+                    "Pos": "09",
+                    "Addr1": "Candor Techspace,,",
+                    "Addr2": "4th & 5th Floor,,ower # 6, Plot No. B2, Sector - 62",
+                    "Loc": "Noida",
+                    "Pin": "201301",
+                    "Stcd": "09"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "Product - Q-S-VMDR - Qualys Vulnerability Management, Detection and Response (VMDR) License.",
+                        "HsnCd": "997331",
+                        "Qty": 3400,
+                        "Unit": "NOS",
+                        "UnitPrice": 1144,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 700128,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 3889600,
+                        "AssAmt": 3889600.0,
+                        "TotItemVal": 4589728.0
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 3889600.0,
+                    "CgstVal": 0.0,
+                    "SgstVal": 0.0,
+                    "IgstVal": 700128,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": 0.0,
+                    "TotInvVal": 4589728.0
+                },
+                "ShipDtls": {
+                    "LglNm": "PINE LABS LIMITED",
+                    "TrdNm": "PINE LABS LIMITED",
+                    "Addr1": "Candor Techspace,,",
+                    "Addr2": "4th & 5th Floor,,ower # 6, Plot No. B2, Sector - 62",
+                    "Loc": "Noida",
+                    "Stcd": "09",
+                    "Pin": "201301"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 122610116166890,
+                "AckDate": "2026-09-23 21:41:02",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "07462706507d979cf1203039039b1b06cf2db59829149b0fa0f9f9be77420a63",
+                "DocDtls": {
+                    "No": "27062627217",
+                    "Dt": "23/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "27062627217",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdBQUJDSTk2NjlSMVpIXCIsXCJCdXllckdzdGluXCI6XCIwOUFBQ0NQNzQ1N0syWlVcIixcIkRvY05vXCI6XCIyNzA2MjYyNzIxN1wiLFwiRG9jVHlwXCI6XCJJTlZcIixcIkRvY0R0XCI6XCIyMy8wOS8yMDI2XCIsXCJUb3RJbnZWYWxcIjo0NTg5NzI4LjAsXCJJdGVtQ250XCI6MSxcIk1haW5Ic25Db2RlXCI6XCI5OTczMzFcIixcIklyblwiOlwiMDc0NjI3MDY1MDdkOTc5Y2YxMjAzMDM5MDM5YjFiMDZjZjJkYjU5ODI5MTQ5YjBmYTBmOWY5YmU3NzQyMGE2M1wiLFwiSXJuRHRcIjpcIjIwMjYtMDktMjMgMjE6NDE6MDJcIn0ifQ.KCTdCMi3NSFVDPjPxeTtLscluWZ6T3yU0FGpv1JBEKb-TJRBzLnScwalTB5VWf4uIWuSolpFbixNEk0QdEVkk0LLVziLoI-pCsw6KiodXOLxVwU74DmI-elCqgFUvZnel1yj2X2RM7luCR_AY8ookAXe-JlSn11SrXsHsN9gnZn7CKr6PlLyVoa8EYrGTw8OppznJfTShijiCd9l28zCISIowYGLasS0S5mcVjB7V5Fc_Ot7sPisfA8rxhoZqjfWe48lmJ6q9LVq72N56MtTg3RjdYQf8eGCr-mox6UQJoQGYlQ0JEhsoMckTZzqvZ_6jm-oJNDnAHqr8b701j5G6w",
+                "QrCode": "{\"SellerGstin\":\"27AABCI9669R1ZH\",\"BuyerGstin\":\"09AACCP7457K2ZU\",\"DocNo\":\"27062627217\",\"DocTyp\":\"INV\",\"DocDt\":\"23/09/2026\",\"TotInvVal\":4589728.0,\"ItemCnt\":1,\"MainHsnCode\":\"997331\",\"Irn\":\"07462706507d979cf1203039039b1b06cf2db59829149b0fa0f9f9be77420a63\",\"IrnDt\":\"2026-09-23 21:41:02\"}",
+                "EncodedId": "NDU5MTE2"
+            }
+        ]
+    },
+    "error": null
+}

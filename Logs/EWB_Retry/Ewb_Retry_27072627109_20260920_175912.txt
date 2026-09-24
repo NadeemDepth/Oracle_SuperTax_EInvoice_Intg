@@ -1,0 +1,61 @@
+{
+    "timestamp": "2026-09-20T17:59:12.617333",
+    "identifier": "27072627109",
+    "request_payload": {
+        "ewaybill": [
+            {
+                "Irn": "bbc9a4ff7a0bd7b5bdb991f03745f5623115a2ad7215f0939ffea67d030581b0",
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "27072627109",
+                    "Dt": "18/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "EwbDtls": {
+                    "TransId": "27AAGCS0674R1ZN",
+                    "TransName": "TATA UNISTORE LIMITED",
+                    "TransMode": "Road",
+                    "Distance": 1,
+                    "TransDocNo": "STN/MUM/2627/01",
+                    "TransDocDt": "18/09/2026",
+                    "VehNo": "MH11BL4238",
+                    "VehType": "O",
+                    "IsEWayBillIntegrated": "true"
+                }
+            }
+        ]
+    },
+    "response": {
+        "ewayBill": [
+            {
+                "DocDtls": {
+                    "No": "27072627109",
+                    "Dt": "18/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "EwbDtls": {
+                    "TransMode": "ROAD",
+                    "TransId": "27AAGCS0674R1ZN",
+                    "TransName": "TATA UNISTORE LIMITED",
+                    "Distance": "1",
+                    "TransDocNo": "STN/MUM/2627/01",
+                    "TransDocDt": "18/09/2026",
+                    "VehNo": "MH11BL4238",
+                    "VehType": "O"
+                },
+                "Success": false,
+                "Status": "ERROR_FROM_IRP",
+                "Record": 1,
+                "Message": "E Way Bill can be generated provided at least HSN of one item belongs to goods.,Transporter document date cannot be earlier than the invoice date.",
+                "EncodedId": "NDU4NTk3",
+                "Irn": "bbc9a4ff7a0bd7b5bdb991f03745f5623115a2ad7215f0939ffea67d030581b0"
+            }
+        ]
+    },
+    "error": null
+}

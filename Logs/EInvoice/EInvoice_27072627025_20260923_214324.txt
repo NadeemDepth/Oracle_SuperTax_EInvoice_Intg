@@ -1,0 +1,115 @@
+{
+    "timestamp": "2026-09-23T21:43:24.591405",
+    "document_no": "27072627025",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27072627025",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "27072627025",
+                    "Dt": "23/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "27AAMCS2311K1Z9",
+                    "LglNm": "CMS INFO SYSTEMS LIMITED",
+                    "TrdNm": "CMS INFO SYSTEMS LIMITED",
+                    "Pos": "27",
+                    "Addr1": "201 & 202,2nd floor, Eco Star",
+                    "Addr2": "Vishveshwar Nagar,Near Udipi Vihar hotel, Goregaon (East), Mumbai Off. Aarey Road, Churi Wadi",
+                    "Loc": "Mumbai",
+                    "Pin": "400063",
+                    "Stcd": "27"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "Renewal of GRC and Security Assessment Services (Period - 1-07-2026 to 30-09-2026)",
+                        "HsnCd": "998319",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 225000,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 20250,
+                        "IgstAmt": 0,
+                        "CgstAmt": 20250,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 225000,
+                        "AssAmt": 225000.0,
+                        "TotItemVal": 265500.0
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 225000.0,
+                    "CgstVal": 20250,
+                    "SgstVal": 20250,
+                    "IgstVal": 0.0,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": 0.0,
+                    "TotInvVal": 265500.0
+                },
+                "ShipDtls": {
+                    "LglNm": "CMS INFO SYSTEMS LIMITED",
+                    "TrdNm": "CMS INFO SYSTEMS LIMITED",
+                    "Addr1": "201 & 202,2nd floor, Eco Star",
+                    "Addr2": "Vishveshwar Nagar,Near Udipi Vihar hotel, Goregaon (East), Mumbai Off. Aarey Road, Churi Wadi",
+                    "Loc": "Mumbai",
+                    "Stcd": "27",
+                    "Pin": "400063"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 122610116167163,
+                "AckDate": "2026-09-23 21:43:26",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "e71563231a4d57df8dcdce7630bb4c8a99bcea0b32960f48796dfbc2016c1e22",
+                "DocDtls": {
+                    "No": "27072627025",
+                    "Dt": "23/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "27072627025",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdBQUJDSTk2NjlSMVpIXCIsXCJCdXllckdzdGluXCI6XCIyN0FBTUNTMjMxMUsxWjlcIixcIkRvY05vXCI6XCIyNzA3MjYyNzAyNVwiLFwiRG9jVHlwXCI6XCJJTlZcIixcIkRvY0R0XCI6XCIyMy8wOS8yMDI2XCIsXCJUb3RJbnZWYWxcIjoyNjU1MDAuMCxcIkl0ZW1DbnRcIjoxLFwiTWFpbkhzbkNvZGVcIjpcIjk5ODMxOVwiLFwiSXJuXCI6XCJlNzE1NjMyMzFhNGQ1N2RmOGRjZGNlNzYzMGJiNGM4YTk5YmNlYTBiMzI5NjBmNDg3OTZkZmJjMjAxNmMxZTIyXCIsXCJJcm5EdFwiOlwiMjAyNi0wOS0yMyAyMTo0MzoyNlwifSJ9.tAMK-em_Um84TMKRq3Ti3XaOAEvLPAyDNl_Ge2x9vvsHvDwn42nUx0JcNJaDl0zVh3acmwqoQEQwNMytt2tEp-LQzdnWub8h90SY14OYN2TQ7RZKL7kc59XwWuOWpsVhqDfPD4E6-FdnR1lTJDeSsj2E09uK5MceRNUSUpA0NOg69CpJlW0ZONucuPTVzoTaI3QVAIN3c4CEJXNhnJGg5o6I9T-4s8_4bAcDV6MEd7RuhwU4vxrJ_1JPqmXt6iATr7OvHiyK9f_zOrAWpJfJ0Pv_rc_qSG3Jld1E7JyCYL6QsqV5F8K94BRUW6-HeDxfqMZ06Y9Xnpapd4S87DDK5A",
+                "QrCode": "{\"SellerGstin\":\"27AABCI9669R1ZH\",\"BuyerGstin\":\"27AAMCS2311K1Z9\",\"DocNo\":\"27072627025\",\"DocTyp\":\"INV\",\"DocDt\":\"23/09/2026\",\"TotInvVal\":265500.0,\"ItemCnt\":1,\"MainHsnCode\":\"998319\",\"Irn\":\"e71563231a4d57df8dcdce7630bb4c8a99bcea0b32960f48796dfbc2016c1e22\",\"IrnDt\":\"2026-09-23 21:43:26\"}",
+                "EncodedId": "NDU5MTY5"
+            }
+        ]
+    },
+    "error": null
+}

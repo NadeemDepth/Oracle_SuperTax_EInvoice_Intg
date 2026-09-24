@@ -1,0 +1,139 @@
+{
+    "timestamp": "2026-09-23T21:40:31.837736",
+    "document_no": "27062627206",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27062627206",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "27062627206",
+                    "Dt": "23/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "24AAICA2707K1ZT",
+                    "LglNm": "ADANI INFRA INDIA LIMITED",
+                    "TrdNm": "ADANI INFRA INDIA LIMITED",
+                    "Pos": "24",
+                    "Addr1": "ADANI INFRA (INDIA) LIMITED",
+                    "Addr2": "AT & PO:MUNDRA,.",
+                    "Loc": "Kutch",
+                    "Pin": "382421",
+                    "Stcd": "24"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "Cyber Resource Chandrakanth B for SOC - L2 (Period 01-04-2026 to 30-04-2026)",
+                        "HsnCd": "998311",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 160500,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 28890,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 160500,
+                        "AssAmt": 160500.0,
+                        "TotItemVal": 189390.0
+                    },
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "Cyber Resource Ankit Tadha for SOC - L2  (Period 01-04-2026 to 30-04-2026)",
+                        "HsnCd": "998311",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 160500,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 28890,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "2",
+                        "TotAmt": 160500,
+                        "AssAmt": 160500.0,
+                        "TotItemVal": 189390.0
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 321000.0,
+                    "CgstVal": 0.0,
+                    "SgstVal": 0.0,
+                    "IgstVal": 57780,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": 0.0,
+                    "TotInvVal": 378780.0
+                },
+                "ShipDtls": {
+                    "LglNm": "ADANI INFRA INDIA LIMITED",
+                    "TrdNm": "ADANI INFRA INDIA LIMITED",
+                    "Addr1": "ADANI INFRA (INDIA) LIMITED",
+                    "Addr2": "AT & PO:MUNDRA,.",
+                    "Loc": "Kutch",
+                    "Stcd": "24",
+                    "Pin": "382421"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 122610116166793,
+                "AckDate": "2026-09-23 21:40:34",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "71bff64ed30ca0c3ba3a595b978b416051e64c4227147baed5177eade38b32ab",
+                "DocDtls": {
+                    "No": "27062627206",
+                    "Dt": "23/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "27062627206",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdBQUJDSTk2NjlSMVpIXCIsXCJCdXllckdzdGluXCI6XCIyNEFBSUNBMjcwN0sxWlRcIixcIkRvY05vXCI6XCIyNzA2MjYyNzIwNlwiLFwiRG9jVHlwXCI6XCJJTlZcIixcIkRvY0R0XCI6XCIyMy8wOS8yMDI2XCIsXCJUb3RJbnZWYWxcIjozNzg3ODAuMCxcIkl0ZW1DbnRcIjoyLFwiTWFpbkhzbkNvZGVcIjpcIjk5ODMxMVwiLFwiSXJuXCI6XCI3MWJmZjY0ZWQzMGNhMGMzYmEzYTU5NWI5NzhiNDE2MDUxZTY0YzQyMjcxNDdiYWVkNTE3N2VhZGUzOGIzMmFiXCIsXCJJcm5EdFwiOlwiMjAyNi0wOS0yMyAyMTo0MDozNFwifSJ9.Ah92EflPz3mkhro4c5W3rX3TNYPEKY1psiX4KbPWVe31NI8EVYUVjPfk57ogSI9LJq5pANngnt_Y6Tm3_8eyKQDl0QK4bNe5DF7BfuBq5QL84F5Q_qMsrkgQbFjF5nfEStXX5Zp5RYdU8xyPyLaBQ3iq1_OydYxX5M6249PjhAjngKwmo-GZHS-7Sv2W4PCcy3xOQTp6mtL_TQJxIBfYn-cFNGiGqJIZO3gxXULlgR_XNAU1_aZa9Y1rlBhDhcU8e7CKBgtMP935pzC76MEOwZxQV128HLYZPna5MjukKqOjXLcCPBysi-3phmzhpbq9OOiR9FHXwNd3jgYl3v3PsA",
+                "QrCode": "{\"SellerGstin\":\"27AABCI9669R1ZH\",\"BuyerGstin\":\"24AAICA2707K1ZT\",\"DocNo\":\"27062627206\",\"DocTyp\":\"INV\",\"DocDt\":\"23/09/2026\",\"TotInvVal\":378780.0,\"ItemCnt\":2,\"MainHsnCode\":\"998311\",\"Irn\":\"71bff64ed30ca0c3ba3a595b978b416051e64c4227147baed5177eade38b32ab\",\"IrnDt\":\"2026-09-23 21:40:34\"}",
+                "EncodedId": "NDU5MTA2"
+            }
+        ]
+    },
+    "error": null
+}

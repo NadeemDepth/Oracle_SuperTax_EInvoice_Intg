@@ -1,0 +1,163 @@
+{
+    "timestamp": "2026-09-23T21:45:23.165490",
+    "document_no": "27072627054",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27072627054",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "27072627054",
+                    "Dt": "23/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "08AAAAS1601G2ZY",
+                    "LglNm": "SIKAR KENDRIYA SAHAKARI BANK LTD",
+                    "TrdNm": "SIKAR KENDRIYA SAHAKARI BANK LTD",
+                    "Pos": "08",
+                    "Addr1": "Managing Director-",
+                    "Addr2": "First, A-18-22, SKSB, Basant Bihar,Devipura, Sikar",
+                    "Loc": "SIKAR",
+                    "Pin": "332001",
+                    "Stcd": "08"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "FMS Services: Period: 1st April-26 to 30th June-26 ||",
+                        "HsnCd": "998311",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 324603.52,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 58428.63,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 324603.52,
+                        "AssAmt": 324603.52,
+                        "TotItemVal": 383032.15
+                    },
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "AMC Services: Period: 1st Apr-26 to 30th Jun-26 ||",
+                        "HsnCd": "998313",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 133381.64,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 24008.7,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "2",
+                        "TotAmt": 133381.64,
+                        "AssAmt": 133381.64,
+                        "TotItemVal": 157390.34
+                    },
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "3rd Yr Renewal of ISO 27000 and 20000 Certificates ||",
+                        "HsnCd": "998311",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 6983.8,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 1257.08,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "3",
+                        "TotAmt": 6983.8,
+                        "AssAmt": 6983.8,
+                        "TotItemVal": 8240.88
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 464968.96,
+                    "CgstVal": 0.0,
+                    "SgstVal": 0.0,
+                    "IgstVal": 83694.41,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": -0.37,
+                    "TotInvVal": 548663.0
+                },
+                "ShipDtls": {
+                    "LglNm": "SIKAR KENDRIYA SAHAKARI BANK LTD",
+                    "TrdNm": "SIKAR KENDRIYA SAHAKARI BANK LTD",
+                    "Addr1": "Managing Director-",
+                    "Addr2": "First, A-18-22, SKSB, Basant Bihar,Devipura, Sikar",
+                    "Loc": "SIKAR",
+                    "Stcd": "08",
+                    "Pin": "332001"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 122610116167589,
+                "AckDate": "2026-09-23 21:45:25",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "d7a515dc3d0ee2a3158ffb62448dd71a05ed93c96bd255846028d68f8efd433a",
+                "DocDtls": {
+                    "No": "27072627054",
+                    "Dt": "23/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "27072627054",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdBQUJDSTk2NjlSMVpIXCIsXCJCdXllckdzdGluXCI6XCIwOEFBQUFTMTYwMUcyWllcIixcIkRvY05vXCI6XCIyNzA3MjYyNzA1NFwiLFwiRG9jVHlwXCI6XCJJTlZcIixcIkRvY0R0XCI6XCIyMy8wOS8yMDI2XCIsXCJUb3RJbnZWYWxcIjo1NDg2NjMuMCxcIkl0ZW1DbnRcIjozLFwiTWFpbkhzbkNvZGVcIjpcIjk5ODMxMVwiLFwiSXJuXCI6XCJkN2E1MTVkYzNkMGVlMmEzMTU4ZmZiNjI0NDhkZDcxYTA1ZWQ5M2M5NmJkMjU1ODQ2MDI4ZDY4ZjhlZmQ0MzNhXCIsXCJJcm5EdFwiOlwiMjAyNi0wOS0yMyAyMTo0NToyNVwifSJ9.t9cClrQGJJwousODOozA4vSDXfdKG9jYssXcoaEa_YjSA9E6-TDc7WeP3c_iOSwlefnVPrPAgPDQxoTuU4H0csAXJ9uu9cI-3UZGFArW8Fuzzoqu9C-fTYxhRv_DDbe4JYKNcXh8adJcVI3gJhZBXyEcAGgqW1GXOV6WLIOoSHMZr_LFnnPdZ6EcdmWLR0kE6Dmfi3bdscT9E5fdZexfpEGfC1926fv2FtBAXWGgTYn4-wJYNstHvbhpbyMdK7B5FUb_iqJcG6tKsL2_6MM02Fkd034LUvqdAMppIc4glvwwYALIT43G2NLegDkVWR8mNw2ZrvdEsxCF2dZlp-8VWA",
+                "QrCode": "{\"SellerGstin\":\"27AABCI9669R1ZH\",\"BuyerGstin\":\"08AAAAS1601G2ZY\",\"DocNo\":\"27072627054\",\"DocTyp\":\"INV\",\"DocDt\":\"23/09/2026\",\"TotInvVal\":548663.0,\"ItemCnt\":3,\"MainHsnCode\":\"998311\",\"Irn\":\"d7a515dc3d0ee2a3158ffb62448dd71a05ed93c96bd255846028d68f8efd433a\",\"IrnDt\":\"2026-09-23 21:45:25\"}",
+                "EncodedId": "NDU5MjE1"
+            }
+        ]
+    },
+    "error": null
+}

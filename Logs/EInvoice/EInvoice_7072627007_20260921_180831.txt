@@ -1,0 +1,119 @@
+{
+    "timestamp": "2026-09-21T18:08:31.906966",
+    "document_no": "7072627007",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "7072627007",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "7072627007",
+                    "Dt": "18/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "07AABCI9669R1ZJ",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "202A, 202B, 203 Ashoka Estate",
+                    "Addr2": "24 Barakhamba Road",
+                    "Loc": "New Delhi",
+                    "Pin": "110001",
+                    "Stcd": "07"
+                },
+                "BuyerDtls": {
+                    "Gstin": "06AAACI1681G1ZT",
+                    "LglNm": "Indian Oil Corporation Limited",
+                    "TrdNm": "Indian Oil Corporation Limited",
+                    "Pos": "06",
+                    "Addr1": "Indian Oil Institute of Petroleum Management Complex 83, ",
+                    "Addr2": "Institutional Area, Sector 18,",
+                    "Loc": "Gurugram",
+                    "Pin": "122001",
+                    "Stcd": "06"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "HsnCd": "998311",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 737653,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 132777.54,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 737653,
+                        "AssAmt": 737653.0,
+                        "TotItemVal": 870430.54
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 737653.0,
+                    "CgstVal": 0.0,
+                    "SgstVal": 0.0,
+                    "IgstVal": 132777.54,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": 0.46,
+                    "TotInvVal": 870431.0
+                },
+                "EwbDtls": {
+                    "TransId": "27AAGCS0674R1ZN",
+                    "TransName": "Satellite Cargo Connexion Private Limited",
+                    "TransMode": "Road",
+                    "Distance": 10,
+                    "TransDocNo": "STN/MUM/2627/01",
+                    "TransDocDt": "21/09/2026",
+                    "VehNo": "MH11BL4238",
+                    "VehType": "O",
+                    "IsEWayBillIntegrated": "true"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 172610026353998,
+                "AckDate": "2026-09-21 18:08:31",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "InfoCode": "EWBERR",
+                "InfoDescCode": "4009",
+                "InfoMessage": "E Way Bill can be generated provided at least HSN of one item belongs to goods.",
+                "Irn": "4db842722d2eafd84b7cb34da1e00a3c855d8f89d34ed40d3cf96b98717d09d4",
+                "DocDtls": {
+                    "No": "7072627007",
+                    "Dt": "18/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "07AABCI9669R1ZJ"
+                },
+                "CustDocNo": "7072627007",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMDdBQUJDSTk2NjlSMVpKXCIsXCJCdXllckdzdGluXCI6XCIwNkFBQUNJMTY4MUcxWlRcIixcIkRvY05vXCI6XCI3MDcyNjI3MDA3XCIsXCJEb2NUeXBcIjpcIklOVlwiLFwiRG9jRHRcIjpcIjE4LzA5LzIwMjZcIixcIlRvdEludlZhbFwiOjg3MDQzMS4wLFwiSXRlbUNudFwiOjEsXCJNYWluSHNuQ29kZVwiOlwiOTk4MzExXCIsXCJJcm5cIjpcIjRkYjg0MjcyMmQyZWFmZDg0YjdjYjM0ZGExZTAwYTNjODU1ZDhmODlkMzRlZDQwZDNjZjk2Yjk4NzE3ZDA5ZDRcIixcIklybkR0XCI6XCIyMDI2LTA5LTIxIDE4OjA4OjMxXCJ9In0.kdglGJy0LgLhj6FIzcF-eBf-7dMH7Hqfoiro6cNnkIoBncK3ZkE9-ut5CNzJbmLyKSaHRXJJ-LDPSDK1URhwAthm-jb2kuRlRf2kl-XOsTR6YodI2XwktX_lW9bY4j9k9qZdjsEepKViAtAfcPzmtMu5RrFXoT4C8Oke8e9FV2tm89HNFpyeG-3oqTTKfCAxWYhJ4HtXb4KsBXOxOedB5XKRk7m6vMG55Qp3qxD203PblKT008-q4mooKQRHTpSJ823YvOD6K0jItw8IhWzPCDR20pCCIWF7cJYAprDwPlku3o1vHDHQZE2LD26dvrP9wvxGL-WakWLrsQF6jfZR6A",
+                "QrCode": "{\"SellerGstin\":\"07AABCI9669R1ZJ\",\"BuyerGstin\":\"06AAACI1681G1ZT\",\"DocNo\":\"7072627007\",\"DocTyp\":\"INV\",\"DocDt\":\"18/09/2026\",\"TotInvVal\":870431.0,\"ItemCnt\":1,\"MainHsnCode\":\"998311\",\"Irn\":\"4db842722d2eafd84b7cb34da1e00a3c855d8f89d34ed40d3cf96b98717d09d4\",\"IrnDt\":\"2026-09-21 18:08:31\"}",
+                "EncodedId": "NDU4OTQ1"
+            }
+        ]
+    },
+    "error": null
+}

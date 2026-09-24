@@ -1,0 +1,115 @@
+{
+    "timestamp": "2026-09-23T21:40:29.380013",
+    "document_no": "27062627205",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27062627205",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "27062627205",
+                    "Dt": "23/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "27AAACG4464B9ZQ",
+                    "LglNm": "GRASIM INDUSTRIES LIMITED",
+                    "TrdNm": "GRASIM INDUSTRIES LIMITED",
+                    "Pos": "27",
+                    "Addr1": "ADITYA BIRLA CENTRE,",
+                    "Addr2": "S K Ahire Marg,.",
+                    "Loc": "Mumbai",
+                    "Pin": "400030",
+                    "Stcd": "27"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "Security Audit of Credence Server hosted on OCI",
+                        "HsnCd": "998319",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 302000,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 27180,
+                        "IgstAmt": 0,
+                        "CgstAmt": 27180,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 302000,
+                        "AssAmt": 302000.0,
+                        "TotItemVal": 356360.0
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 302000.0,
+                    "CgstVal": 27180,
+                    "SgstVal": 27180,
+                    "IgstVal": 0.0,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": 0.0,
+                    "TotInvVal": 356360.0
+                },
+                "ShipDtls": {
+                    "LglNm": "GRASIM INDUSTRIES LIMITED",
+                    "TrdNm": "GRASIM INDUSTRIES LIMITED",
+                    "Addr1": "ADITYA BIRLA CENTRE,",
+                    "Addr2": "S K Ahire Marg,.",
+                    "Loc": "Mumbai",
+                    "Stcd": "27",
+                    "Pin": "400030"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 122610116166784,
+                "AckDate": "2026-09-23 21:40:31",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "1998327d782c52c24dd2e505fa6dc61ec3cae57891e1333aa8efdd49fb208810",
+                "DocDtls": {
+                    "No": "27062627205",
+                    "Dt": "23/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "27062627205",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdBQUJDSTk2NjlSMVpIXCIsXCJCdXllckdzdGluXCI6XCIyN0FBQUNHNDQ2NEI5WlFcIixcIkRvY05vXCI6XCIyNzA2MjYyNzIwNVwiLFwiRG9jVHlwXCI6XCJJTlZcIixcIkRvY0R0XCI6XCIyMy8wOS8yMDI2XCIsXCJUb3RJbnZWYWxcIjozNTYzNjAuMCxcIkl0ZW1DbnRcIjoxLFwiTWFpbkhzbkNvZGVcIjpcIjk5ODMxOVwiLFwiSXJuXCI6XCIxOTk4MzI3ZDc4MmM1MmMyNGRkMmU1MDVmYTZkYzYxZWMzY2FlNTc4OTFlMTMzM2FhOGVmZGQ0OWZiMjA4ODEwXCIsXCJJcm5EdFwiOlwiMjAyNi0wOS0yMyAyMTo0MDozMVwifSJ9.Kait60ivKMRpaVYppp78uyBnf7dP9XfyXUTnjgpV3vnDgW91mdENaK-pzRj6lKPft6n50p9lR1fywjIuxBYsIwYQc5V96RAUdg8Sl_EeklWJFCivn6w_o1N1aWO64BzGsYmWdJxriEEESQVh-WERd_4nB-Q-uM6oFS7RXTzEKstTPteNsgrAxhC4X1XLUMYwDuDdD6hYAl1ht9J0vrNKY4UhfusB3Euc8-HpVjnaFdiiqPx85GpHmiFGar5qKo-VL3U_gCngGWFLgNsTQlJcWuV8QjvEx74AkY7vJC8z7IFFjxaTIhoXzVNQgf0Zu4wf5eZBS3q-Rf26P9MRsdAokA",
+                "QrCode": "{\"SellerGstin\":\"27AABCI9669R1ZH\",\"BuyerGstin\":\"27AAACG4464B9ZQ\",\"DocNo\":\"27062627205\",\"DocTyp\":\"INV\",\"DocDt\":\"23/09/2026\",\"TotInvVal\":356360.0,\"ItemCnt\":1,\"MainHsnCode\":\"998319\",\"Irn\":\"1998327d782c52c24dd2e505fa6dc61ec3cae57891e1333aa8efdd49fb208810\",\"IrnDt\":\"2026-09-23 21:40:31\"}",
+                "EncodedId": "NDU5MTA1"
+            }
+        ]
+    },
+    "error": null
+}

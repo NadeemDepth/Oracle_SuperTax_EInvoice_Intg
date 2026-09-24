@@ -1,0 +1,158 @@
+{
+    "timestamp": "2026-09-24T12:08:40.226065",
+    "document_no": "27072627043",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27072627043",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "27072627043",
+                    "Dt": "24/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "08AAKAT8850E1Z3",
+                    "LglNm": "THE JAIPUR CENTRAL COOPERATIVE BANK LIMITED",
+                    "TrdNm": "THE JAIPUR CENTRAL COOPERATIVE BANK LIMITED",
+                    "Pos": "08",
+                    "Addr1": "Managing Director-",
+                    "Addr2": "F-1, Nursary Circle, ,Vaishali Nagar",
+                    "Loc": "Jaipur",
+                    "Pin": "302021",
+                    "Stcd": "08"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "\"3rd Yr Renewal of ISO 27000 and 20000 Certificates\"",
+                        "HsnCd": "998311",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 7591.09,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 1366.4,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 7591.09,
+                        "AssAmt": 7591.09,
+                        "TotItemVal": 8957.49
+                    },
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "FMS Services: Period: 1st April 2026 to 30th June 2026",
+                        "HsnCd": "998311",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 352829.91,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 63509.38,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "2",
+                        "TotAmt": 352829.91,
+                        "AssAmt": 352829.91,
+                        "TotItemVal": 416339.29
+                    },
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "AMC Services: Period: 1st April 2026 to 30th June 2026",
+                        "HsnCd": "998313",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 144980.05,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 26096.41,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "3",
+                        "TotAmt": 144980.05,
+                        "AssAmt": 144980.05,
+                        "TotItemVal": 171076.46
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 505401.05,
+                    "CgstVal": 0.0,
+                    "SgstVal": 0.0,
+                    "IgstVal": 90972.19,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": -0.24,
+                    "TotInvVal": 596373.0
+                },
+                "ShipDtls": {
+                    "LglNm": "THE JAIPUR CENTRAL COOPERATIVE BANK LIMITED",
+                    "TrdNm": "THE JAIPUR CENTRAL COOPERATIVE BANK LIMITED",
+                    "Addr1": "Managing Director-",
+                    "Addr2": "F-1, Nursary Circle, ,Vaishali Nagar",
+                    "Loc": "Jaipur",
+                    "Stcd": "08",
+                    "Pin": "302021"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "Record": 1,
+                "Success": false,
+                "Fy": "202627",
+                "Messages": "GSTIN -08AAKAT8850E1Z3 is invalid. ",
+                "Status": "ERROR_FROM_IRP",
+                "DocDtls": {
+                    "No": "27072627043",
+                    "Dt": "24/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "27072627043",
+                "EncodedId": "NDU5MTg5"
+            }
+        ]
+    },
+    "error": null
+}

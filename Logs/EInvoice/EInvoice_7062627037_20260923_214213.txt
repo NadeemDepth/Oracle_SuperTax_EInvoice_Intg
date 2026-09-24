@@ -1,0 +1,115 @@
+{
+    "timestamp": "2026-09-23T21:42:13.563063",
+    "document_no": "7062627037",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "7062627037",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "7062627037",
+                    "Dt": "23/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "07AABCI9669R1ZJ",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "202A, 202B, 203 Ashoka Estate",
+                    "Addr2": "24 Barakhamba Road",
+                    "Loc": "New Delhi",
+                    "Pin": "110001",
+                    "Stcd": "07"
+                },
+                "BuyerDtls": {
+                    "Gstin": "19AAACO1598A1ZK",
+                    "LglNm": "Oil and Natural Gas Corporation Limited",
+                    "TrdNm": "Oil and Natural Gas Corporation Limited",
+                    "Pos": "19",
+                    "Addr1": "Sonarpur Stores, Acharya Prafulla Nagar,",
+                    "Addr2": "Sonarpur,,",
+                    "Loc": "Kolkata",
+                    "Pin": "700150",
+                    "Stcd": "19"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "AMC for Min 1+3 Multi party VC endpoints including Codec, Speaker tracking camera, microphones, touchpanel etc (period 20.01.26 to 19.04.26)",
+                        "HsnCd": "998713",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 5957.85,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 1072.41,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 5957.85,
+                        "AssAmt": 5957.85,
+                        "TotItemVal": 7030.26
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 5957.85,
+                    "CgstVal": 0.0,
+                    "SgstVal": 0.0,
+                    "IgstVal": 1072.41,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": -0.26,
+                    "TotInvVal": 7030.0
+                },
+                "ShipDtls": {
+                    "LglNm": "Oil and Natural Gas Corporation Limited",
+                    "TrdNm": "Oil and Natural Gas Corporation Limited",
+                    "Addr1": "Sonarpur Stores, Acharya Prafulla Nagar,",
+                    "Addr2": "Sonarpur,,",
+                    "Loc": "Kolkata",
+                    "Stcd": "19",
+                    "Pin": "700150"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 172610026359080,
+                "AckDate": "2026-09-23 21:42:15",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "17a7a2765e593a7aa631f5ebb048feac3c4cd0a2014f3c1a75d465e1fe04757a",
+                "DocDtls": {
+                    "No": "7062627037",
+                    "Dt": "23/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "07AABCI9669R1ZJ"
+                },
+                "CustDocNo": "7062627037",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMDdBQUJDSTk2NjlSMVpKXCIsXCJCdXllckdzdGluXCI6XCIxOUFBQUNPMTU5OEExWktcIixcIkRvY05vXCI6XCI3MDYyNjI3MDM3XCIsXCJEb2NUeXBcIjpcIklOVlwiLFwiRG9jRHRcIjpcIjIzLzA5LzIwMjZcIixcIlRvdEludlZhbFwiOjcwMzAuMCxcIkl0ZW1DbnRcIjoxLFwiTWFpbkhzbkNvZGVcIjpcIjk5ODcxM1wiLFwiSXJuXCI6XCIxN2E3YTI3NjVlNTkzYTdhYTYzMWY1ZWJiMDQ4ZmVhYzNjNGNkMGEyMDE0ZjNjMWE3NWQ0NjVlMWZlMDQ3NTdhXCIsXCJJcm5EdFwiOlwiMjAyNi0wOS0yMyAyMTo0MjoxNVwifSJ9.PNckusZqI9CEl1j94r91oW8EGG6WF217mQPDuyHuonNMMiiFHMDLzdHNd2pNsGw_aHmc7WyR5LJn22atpOt6zRN-4WqZ0OU0vH2iyFv9z1fiZpSaO7XByyjkdAgQrtUmTOqRmtK0snxhjHGwcW14gUOxIIs96Yd9cKW-2uCOkgfSNPw0yCYoDdfg_Wv6H5MVlTdSw9MBuqTQgSc4YOIGVHXbGYwkPXy9K535pK-ofVWn-s8S1ii1JAayaXZWtCErgSVAE9jJRH8LzjFpj5B3RrI84nHr-ksu3GFmBgA8FK9N-0rCJQF37yLIv4LXcJfMuwm4Hu4v6DRZG8Frf0jDAg",
+                "QrCode": "{\"SellerGstin\":\"07AABCI9669R1ZJ\",\"BuyerGstin\":\"19AAACO1598A1ZK\",\"DocNo\":\"7062627037\",\"DocTyp\":\"INV\",\"DocDt\":\"23/09/2026\",\"TotInvVal\":7030.0,\"ItemCnt\":1,\"MainHsnCode\":\"998713\",\"Irn\":\"17a7a2765e593a7aa631f5ebb048feac3c4cd0a2014f3c1a75d465e1fe04757a\",\"IrnDt\":\"2026-09-23 21:42:15\"}",
+                "EncodedId": "NDU5MTQz"
+            }
+        ]
+    },
+    "error": null
+}

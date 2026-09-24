@@ -1,0 +1,29 @@
+{
+    "timestamp": "2026-09-21T10:58:12.553510",
+    "identifier": "27072627108",
+    "request_payload": {
+        "invoices": [
+            {
+                "Irn": "c467b6de3a9a30934737e27240abc07351840bf774d23ee40704d83780433e2c",
+                "CnlRsn": "4",
+                "CnlRem": "Test"
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "Record": 1,
+                "Success": false,
+                "Fy": "202627",
+                "Messages": "The allowed cancellation time limit is crossed, you cannot cancel the IRN ",
+                "Irn": "c467b6de3a9a30934737e27240abc07351840bf774d23ee40704d83780433e2c",
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "EncodedId": "NDU4NTk2"
+            }
+        ]
+    },
+    "error": null
+}

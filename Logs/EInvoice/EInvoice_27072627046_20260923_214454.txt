@@ -1,0 +1,163 @@
+{
+    "timestamp": "2026-09-23T21:44:54.523646",
+    "document_no": "27072627046",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27072627046",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "27072627046",
+                    "Dt": "23/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "08AAAAL0159L1ZK",
+                    "LglNm": "THE CENTRAL COOPERATIVE BANK LIMITED",
+                    "TrdNm": "THE CENTRAL COOPERATIVE BANK LIMITED",
+                    "Pos": "08",
+                    "Addr1": "Managing Director-",
+                    "Addr2": "In front of Urmul Dairy, Ganga Nagar Road,Samta nagar, Bikaner",
+                    "Loc": "Bikaner",
+                    "Pin": "334001",
+                    "Stcd": "08"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "FMS Services: Period: 1st April 2026 to 30th June 2026",
+                        "HsnCd": "998311",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 183471.55,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 33024.88,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 183471.55,
+                        "AssAmt": 183471.55,
+                        "TotItemVal": 216496.43
+                    },
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "\"3rd Yr Renewal of ISO 27000 and 20000 Certificates\"",
+                        "HsnCd": "998311",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 3947.36,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 710.52,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "2",
+                        "TotAmt": 3947.36,
+                        "AssAmt": 3947.36,
+                        "TotItemVal": 4657.88
+                    },
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "AMC Services: Period: 1st April 2026 to 30th June 2026",
+                        "HsnCd": "998313",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 75389.63,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 13570.13,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "3",
+                        "TotAmt": 75389.63,
+                        "AssAmt": 75389.63,
+                        "TotItemVal": 88959.76
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 262808.54,
+                    "CgstVal": 0.0,
+                    "SgstVal": 0.0,
+                    "IgstVal": 47305.53,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": -0.07,
+                    "TotInvVal": 310114.0
+                },
+                "ShipDtls": {
+                    "LglNm": "THE CENTRAL COOPERATIVE BANK LIMITED",
+                    "TrdNm": "THE CENTRAL COOPERATIVE BANK LIMITED",
+                    "Addr1": "Managing Director-",
+                    "Addr2": "In front of Urmul Dairy, Ganga Nagar Road,Samta nagar, Bikaner",
+                    "Loc": "Bikaner",
+                    "Stcd": "08",
+                    "Pin": "334001"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 122610116167473,
+                "AckDate": "2026-09-23 21:44:56",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "124b22f016b6286434a8ea73afcd079b5a93343da900fd67fd94493e288b4ec1",
+                "DocDtls": {
+                    "No": "27072627046",
+                    "Dt": "23/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "27072627046",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdBQUJDSTk2NjlSMVpIXCIsXCJCdXllckdzdGluXCI6XCIwOEFBQUFMMDE1OUwxWktcIixcIkRvY05vXCI6XCIyNzA3MjYyNzA0NlwiLFwiRG9jVHlwXCI6XCJJTlZcIixcIkRvY0R0XCI6XCIyMy8wOS8yMDI2XCIsXCJUb3RJbnZWYWxcIjozMTAxMTQuMCxcIkl0ZW1DbnRcIjozLFwiTWFpbkhzbkNvZGVcIjpcIjk5ODMxMVwiLFwiSXJuXCI6XCIxMjRiMjJmMDE2YjYyODY0MzRhOGVhNzNhZmNkMDc5YjVhOTMzNDNkYTkwMGZkNjdmZDk0NDkzZTI4OGI0ZWMxXCIsXCJJcm5EdFwiOlwiMjAyNi0wOS0yMyAyMTo0NDo1NlwifSJ9.MZV-Rbkx-uOtduUYq8Bzixy2B95Lakn3loEnAaWghOEEuSYuM4PJQA3CGazlxB_o6OYnbEHcuoCjvdPpY14nVYmZofdTV0oqQvk9CVsmhCMhlrWuxeSmbJck4Sph7X33uGFbu8b9HNsnNt5omR3AlUOf-wJ752c0BzodiRDltZiLKsScNZKS3pN0wkLx0w7o0WH0o7bm-CvCO6SVJWzalotWBuityaHpxxCC39QJNZhDEgzJS6AzMXP5AYH22v1RR9qnmLUcopRD05mKNlTWZor3yJHm2oRE58dRsk158gMAEcdxoj5MamjIQshW-zN1sue_EkefrLy-1kw1ls6JzQ",
+                "QrCode": "{\"SellerGstin\":\"27AABCI9669R1ZH\",\"BuyerGstin\":\"08AAAAL0159L1ZK\",\"DocNo\":\"27072627046\",\"DocTyp\":\"INV\",\"DocDt\":\"23/09/2026\",\"TotInvVal\":310114.0,\"ItemCnt\":3,\"MainHsnCode\":\"998311\",\"Irn\":\"124b22f016b6286434a8ea73afcd079b5a93343da900fd67fd94493e288b4ec1\",\"IrnDt\":\"2026-09-23 21:44:56\"}",
+                "EncodedId": "NDU5MjA0"
+            }
+        ]
+    },
+    "error": null
+}

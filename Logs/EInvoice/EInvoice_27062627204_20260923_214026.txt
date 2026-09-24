@@ -1,0 +1,115 @@
+{
+    "timestamp": "2026-09-23T21:40:26.922559",
+    "document_no": "27062627204",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27062627204",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "27062627204",
+                    "Dt": "23/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "09AABCU9355J1ZS",
+                    "LglNm": "UTKARSH SMALL FINANCE BANK LIMITED",
+                    "TrdNm": "UTKARSH SMALL FINANCE BANK LIMITED",
+                    "Pos": "09",
+                    "Addr1": "ARAJI NO 229,223,",
+                    "Addr2": "Utkarsh Tower, NH - 31 Airport Road,Kazi Sarai, Harhua, Sehmalpur,",
+                    "Loc": "VARANASI",
+                    "Pin": "221105",
+                    "Stcd": "09"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "Installation Charge: One time Implementation charges including 50 custom parsers (Milestone 1 - 10%)",
+                        "HsnCd": "998319",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 250000,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 45000,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 250000,
+                        "AssAmt": 250000.0,
+                        "TotItemVal": 295000.0
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 250000.0,
+                    "CgstVal": 0.0,
+                    "SgstVal": 0.0,
+                    "IgstVal": 45000,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": 0.0,
+                    "TotInvVal": 295000.0
+                },
+                "ShipDtls": {
+                    "LglNm": "UTKARSH SMALL FINANCE BANK LIMITED",
+                    "TrdNm": "UTKARSH SMALL FINANCE BANK LIMITED",
+                    "Addr1": "ARAJI NO 229,223,",
+                    "Addr2": "Utkarsh Tower, NH - 31 Airport Road,Kazi Sarai, Harhua, Sehmalpur,",
+                    "Loc": "VARANASI",
+                    "Stcd": "09",
+                    "Pin": "221105"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 122610116166775,
+                "AckDate": "2026-09-23 21:40:29",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "54f011ba12d847a7bb76ced18cd72e5281cdf9c639cbdd97e347e786520b93f0",
+                "DocDtls": {
+                    "No": "27062627204",
+                    "Dt": "23/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "27062627204",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdBQUJDSTk2NjlSMVpIXCIsXCJCdXllckdzdGluXCI6XCIwOUFBQkNVOTM1NUoxWlNcIixcIkRvY05vXCI6XCIyNzA2MjYyNzIwNFwiLFwiRG9jVHlwXCI6XCJJTlZcIixcIkRvY0R0XCI6XCIyMy8wOS8yMDI2XCIsXCJUb3RJbnZWYWxcIjoyOTUwMDAuMCxcIkl0ZW1DbnRcIjoxLFwiTWFpbkhzbkNvZGVcIjpcIjk5ODMxOVwiLFwiSXJuXCI6XCI1NGYwMTFiYTEyZDg0N2E3YmI3NmNlZDE4Y2Q3MmU1MjgxY2RmOWM2MzljYmRkOTdlMzQ3ZTc4NjUyMGI5M2YwXCIsXCJJcm5EdFwiOlwiMjAyNi0wOS0yMyAyMTo0MDoyOVwifSJ9.yP9EeegBBmo1mO4Qdt6pJS9DpsDnAllDzrhH7mfW1iq6k4JsUm0cGJs_bn4dbkJlvlL_MjQn6WRQPJWMe1rcoNjUKIjXnR0Si83FYh0p7H5LZ8-NU6qiYdPOFc7bARrmHWnGUIarork4OkLRgpkuvKjw8twVba3ZRHNumVuypqbLeXylMFvwFLd2W9_bK2q1QFZR7z-0PETROo6kTV1lQ2ZCyVN1cJoJImwjtGbRaJvvOce-hkCC_wj7E02mQbOrPuDCvjWmgQhnPoE8_9O4rvfcbo4pHHFuDAb_o2ahLxwrXKCclZaKGFifaV_emf67BdrsDPk2zU4gl279Q6BUlg",
+                "QrCode": "{\"SellerGstin\":\"27AABCI9669R1ZH\",\"BuyerGstin\":\"09AABCU9355J1ZS\",\"DocNo\":\"27062627204\",\"DocTyp\":\"INV\",\"DocDt\":\"23/09/2026\",\"TotInvVal\":295000.0,\"ItemCnt\":1,\"MainHsnCode\":\"998319\",\"Irn\":\"54f011ba12d847a7bb76ced18cd72e5281cdf9c639cbdd97e347e786520b93f0\",\"IrnDt\":\"2026-09-23 21:40:29\"}",
+                "EncodedId": "NDU5MTA0"
+            }
+        ]
+    },
+    "error": null
+}

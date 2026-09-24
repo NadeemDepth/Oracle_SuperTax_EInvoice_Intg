@@ -1,0 +1,115 @@
+{
+    "timestamp": "2026-09-23T21:44:34.261426",
+    "document_no": "27072627078",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27072627078",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "27072627078",
+                    "Dt": "23/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "27AADFC9680K1ZY",
+                    "LglNm": "Crescent Technologies",
+                    "TrdNm": "Crescent Technologies",
+                    "Pos": "27",
+                    "Addr1": "105/106, Jaywant Industrial Estate",
+                    "Addr2": "Opp SOBO CENTRAL MALL,Tardeo, Mumbai",
+                    "Loc": "Mumbai",
+                    "Pin": "400034",
+                    "Stcd": "27"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "Managed Service Charges  ( 01-07-2026 to  30-09-2026 )",
+                        "HsnCd": "998319",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 284375,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 25593.75,
+                        "IgstAmt": 0,
+                        "CgstAmt": 25593.75,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 284375,
+                        "AssAmt": 284375.0,
+                        "TotItemVal": 335562.5
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 284375.0,
+                    "CgstVal": 25593.75,
+                    "SgstVal": 25593.75,
+                    "IgstVal": 0.0,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": 0.5,
+                    "TotInvVal": 335563.0
+                },
+                "ShipDtls": {
+                    "LglNm": "Crescent Technologies",
+                    "TrdNm": "Crescent Technologies",
+                    "Addr1": "105/106, Jaywant Industrial Estate",
+                    "Addr2": "Opp SOBO CENTRAL MALL,Tardeo, Mumbai",
+                    "Loc": "Mumbai",
+                    "Stcd": "27",
+                    "Pin": "400034"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 122610116167394,
+                "AckDate": "2026-09-23 21:44:36",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "27a47834cfc0e3f2f05594ca3de49bd5a7886b443f7bd1b835aa145d1f160a51",
+                "DocDtls": {
+                    "No": "27072627078",
+                    "Dt": "23/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "27072627078",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdBQUJDSTk2NjlSMVpIXCIsXCJCdXllckdzdGluXCI6XCIyN0FBREZDOTY4MEsxWllcIixcIkRvY05vXCI6XCIyNzA3MjYyNzA3OFwiLFwiRG9jVHlwXCI6XCJJTlZcIixcIkRvY0R0XCI6XCIyMy8wOS8yMDI2XCIsXCJUb3RJbnZWYWxcIjozMzU1NjMuMCxcIkl0ZW1DbnRcIjoxLFwiTWFpbkhzbkNvZGVcIjpcIjk5ODMxOVwiLFwiSXJuXCI6XCIyN2E0NzgzNGNmYzBlM2YyZjA1NTk0Y2EzZGU0OWJkNWE3ODg2YjQ0M2Y3YmQxYjgzNWFhMTQ1ZDFmMTYwYTUxXCIsXCJJcm5EdFwiOlwiMjAyNi0wOS0yMyAyMTo0NDozNlwifSJ9.eHGe_6PeHbWnuRl-WC2P0u-WJsdAuVnqKIedMQ4ZxV8XmImXmrcize8YmSRjCkpJSinzS0z6VXUKxu5UQ9jNATmBNOuEJhLUQQyQK9aTjwrBe08rl47q-b8XhJr0Df1dFdJaKvxMZPaQovadj5G1diigGWwGC_epv_6T0AXT9cKQQ6-yD5xu8xgFYqQSpLK54clEiLIbF9KSgtjBKV2E_28Ur5lJQ78v4B9q2olo5FIBDxYNAo1GXSavrSPrDvgLlIKlLHZ8K1MyjXPIegejMbvBHES0vdJlbRJP1VoAK8nD0nrHe6QZEAs3i7dbNWbpvDDCpmTwRpvRhIKbMnEYjA",
+                "QrCode": "{\"SellerGstin\":\"27AABCI9669R1ZH\",\"BuyerGstin\":\"27AADFC9680K1ZY\",\"DocNo\":\"27072627078\",\"DocTyp\":\"INV\",\"DocDt\":\"23/09/2026\",\"TotInvVal\":335563.0,\"ItemCnt\":1,\"MainHsnCode\":\"998319\",\"Irn\":\"27a47834cfc0e3f2f05594ca3de49bd5a7886b443f7bd1b835aa145d1f160a51\",\"IrnDt\":\"2026-09-23 21:44:36\"}",
+                "EncodedId": "NDU5MTk2"
+            }
+        ]
+    },
+    "error": null
+}

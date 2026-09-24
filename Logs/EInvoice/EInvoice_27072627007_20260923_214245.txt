@@ -1,0 +1,115 @@
+{
+    "timestamp": "2026-09-23T21:42:45.475273",
+    "document_no": "27072627007",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27072627007",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "27072627007",
+                    "Dt": "23/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "27AAACU0564G6ZC",
+                    "LglNm": "Union Bank of India",
+                    "TrdNm": "Union Bank of India",
+                    "Pos": "27",
+                    "Addr1": "Department of Information Technology 1/1A, Adi Shankaracharya Marg,",
+                    "Addr2": "Near Registrar of Shipping,,Powai Andhrei East,",
+                    "Loc": "Mumbai",
+                    "Pin": "400072",
+                    "Stcd": "27"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "Cost of two L1 Resource for DLP Solution for Apr 2026 to Jun 2026 ||",
+                        "HsnCd": "998311",
+                        "Qty": 2,
+                        "Unit": "NOS",
+                        "UnitPrice": 1041651.9,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 187497.34,
+                        "IgstAmt": 0,
+                        "CgstAmt": 187497.34,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 2083303.8,
+                        "AssAmt": 2083303.8,
+                        "TotItemVal": 2458298.48
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 2083303.8,
+                    "CgstVal": 187497.34,
+                    "SgstVal": 187497.34,
+                    "IgstVal": 0.0,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": -0.48,
+                    "TotInvVal": 2458298.0
+                },
+                "ShipDtls": {
+                    "LglNm": "Union Bank of India",
+                    "TrdNm": "Union Bank of India",
+                    "Addr1": "Department of Information Technology 1/1A, Adi Shankaracharya Marg,",
+                    "Addr2": "Near Registrar of Shipping,,Powai Andhrei East,",
+                    "Loc": "Mumbai",
+                    "Stcd": "27",
+                    "Pin": "400072"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 122610116167039,
+                "AckDate": "2026-09-23 21:42:47",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "b196b87f2dd543d6dc567daabd40ffe8370c1202cdb8591408e1b22e13778102",
+                "DocDtls": {
+                    "No": "27072627007",
+                    "Dt": "23/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "27072627007",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdBQUJDSTk2NjlSMVpIXCIsXCJCdXllckdzdGluXCI6XCIyN0FBQUNVMDU2NEc2WkNcIixcIkRvY05vXCI6XCIyNzA3MjYyNzAwN1wiLFwiRG9jVHlwXCI6XCJJTlZcIixcIkRvY0R0XCI6XCIyMy8wOS8yMDI2XCIsXCJUb3RJbnZWYWxcIjoyNDU4Mjk4LjAsXCJJdGVtQ250XCI6MSxcIk1haW5Ic25Db2RlXCI6XCI5OTgzMTFcIixcIklyblwiOlwiYjE5NmI4N2YyZGQ1NDNkNmRjNTY3ZGFhYmQ0MGZmZTgzNzBjMTIwMmNkYjg1OTE0MDhlMWIyMmUxMzc3ODEwMlwiLFwiSXJuRHRcIjpcIjIwMjYtMDktMjMgMjE6NDI6NDdcIn0ifQ.Z3s0dNT9pXzzwD2AU2bzwPgwXbid7f7HZemekYYT2vEl_aEKr9J1cpuT0nJk5Lq13qh9QskBM8T1P-GjeCVR8dx1H9FCJVT2IAudobE-nvNpbtAEQhjgDS3aWu6jZAnv03S8yrEvnorgZli4GZAL9fUckvWfU-N5AWgJaYSKxs2-XnOCzfaGVeBKFEqjEGEtUkufMSbqqwwkXfYLn5CHhiXJhFJSPgR7YMpcPKOM70lhPMRp93Wh7bw4PnB4ll0acQbGCNLcBHTDDidhT413kH68XqzNem4uIRZ8MtTfYd3b8kmqXyVitXtnUc1LkHT9FlZQyTg1saWNDpKlIrvaYQ",
+                "QrCode": "{\"SellerGstin\":\"27AABCI9669R1ZH\",\"BuyerGstin\":\"27AAACU0564G6ZC\",\"DocNo\":\"27072627007\",\"DocTyp\":\"INV\",\"DocDt\":\"23/09/2026\",\"TotInvVal\":2458298.0,\"ItemCnt\":1,\"MainHsnCode\":\"998311\",\"Irn\":\"b196b87f2dd543d6dc567daabd40ffe8370c1202cdb8591408e1b22e13778102\",\"IrnDt\":\"2026-09-23 21:42:47\"}",
+                "EncodedId": "NDU5MTU2"
+            }
+        ]
+    },
+    "error": null
+}

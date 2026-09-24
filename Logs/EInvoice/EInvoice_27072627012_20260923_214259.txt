@@ -1,0 +1,115 @@
+{
+    "timestamp": "2026-09-23T21:42:59.810146",
+    "document_no": "27072627012",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27072627012",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "27072627012",
+                    "Dt": "23/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "29AABCI0484L1ZA",
+                    "LglNm": "Indo-MIM Limited",
+                    "TrdNm": "Indo-MIM Limited",
+                    "Pos": "29",
+                    "Addr1": "45(P), KIADB Indl Area,",
+                    "Addr2": "Doddaballapur,,",
+                    "Loc": "Bangalore",
+                    "Pin": "561203",
+                    "Stcd": "29"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "Remote SIEM+ TI Monitoring Services for 51 assets (includes 26 Servers) as per scope Period 01-07-2026 to 30-09-2026",
+                        "HsnCd": "998319",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 229452.25,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 41301.41,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 229452.25,
+                        "AssAmt": 229452.25,
+                        "TotItemVal": 270753.66
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 229452.25,
+                    "CgstVal": 0.0,
+                    "SgstVal": 0.0,
+                    "IgstVal": 41301.41,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": 0.34,
+                    "TotInvVal": 270754.0
+                },
+                "ShipDtls": {
+                    "LglNm": "Indo-MIM Limited",
+                    "TrdNm": "Indo-MIM Limited",
+                    "Addr1": "45(P), KIADB Indl Area,",
+                    "Addr2": "Doddaballapur,,",
+                    "Loc": "Bangalore",
+                    "Stcd": "29",
+                    "Pin": "561203"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 122610116167084,
+                "AckDate": "2026-09-23 21:43:02",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "ac69e9f170f95b7cb7b91ee8a3ccfd7060b8cdced1da7373a1e4b9e228168fb4",
+                "DocDtls": {
+                    "No": "27072627012",
+                    "Dt": "23/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "27072627012",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdBQUJDSTk2NjlSMVpIXCIsXCJCdXllckdzdGluXCI6XCIyOUFBQkNJMDQ4NEwxWkFcIixcIkRvY05vXCI6XCIyNzA3MjYyNzAxMlwiLFwiRG9jVHlwXCI6XCJJTlZcIixcIkRvY0R0XCI6XCIyMy8wOS8yMDI2XCIsXCJUb3RJbnZWYWxcIjoyNzA3NTQuMCxcIkl0ZW1DbnRcIjoxLFwiTWFpbkhzbkNvZGVcIjpcIjk5ODMxOVwiLFwiSXJuXCI6XCJhYzY5ZTlmMTcwZjk1YjdjYjdiOTFlZThhM2NjZmQ3MDYwYjhjZGNlZDFkYTczNzNhMWU0YjllMjI4MTY4ZmI0XCIsXCJJcm5EdFwiOlwiMjAyNi0wOS0yMyAyMTo0MzowMlwifSJ9.MfI3-tMekUld3VdA4DJX6tKkT61O-H0Nv0hA-muBsglF2R_2c_4sGyyh5rrWFjDRQdFOKEd2lT7UuEk39_du2T7rmyWiQMmwWOvhytK4IzV-TSpCAxrOHXu5vw_WjB-PaJehXZ7xORHydGf98dEIwj_HtHhOXVu7smQkjQng_rEkoh6AdUHk6eUdlHJpRELOKu9zPdE8cziUxjipaMRwvwF-Rbs7LVIZEb6KkB7W95peis38WeATdrAdp3lfMV0FK-6hxBLiQJEgXulzZjZLWo-l9qogSJEr7pTYk3LPKoJ10l6IGJ1WPXyLkuXIRYDGdlhUEqPaOe9h5MsDfcExxw",
+                "QrCode": "{\"SellerGstin\":\"27AABCI9669R1ZH\",\"BuyerGstin\":\"29AABCI0484L1ZA\",\"DocNo\":\"27072627012\",\"DocTyp\":\"INV\",\"DocDt\":\"23/09/2026\",\"TotInvVal\":270754.0,\"ItemCnt\":1,\"MainHsnCode\":\"998319\",\"Irn\":\"ac69e9f170f95b7cb7b91ee8a3ccfd7060b8cdced1da7373a1e4b9e228168fb4\",\"IrnDt\":\"2026-09-23 21:43:02\"}",
+                "EncodedId": "NDU5MTYx"
+            }
+        ]
+    },
+    "error": null
+}

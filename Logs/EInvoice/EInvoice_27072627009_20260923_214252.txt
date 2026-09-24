@@ -1,0 +1,115 @@
+{
+    "timestamp": "2026-09-23T21:42:52.743780",
+    "document_no": "27072627009",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27072627009",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "27072627009",
+                    "Dt": "23/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "23AABCS5326B5ZU",
+                    "LglNm": "Sonic Biochem Extractions Pvt Ltd",
+                    "TrdNm": "Sonic Biochem Extractions Pvt Ltd",
+                    "Pos": "23",
+                    "Addr1": "Corporate office Sonic Biochem Extractions Ltd",
+                    "Addr2": "38, Patel Nagar Sapna Sangeet Road Indor ,,",
+                    "Loc": "Indore",
+                    "Pin": "452001",
+                    "Stcd": "23"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "IT and Telecom Support Services Period 01-07-2026 to 30-09-2026",
+                        "HsnCd": "998319",
+                        "Qty": 3,
+                        "Unit": "NOS",
+                        "UnitPrice": 86800,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 46872,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 260400,
+                        "AssAmt": 260400.0,
+                        "TotItemVal": 307272.0
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 260400.0,
+                    "CgstVal": 0.0,
+                    "SgstVal": 0.0,
+                    "IgstVal": 46872,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": 0.0,
+                    "TotInvVal": 307272.0
+                },
+                "ShipDtls": {
+                    "LglNm": "Sonic Biochem Extractions Pvt Ltd",
+                    "TrdNm": "Sonic Biochem Extractions Pvt Ltd",
+                    "Addr1": "Corporate office Sonic Biochem Extractions Ltd",
+                    "Addr2": "38, Patel Nagar Sapna Sangeet Road Indor ,,",
+                    "Loc": "Indore",
+                    "Stcd": "23",
+                    "Pin": "452001"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 122610116167066,
+                "AckDate": "2026-09-23 21:42:55",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "444f086b5af52ae9475547493200ed398f28fbc46d888d15df6f43ba227bf829",
+                "DocDtls": {
+                    "No": "27072627009",
+                    "Dt": "23/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "27072627009",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdBQUJDSTk2NjlSMVpIXCIsXCJCdXllckdzdGluXCI6XCIyM0FBQkNTNTMyNkI1WlVcIixcIkRvY05vXCI6XCIyNzA3MjYyNzAwOVwiLFwiRG9jVHlwXCI6XCJJTlZcIixcIkRvY0R0XCI6XCIyMy8wOS8yMDI2XCIsXCJUb3RJbnZWYWxcIjozMDcyNzIuMCxcIkl0ZW1DbnRcIjoxLFwiTWFpbkhzbkNvZGVcIjpcIjk5ODMxOVwiLFwiSXJuXCI6XCI0NDRmMDg2YjVhZjUyYWU5NDc1NTQ3NDkzMjAwZWQzOThmMjhmYmM0NmQ4ODhkMTVkZjZmNDNiYTIyN2JmODI5XCIsXCJJcm5EdFwiOlwiMjAyNi0wOS0yMyAyMTo0Mjo1NVwifSJ9.rN-WtVCNA9CfQ_yOlw4if9rnW8xQWTt9iK60VKTtBBuCpeb1Pa06KtFsaPUCVi54q-DglrIrrTX8Lo3tqlPAPOw4dDuA3TbLNGJoEXIts1-hEWBEPrUg4jC2qG-s1lc21hDEyxCeDjXs6rJqlLKLUZpJoZrqjA-ifYD0r6j80EGgtxpCUnALCU8MkgA7Ar019XXgR1pzLsdvlqVHWfDL99uMZxBV-AQRpqxKnsA_3js063-ZGggc4fgylQRxCX7FyEwF2IKOfKPbMdVCoELUkjHI0n2JuvqsRn2ddDce9DMDxE4CLzD8YeHYUWVorcvpELJwfMR8kvdXmnYXIHMAIQ",
+                "QrCode": "{\"SellerGstin\":\"27AABCI9669R1ZH\",\"BuyerGstin\":\"23AABCS5326B5ZU\",\"DocNo\":\"27072627009\",\"DocTyp\":\"INV\",\"DocDt\":\"23/09/2026\",\"TotInvVal\":307272.0,\"ItemCnt\":1,\"MainHsnCode\":\"998319\",\"Irn\":\"444f086b5af52ae9475547493200ed398f28fbc46d888d15df6f43ba227bf829\",\"IrnDt\":\"2026-09-23 21:42:55\"}",
+                "EncodedId": "NDU5MTU5"
+            }
+        ]
+    },
+    "error": null
+}

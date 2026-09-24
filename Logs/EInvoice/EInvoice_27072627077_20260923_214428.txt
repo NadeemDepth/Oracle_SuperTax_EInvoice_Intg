@@ -1,0 +1,115 @@
+{
+    "timestamp": "2026-09-23T21:44:28.843339",
+    "document_no": "27072627077",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27072627077",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "27072627077",
+                    "Dt": "23/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "27AAACA3427G2Z0",
+                    "LglNm": "APCOTEX INDUSTRIES LIMITED",
+                    "TrdNm": "APCOTEX INDUSTRIES LIMITED",
+                    "Pos": "27",
+                    "Addr1": "Plot No 3/1, MIDC Industrial Area",
+                    "Addr2": "PO Taloja, Raigad,",
+                    "Loc": "Raigad",
+                    "Pin": "410208",
+                    "Stcd": "27"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "Short Text: SIEM SOC SERVER DESK SUPPORT FROM PERIOD 01-07-2026 TO 30-09-2026",
+                        "HsnCd": "998313",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 18000,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 1620,
+                        "IgstAmt": 0,
+                        "CgstAmt": 1620,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 18000,
+                        "AssAmt": 18000.0,
+                        "TotItemVal": 21240.0
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 18000.0,
+                    "CgstVal": 1620,
+                    "SgstVal": 1620,
+                    "IgstVal": 0.0,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": 0.0,
+                    "TotInvVal": 21240.0
+                },
+                "ShipDtls": {
+                    "LglNm": "APCOTEX INDUSTRIES LIMITED",
+                    "TrdNm": "APCOTEX INDUSTRIES LIMITED",
+                    "Addr1": "Plot No 3/1, MIDC Industrial Area",
+                    "Addr2": "PO Taloja, Raigad,",
+                    "Loc": "Raigad",
+                    "Stcd": "27",
+                    "Pin": "410208"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 122610116167376,
+                "AckDate": "2026-09-23 21:44:31",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "6afb96ac648bebc76309c7a3b7288802ced472caa3c1596dc82ba1d2bb7c0171",
+                "DocDtls": {
+                    "No": "27072627077",
+                    "Dt": "23/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "27072627077",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdBQUJDSTk2NjlSMVpIXCIsXCJCdXllckdzdGluXCI6XCIyN0FBQUNBMzQyN0cyWjBcIixcIkRvY05vXCI6XCIyNzA3MjYyNzA3N1wiLFwiRG9jVHlwXCI6XCJJTlZcIixcIkRvY0R0XCI6XCIyMy8wOS8yMDI2XCIsXCJUb3RJbnZWYWxcIjoyMTI0MC4wLFwiSXRlbUNudFwiOjEsXCJNYWluSHNuQ29kZVwiOlwiOTk4MzEzXCIsXCJJcm5cIjpcIjZhZmI5NmFjNjQ4YmViYzc2MzA5YzdhM2I3Mjg4ODAyY2VkNDcyY2FhM2MxNTk2ZGM4MmJhMWQyYmI3YzAxNzFcIixcIklybkR0XCI6XCIyMDI2LTA5LTIzIDIxOjQ0OjMxXCJ9In0.c0re90HrQgqkiYqFM5AC7a2LcHhIjOCULKG75BD2tLA5tL3oD6U7q2xQx-b72OT9M8vcJzru5pwB5d2QgdYhyqqKaUStQ1jR9GlkdlCM6b9mg6ZX0dVgImy_37rcDahdssTsuQn556QXwHIZXB_8wgVosyMMbLUqGainwu6RyKCdkF0VIa7aqcbuHsLk7jmy_9SQ5YZFZbbbLMvO8KcpNw9PutTRPUJFUePD3-8sjurKopE3siM1v_jHYDp0n_FMNu0k4qGyi4QlvP0MJ1I3R0MK1Wti9zgQBKWMkc_iau83XaUv7UG98EYkgMI37urYNryDFsBI2zREPlVzZwaPBg",
+                "QrCode": "{\"SellerGstin\":\"27AABCI9669R1ZH\",\"BuyerGstin\":\"27AAACA3427G2Z0\",\"DocNo\":\"27072627077\",\"DocTyp\":\"INV\",\"DocDt\":\"23/09/2026\",\"TotInvVal\":21240.0,\"ItemCnt\":1,\"MainHsnCode\":\"998313\",\"Irn\":\"6afb96ac648bebc76309c7a3b7288802ced472caa3c1596dc82ba1d2bb7c0171\",\"IrnDt\":\"2026-09-23 21:44:31\"}",
+                "EncodedId": "NDU5MTk0"
+            }
+        ]
+    },
+    "error": null
+}

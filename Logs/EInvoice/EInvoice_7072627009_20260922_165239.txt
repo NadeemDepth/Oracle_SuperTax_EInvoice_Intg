@@ -1,0 +1,118 @@
+{
+    "timestamp": "2026-09-22T16:52:39.115553",
+    "document_no": "7072627009",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "7072627009",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "7072627009",
+                    "Dt": "22/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "07AABCI9669R1ZJ",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "202A, 202B, 203 Ashoka Estate",
+                    "Addr2": "24 Barakhamba Road",
+                    "Loc": "New Delhi",
+                    "Pin": "110001",
+                    "Stcd": "07"
+                },
+                "BuyerDtls": {
+                    "Gstin": "24AAACO1598A3ZR",
+                    "LglNm": "Oil and Natural Gas Corporation Limited",
+                    "TrdNm": "Oil and Natural Gas Corporation Limited",
+                    "Pos": "24",
+                    "Addr1": "l/c Warehouse,  Receipt Section,  Dahej Plant,  Plot No.7/D,  GIDC lndustrial Estate  ONGC,  ",
+                    "Addr2": "SEZ-ll, ,",
+                    "Loc": "Dahej",
+                    "Pin": "392130",
+                    "Stcd": "24"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "Irrevocable Debts Written Off/back (P&L)",
+                        "HsnCd": "998713",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 5957.85,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 1072.41,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 5957.85,
+                        "AssAmt": 5957.85,
+                        "TotItemVal": 7030.26
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 5957.85,
+                    "CgstVal": 0.0,
+                    "SgstVal": 0.0,
+                    "IgstVal": 1072.41,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": -0.26,
+                    "TotInvVal": 7030.0
+                },
+                "PrecDocDtls": [
+                    {
+                        "InvNo": "2712627047.0",
+                        "InvDt": "11/09/2026"
+                    }
+                ],
+                "EwbDtls": {
+                    "TransId": "27AADFV7589C1ZO",
+                    "TransName": "JMJ Transporters",
+                    "TransMode": "Road",
+                    "Distance": 100,
+                    "TransDocNo": "1234rgb",
+                    "TransDocDt": "18/09/2026",
+                    "VehNo": "MH043456",
+                    "VehType": "O",
+                    "IsEWayBillIntegrated": "true"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "Record": 1,
+                "Success": false,
+                "Fy": "202627",
+                "Messages": "Recepient  cannot be SEZ for - B2B transaction ",
+                "Status": "ERROR_FROM_IRP",
+                "DocDtls": {
+                    "No": "7072627009",
+                    "Dt": "22/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "07AABCI9669R1ZJ"
+                },
+                "CustDocNo": "7072627009",
+                "EncodedId": "NDU4OTgy"
+            }
+        ]
+    },
+    "error": null
+}

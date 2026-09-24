@@ -1,0 +1,163 @@
+{
+    "timestamp": "2026-09-23T21:45:07.513039",
+    "document_no": "27072627061",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27072627061",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "27072627061",
+                    "Dt": "23/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "08AAATJ2424M1ZL",
+                    "LglNm": "JHALAWAR KENDRIYA SAHAKARI BANK LTD",
+                    "TrdNm": "JHALAWAR KENDRIYA SAHAKARI BANK LTD",
+                    "Pos": "08",
+                    "Addr1": "Managing Director-",
+                    "Addr2": "HEAD OFFICE SAHKAR BHAWAN,JHALAWAR N.H.12 JHALARAPATAN",
+                    "Loc": "JHALAWAR",
+                    "Pin": "326023",
+                    "Stcd": "08"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "AMC Services: Period: 1st Apr-26 to 30th Jun-26 || 998716",
+                        "HsnCd": "998313",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 92787.23,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 16701.7,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 92787.23,
+                        "AssAmt": 92787.23,
+                        "TotItemVal": 109488.93
+                    },
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "FMS Services: Period: 1st April-26 to 30th June-26 || 998311",
+                        "HsnCd": "998311",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 225811.14,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 40646.01,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "2",
+                        "TotAmt": 225811.14,
+                        "AssAmt": 225811.14,
+                        "TotItemVal": 266457.15
+                    },
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "\"3rd Yr Renewal of ISO 27000 and 20000 Certificates\"",
+                        "HsnCd": "998311",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 4858.29,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 874.49,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "3",
+                        "TotAmt": 4858.29,
+                        "AssAmt": 4858.29,
+                        "TotItemVal": 5732.78
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 323456.66,
+                    "CgstVal": 0.0,
+                    "SgstVal": 0.0,
+                    "IgstVal": 58222.2,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": 0.14,
+                    "TotInvVal": 381679.0
+                },
+                "ShipDtls": {
+                    "LglNm": "JHALAWAR KENDRIYA SAHAKARI BANK LTD",
+                    "TrdNm": "JHALAWAR KENDRIYA SAHAKARI BANK LTD",
+                    "Addr1": "Managing Director-",
+                    "Addr2": "HEAD OFFICE SAHKAR BHAWAN,JHALAWAR N.H.12 JHALARAPATAN",
+                    "Loc": "JHALAWAR",
+                    "Stcd": "08",
+                    "Pin": "326023"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 122610116167525,
+                "AckDate": "2026-09-23 21:45:09",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "7eff25952217c62c0cc556995fb101e8cad193272fd120366d712cab4853f0d3",
+                "DocDtls": {
+                    "No": "27072627061",
+                    "Dt": "23/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "27072627061",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdBQUJDSTk2NjlSMVpIXCIsXCJCdXllckdzdGluXCI6XCIwOEFBQVRKMjQyNE0xWkxcIixcIkRvY05vXCI6XCIyNzA3MjYyNzA2MVwiLFwiRG9jVHlwXCI6XCJJTlZcIixcIkRvY0R0XCI6XCIyMy8wOS8yMDI2XCIsXCJUb3RJbnZWYWxcIjozODE2NzkuMCxcIkl0ZW1DbnRcIjozLFwiTWFpbkhzbkNvZGVcIjpcIjk5ODMxMVwiLFwiSXJuXCI6XCI3ZWZmMjU5NTIyMTdjNjJjMGNjNTU2OTk1ZmIxMDFlOGNhZDE5MzI3MmZkMTIwMzY2ZDcxMmNhYjQ4NTNmMGQzXCIsXCJJcm5EdFwiOlwiMjAyNi0wOS0yMyAyMTo0NTowOVwifSJ9.dxtaYelZJXmWB3-x9crU45Gj1rNBhGKzIE4d9Zj6Q3qGkI30UR14RYkK7_3HydRiPeGAf9iD17ikKIDpRhyG1WycVpatHuFhgarxAtx66DpXMWyM1xuk9Zb1YAr2EuMk94KwJFVJzVjJydNXoDutZ0Uy56c21N7aEDab_pVpDW8uYKfLdYqGyxs7NyaWveKQaCiSAKkVjFUeBPBGgvHnolj1YN8zfY_WZBTLtUIvnMeYkuwgtVHWW3qKEibCZK_NLAlwvqvKmWuO72W1Dn9ChRzhjnnvMaY2n3qdk6PR9jGo_4bIpoCeblECjmasl8NcoVWtfSP-Nsg7argLRoCBow",
+                "QrCode": "{\"SellerGstin\":\"27AABCI9669R1ZH\",\"BuyerGstin\":\"08AAATJ2424M1ZL\",\"DocNo\":\"27072627061\",\"DocTyp\":\"INV\",\"DocDt\":\"23/09/2026\",\"TotInvVal\":381679.0,\"ItemCnt\":3,\"MainHsnCode\":\"998311\",\"Irn\":\"7eff25952217c62c0cc556995fb101e8cad193272fd120366d712cab4853f0d3\",\"IrnDt\":\"2026-09-23 21:45:09\"}",
+                "EncodedId": "NDU5MjA5"
+            }
+        ]
+    },
+    "error": null
+}

@@ -1,0 +1,139 @@
+{
+    "timestamp": "2026-09-23T21:43:34.623802",
+    "document_no": "27072627024",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27072627024",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "27072627024",
+                    "Dt": "23/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "08JPRD00134B1DH",
+                    "LglNm": "Department of Information Technology & Communication",
+                    "TrdNm": "Department of Information Technology & Communication",
+                    "Pos": "08",
+                    "Addr1": "Technical Director & Joint Secretary,",
+                    "Addr2": "DOIT&C, Yojna Bhavan,,,",
+                    "Loc": "Jaipur",
+                    "Pin": "302005",
+                    "Stcd": "08"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "Facility Management Charges for Rajasthan State Data Centre (RSDC) Phase-I, III, IV at Jaipur: Qtr-19 (20 Feb 2026 to 19 May 2026)",
+                        "HsnCd": "998311",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 40228845.8,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 7241192.24,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 40228845.8,
+                        "AssAmt": 40228845.8,
+                        "TotItemVal": 47470038.04
+                    },
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "Facility Management Charges for Disaster Recovery Site at Jodhpur:  Qtr-19 (20 Feb 2026 to 19 May 2026)",
+                        "HsnCd": "998311",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 7548218.87,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 1358679.4,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "2",
+                        "TotAmt": 7548218.87,
+                        "AssAmt": 7548218.87,
+                        "TotItemVal": 8906898.27
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 47777064.67,
+                    "CgstVal": 0.0,
+                    "SgstVal": 0.0,
+                    "IgstVal": 8599871.64,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": -0.31,
+                    "TotInvVal": 56376936.0
+                },
+                "ShipDtls": {
+                    "LglNm": "Department of Information Technology & Communication",
+                    "TrdNm": "Department of Information Technology & Communication",
+                    "Addr1": "Technical Director & Joint Secretary,",
+                    "Addr2": "DOIT&C, Yojna Bhavan,,,",
+                    "Loc": "Jaipur",
+                    "Stcd": "08",
+                    "Pin": "302005"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 122610116167206,
+                "AckDate": "2026-09-23 21:43:36",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "c46ad3013fc313ea78efdfa29eb92dc0bcb1c64c276f7808cfb6b973331bc813",
+                "DocDtls": {
+                    "No": "27072627024",
+                    "Dt": "23/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "27072627024",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdBQUJDSTk2NjlSMVpIXCIsXCJCdXllckdzdGluXCI6XCIwOEpQUkQwMDEzNEIxREhcIixcIkRvY05vXCI6XCIyNzA3MjYyNzAyNFwiLFwiRG9jVHlwXCI6XCJJTlZcIixcIkRvY0R0XCI6XCIyMy8wOS8yMDI2XCIsXCJUb3RJbnZWYWxcIjo1NjM3NjkzNi4wLFwiSXRlbUNudFwiOjIsXCJNYWluSHNuQ29kZVwiOlwiOTk4MzExXCIsXCJJcm5cIjpcImM0NmFkMzAxM2ZjMzEzZWE3OGVmZGZhMjllYjkyZGMwYmNiMWM2NGMyNzZmNzgwOGNmYjZiOTczMzMxYmM4MTNcIixcIklybkR0XCI6XCIyMDI2LTA5LTIzIDIxOjQzOjM2XCJ9In0.OtXty9WSUeUdNyy2LVhObANglI13xU4VQmdaEXFwQExVgtK536pVHuUeUiatZPOgOCSLYLHmQISzXEAesSLR8v89WLYy9ccPckmPLIde5yejnZqSwqZjSNDriMLeH5SGD85SVa7IE2IKN0Xbqla8-v3VwKVs71-iyVkGQKc1hmph20DKLzi9kP8icsz60S_kOa7SPuIQWrInF9sifmuNjBKQluSb4j-Kr-s9O5PWGzxEcXFpxZftjHijFXitLBGJPUXmByCh81mVNqJb1FZlSaVuMd-oRCOUOH9l6I4foMiicZSOTE8QwWDLR2y0K70lVRm72sPO8mL334-yuyDxKg",
+                "QrCode": "{\"SellerGstin\":\"27AABCI9669R1ZH\",\"BuyerGstin\":\"08JPRD00134B1DH\",\"DocNo\":\"27072627024\",\"DocTyp\":\"INV\",\"DocDt\":\"23/09/2026\",\"TotInvVal\":56376936.0,\"ItemCnt\":2,\"MainHsnCode\":\"998311\",\"Irn\":\"c46ad3013fc313ea78efdfa29eb92dc0bcb1c64c276f7808cfb6b973331bc813\",\"IrnDt\":\"2026-09-23 21:43:36\"}",
+                "EncodedId": "NDU5MTcz"
+            }
+        ]
+    },
+    "error": null
+}

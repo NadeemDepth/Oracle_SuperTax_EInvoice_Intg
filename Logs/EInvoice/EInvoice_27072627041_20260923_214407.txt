@@ -1,0 +1,163 @@
+{
+    "timestamp": "2026-09-23T21:44:07.401492",
+    "document_no": "27072627041",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27072627041",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "27072627041",
+                    "Dt": "23/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "08AAAAT3056G1ZL",
+                    "LglNm": "THE DUNGARPUR CENTRAL CO OPERATIVE BANK LIMITED",
+                    "TrdNm": "THE DUNGARPUR CENTRAL CO OPERATIVE BANK LIMITED",
+                    "Pos": "08",
+                    "Addr1": "Managing Director-",
+                    "Addr2": "NEAR SINDHI COLONY,,NEW COLONY",
+                    "Loc": "DUNGARPUR",
+                    "Pin": "314001",
+                    "Stcd": "08"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "AMC Services: Period: 1st April 2026 to 30th June 2026",
+                        "HsnCd": "998313",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 57992.02,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 10438.56,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 57992.02,
+                        "AssAmt": 57992.02,
+                        "TotItemVal": 68430.58
+                    },
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "FMS Services: Period: 1st April 2026 to 30th June 2026",
+                        "HsnCd": "998311",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 141131.96,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 25403.75,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "2",
+                        "TotAmt": 141131.96,
+                        "AssAmt": 141131.96,
+                        "TotItemVal": 166535.71
+                    },
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "\"3rd Yr Renewal of ISO 27000 and 20000 Certificates\"",
+                        "HsnCd": "998311",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 3036.43,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 546.56,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "3",
+                        "TotAmt": 3036.43,
+                        "AssAmt": 3036.43,
+                        "TotItemVal": 3582.99
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 202160.41,
+                    "CgstVal": 0.0,
+                    "SgstVal": 0.0,
+                    "IgstVal": 36388.87,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": -0.28,
+                    "TotInvVal": 238549.0
+                },
+                "ShipDtls": {
+                    "LglNm": "THE DUNGARPUR CENTRAL CO OPERATIVE BANK LIMITED",
+                    "TrdNm": "THE DUNGARPUR CENTRAL CO OPERATIVE BANK LIMITED",
+                    "Addr1": "Managing Director-",
+                    "Addr2": "NEAR SINDHI COLONY,,NEW COLONY",
+                    "Loc": "DUNGARPUR",
+                    "Stcd": "08",
+                    "Pin": "314001"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 122610116167330,
+                "AckDate": "2026-09-23 21:44:09",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "fa8506ec965ef8d1966681cd76c0f199b1e8113fbf14f096d891badfcdbf5ab0",
+                "DocDtls": {
+                    "No": "27072627041",
+                    "Dt": "23/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "27072627041",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdBQUJDSTk2NjlSMVpIXCIsXCJCdXllckdzdGluXCI6XCIwOEFBQUFUMzA1NkcxWkxcIixcIkRvY05vXCI6XCIyNzA3MjYyNzA0MVwiLFwiRG9jVHlwXCI6XCJJTlZcIixcIkRvY0R0XCI6XCIyMy8wOS8yMDI2XCIsXCJUb3RJbnZWYWxcIjoyMzg1NDkuMCxcIkl0ZW1DbnRcIjozLFwiTWFpbkhzbkNvZGVcIjpcIjk5ODMxMVwiLFwiSXJuXCI6XCJmYTg1MDZlYzk2NWVmOGQxOTY2NjgxY2Q3NmMwZjE5OWIxZTgxMTNmYmYxNGYwOTZkODkxYmFkZmNkYmY1YWIwXCIsXCJJcm5EdFwiOlwiMjAyNi0wOS0yMyAyMTo0NDowOVwifSJ9.j0JHpoFgKNeSFFuXfsIpGk_l88mywB4yzNCS23a47vVeFxWs9yyYjqcwTYkgHEPlMYQB-czjIX9DIs2gORIsV6Y5-tF2-R5o1XZ21fIV87I_rkQUZu8yulvrbpBWfjfngaFtAePuNvsWbMuR9oGk2K4xUA0N38KFq1o_hhagKO6OIx7Uw1FSZkOebL-mQqps60-K3odIKK6vUr0CRtHcEM63HCChbRfqZQq4hnKPlYGIsoGeke4imboPomBhkZ9bvju3g8jK44rGUFTj1EcHJDRelB2jFdtofaL7EYFk5_7vXkC-LhVKGKBokIwjq7NWe1WX4JdoWHS4Id81sl5pDA",
+                "QrCode": "{\"SellerGstin\":\"27AABCI9669R1ZH\",\"BuyerGstin\":\"08AAAAT3056G1ZL\",\"DocNo\":\"27072627041\",\"DocTyp\":\"INV\",\"DocDt\":\"23/09/2026\",\"TotInvVal\":238549.0,\"ItemCnt\":3,\"MainHsnCode\":\"998311\",\"Irn\":\"fa8506ec965ef8d1966681cd76c0f199b1e8113fbf14f096d891badfcdbf5ab0\",\"IrnDt\":\"2026-09-23 21:44:09\"}",
+                "EncodedId": "NDU5MTg3"
+            }
+        ]
+    },
+    "error": null
+}

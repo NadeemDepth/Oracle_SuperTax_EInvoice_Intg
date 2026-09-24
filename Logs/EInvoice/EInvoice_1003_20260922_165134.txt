@@ -1,0 +1,101 @@
+{
+    "timestamp": "2026-09-22T16:51:34.889127",
+    "document_no": "1003",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "1003",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "1003",
+                    "Dt": "04/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "19AABCI9669R1ZE",
+                    "LglNm": "Inspira Enterprise India Limited (KL)",
+                    "TrdNm": "Inspira Enterprise India Limited (KL)",
+                    "Pos": "19",
+                    "Addr1": "WEST BENGAL OFFICE LOCATION,Rbd-Boulveard,",
+                    "Addr2": "8th Floor, Plot K 1,,Sectore V Block Ep And Gp, Saltlake City",
+                    "Loc": "HOWRAH",
+                    "Pin": "700091",
+                    "Stcd": "19"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "N",
+                        "PrdDesc": "Computers",
+                        "HsnCd": "8471",
+                        "Qty": 2,
+                        "Unit": "NOS",
+                        "UnitPrice": 100000,
+                        "Discount": 0,
+                        "GstRt": 12,
+                        "SgstAmt": 0,
+                        "IgstAmt": 24000,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 200000,
+                        "AssAmt": 200000.0,
+                        "TotItemVal": 224000.0
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 200000.0,
+                    "CgstVal": 0.0,
+                    "SgstVal": 0.0,
+                    "IgstVal": 24000,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": 0.0,
+                    "TotInvVal": 224000.0
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "Record": 1,
+                "Success": false,
+                "Fy": "202627",
+                "Messages": "6 digits HSN code is mandatory for tax payers with AATO greater than or equal to 5 Crores. ",
+                "Status": "ERROR_FROM_IRP",
+                "DocDtls": {
+                    "No": "1003",
+                    "Dt": "04/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "1003",
+                "EncodedId": "NDU3NjMz"
+            }
+        ]
+    },
+    "error": null
+}

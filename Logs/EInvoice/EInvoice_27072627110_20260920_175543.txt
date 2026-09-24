@@ -1,0 +1,120 @@
+{
+    "timestamp": "2026-09-20T17:55:43.780189",
+    "document_no": "27072627110",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27072627110",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "SEZWP",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "27072627110",
+                    "Dt": "18/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "27AACCT7290E1Z7",
+                    "LglNm": "TATA UNISTORE LIMITED",
+                    "TrdNm": "TATA UNISTORE LIMITED",
+                    "Pos": "27",
+                    "Addr1": "B wing, 4th Floor, Empire Plaza-II",
+                    "Addr2": "LBS Road, Vikhroli, Mumbai Suburban,",
+                    "Loc": "Mumbai",
+                    "Pin": "400083",
+                    "Stcd": "27"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "Computers",
+                        "HsnCd": "998319",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 4849166.67,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 436425,
+                        "IgstAmt": 0,
+                        "CgstAmt": 436425,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 4849166.67,
+                        "AssAmt": 4849166.67,
+                        "TotItemVal": 5722016.67
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 4849166.67,
+                    "CgstVal": 436425,
+                    "SgstVal": 436425,
+                    "IgstVal": 0.0,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": 0.33,
+                    "TotInvVal": 5722017.0
+                },
+                "EwbDtls": {
+                    "TransId": "27AAGCS0674R1ZN",
+                    "TransName": "JMJ Transporters",
+                    "TransMode": "Road",
+                    "Distance": 100,
+                    "TransDocNo": "STN/MUM/2627/01",
+                    "TransDocDt": "18/09/2026",
+                    "VehNo": "MH11BL4238",
+                    "VehType": "R",
+                    "IsEWayBillIntegrated": "true"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 122610116104906,
+                "AckDate": "2026-09-19 08:46:08",
+                "Record": 1,
+                "Success": false,
+                "Fy": "202627",
+                "Messages": "Duplicate IRN",
+                "Status": "ERROR",
+                "Irn": "1a0ca5dabedd80e446c418e068c40ced06fb5f8b0b1f9f7fe162b19c528fd79b",
+                "DocDtls": {
+                    "No": "27072627110",
+                    "Dt": "18/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "TranDtls": {
+                    "SupTyp": "SEZWP"
+                },
+                "CustDocNo": "27072627110",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdBQUJDSTk2NjlSMVpIXCIsXCJCdXllckdzdGluXCI6XCIyN0FBQ0NUNzI5MEUxWjdcIixcIkRvY05vXCI6XCIyNzA3MjYyNzExMFwiLFwiRG9jVHlwXCI6XCJJTlZcIixcIkRvY0R0XCI6XCIxOS8wOS8yMDI2XCIsXCJUb3RJbnZWYWxcIjo1NzIyMDE3LjAsXCJJdGVtQ250XCI6MSxcIk1haW5Ic25Db2RlXCI6XCI5OTgzMTlcIixcIklyblwiOlwiMWEwY2E1ZGFiZWRkODBlNDQ2YzQxOGUwNjhjNDBjZWQwNmZiNWY4YjBiMWY5ZjdmZTE2MmIxOWM1MjhmZDc5YlwiLFwiSXJuRHRcIjpcIjIwMjYtMDktMTkgMDg6NDY6MDhcIn0ifQ.iy0BfoE0Df-XeOHr5KvWeuC4hK6368F5DqiGFWT-ai5fLSiumMCtH4HTSogVxcWhiHap9-gS-cUaRcbnGq3GxdFhEH8dfDxFkb9xmknzjABhsdv1chxwbIOC7N54aI30CI3DYb-Md4i20OD_2Ul4tYFYI5CO9j4Aws2kMXFn2EWSpbqqTt1_-HDNwjSbwV9MI9eDGQugJ1LXI5fNcwtFBHt0wRz5pMMc8Uws31xdKCQfObA-aJU25IcyzbyJcjSMk2HnWce28GAV9kimcRsZQezqExO2TP3oEZuF2CtQGt6tMaBGouBu2mL5NVvsG2Lo-D4EVUpAANWuKfG3Nxz9FQ",
+                "QrCode": "{\"SellerGstin\":\"27AABCI9669R1ZH\",\"BuyerGstin\":\"27AACCT7290E1Z7\",\"DocNo\":\"27072627110\",\"DocTyp\":\"INV\",\"DocDt\":\"19/09/2026\",\"TotInvVal\":5722017.0,\"ItemCnt\":1,\"MainHsnCode\":\"998319\",\"Irn\":\"1a0ca5dabedd80e446c418e068c40ced06fb5f8b0b1f9f7fe162b19c528fd79b\",\"IrnDt\":\"2026-09-19 08:46:08\"}",
+                "EncodedId": "NDU4NTk4"
+            }
+        ]
+    },
+    "error": null
+}

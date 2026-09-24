@@ -1,0 +1,115 @@
+{
+    "timestamp": "2026-09-23T21:42:43.219711",
+    "document_no": "27072627006",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27072627006",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "27072627006",
+                    "Dt": "23/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "18AAACO2352C6ZR",
+                    "LglNm": "OIL India Ltd",
+                    "TrdNm": "OIL India Ltd",
+                    "Pos": "18",
+                    "Addr1": "DULIAJAN",
+                    "Addr2": "DIST. DIBRUGARH,",
+                    "Loc": "DIBRUGARH",
+                    "Pin": "786602",
+                    "Stcd": "18"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "Managed Services for the entire solution (Posted resource for month Apr, May, Jun 2026) ||",
+                        "HsnCd": "998311",
+                        "Qty": 3,
+                        "Unit": "NOS",
+                        "UnitPrice": 73624.89,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 39757.44,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 220874.67,
+                        "AssAmt": 220874.67,
+                        "TotItemVal": 260632.11
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 220874.67,
+                    "CgstVal": 0.0,
+                    "SgstVal": 0.0,
+                    "IgstVal": 39757.44,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": -0.11,
+                    "TotInvVal": 260632.0
+                },
+                "ShipDtls": {
+                    "LglNm": "OIL India Ltd",
+                    "TrdNm": "OIL India Ltd",
+                    "Addr1": "Materials Department",
+                    "Addr2": "Duliajan, Dist.Dibrugarh,.",
+                    "Loc": "DIBRUGARH",
+                    "Stcd": "18",
+                    "Pin": "786602"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 122610116167020,
+                "AckDate": "2026-09-23 21:42:45",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "c75f69e7235f211a7febac08872cdfbf577bec713ac73fde633f3df8bd26fffb",
+                "DocDtls": {
+                    "No": "27072627006",
+                    "Dt": "23/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "27072627006",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdBQUJDSTk2NjlSMVpIXCIsXCJCdXllckdzdGluXCI6XCIxOEFBQUNPMjM1MkM2WlJcIixcIkRvY05vXCI6XCIyNzA3MjYyNzAwNlwiLFwiRG9jVHlwXCI6XCJJTlZcIixcIkRvY0R0XCI6XCIyMy8wOS8yMDI2XCIsXCJUb3RJbnZWYWxcIjoyNjA2MzIuMCxcIkl0ZW1DbnRcIjoxLFwiTWFpbkhzbkNvZGVcIjpcIjk5ODMxMVwiLFwiSXJuXCI6XCJjNzVmNjllNzIzNWYyMTFhN2ZlYmFjMDg4NzJjZGZiZjU3N2JlYzcxM2FjNzNmZGU2MzNmM2RmOGJkMjZmZmZiXCIsXCJJcm5EdFwiOlwiMjAyNi0wOS0yMyAyMTo0Mjo0NVwifSJ9.fsUHIK0uGDG3P8kFOYPB2UX-ZFWNkRnCpoX9AUqsI0_HlNfv4vM17qIyg8BbCiXqAi4dHONwCgiHmzUU_bpNDpEXYh1Dm8kk_rlhNmCXpK8s0FCGJ2W1OJxUjBxqE0ApUTBFeiLhRLXmxgU171b6P8IUBPTQs5ufR4w-lMGfGbUxUBrzOQr6AvXEXA4SaJuc0G3v3lXfNK2bdAPD_qCdMfKJp09zYsTcfjYDy-TBy-2zCgiJdZYrXPuyUl_smjtSeRkwyKuLnu8gWyIfGcNF2Kr8yNU8Omr05kx6XkMWzXIIDWWw13QTqGAbbFDtKMuDGRV1OCxc5MQXwVZrkTmgoQ",
+                "QrCode": "{\"SellerGstin\":\"27AABCI9669R1ZH\",\"BuyerGstin\":\"18AAACO2352C6ZR\",\"DocNo\":\"27072627006\",\"DocTyp\":\"INV\",\"DocDt\":\"23/09/2026\",\"TotInvVal\":260632.0,\"ItemCnt\":1,\"MainHsnCode\":\"998311\",\"Irn\":\"c75f69e7235f211a7febac08872cdfbf577bec713ac73fde633f3df8bd26fffb\",\"IrnDt\":\"2026-09-23 21:42:45\"}",
+                "EncodedId": "NDU5MTU1"
+            }
+        ]
+    },
+    "error": null
+}

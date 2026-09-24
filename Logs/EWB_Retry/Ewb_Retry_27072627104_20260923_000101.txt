@@ -1,0 +1,57 @@
+{
+    "timestamp": "2026-09-23T00:01:01.563682",
+    "identifier": "27072627104",
+    "request_payload": {
+        "ewaybill": [
+            {
+                "Irn": "b98b72ba9f93b58ad463e2264ff96cc6cadb301b97514ad3b2242bfb8578e801",
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "27072627104",
+                    "Dt": "11/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "EwbDtls": {
+                    "TransId": "07AABCA2222B2Z2",
+                    "TransName": "SkyCargo Express",
+                    "TransMode": "Air",
+                    "Distance": 3999,
+                    "TransDocNo": "AWB-55443322",
+                    "TransDocDt": "12/09/2026",
+                    "IsEWayBillIntegrated": "true"
+                }
+            }
+        ]
+    },
+    "response": {
+        "ewayBill": [
+            {
+                "DocDtls": {
+                    "No": "27072627104",
+                    "Dt": "11/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "EwbDtls": {
+                    "TransMode": "AIR",
+                    "TransId": "07AABCA2222B2Z2",
+                    "TransName": "SkyCargo Express",
+                    "Distance": "3999",
+                    "TransDocNo": "AWB-55443322",
+                    "TransDocDt": "12/09/2026"
+                },
+                "Success": false,
+                "Status": "ERROR_FROM_IRP",
+                "Record": 1,
+                "Message": "Ship to details are mandatory for export transactions to generate e-Way Bill.,E Way Bill can be generated provided at least HSN of one item belongs to goods.,TransportId -07AABCA2222B2Z2 is not present in E WayBill system.",
+                "EncodedId": "NDU4NjA5",
+                "Irn": "b98b72ba9f93b58ad463e2264ff96cc6cadb301b97514ad3b2242bfb8578e801"
+            }
+        ]
+    },
+    "error": null
+}

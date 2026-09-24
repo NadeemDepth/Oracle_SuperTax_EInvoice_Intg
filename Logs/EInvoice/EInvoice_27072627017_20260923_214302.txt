@@ -1,0 +1,115 @@
+{
+    "timestamp": "2026-09-23T21:43:02.580117",
+    "document_no": "27072627017",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27072627017",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "27072627017",
+                    "Dt": "23/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "27AAACU0564G6ZC",
+                    "LglNm": "Union Bank of India",
+                    "TrdNm": "Union Bank of India",
+                    "Pos": "27",
+                    "Addr1": "cts no 1 s.no. 1 PART",
+                    "Addr2": "UNION BANK OF INDIA,VILLAGE KOPRI, VIKHROLI,,OPPOSIT TO POWAI LAKE",
+                    "Loc": "Mumbai",
+                    "Pin": "400072",
+                    "Stcd": "27"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "UBI V Facility Management Charges from Apr 26 to Jun 26 ||",
+                        "HsnCd": "998311",
+                        "Qty": 2,
+                        "Unit": "NOS",
+                        "UnitPrice": 112500,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 20250,
+                        "IgstAmt": 0,
+                        "CgstAmt": 20250,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 225000,
+                        "AssAmt": 225000.0,
+                        "TotItemVal": 265500.0
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 225000.0,
+                    "CgstVal": 20250,
+                    "SgstVal": 20250,
+                    "IgstVal": 0.0,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": 0.0,
+                    "TotInvVal": 265500.0
+                },
+                "ShipDtls": {
+                    "LglNm": "Union Bank of India",
+                    "TrdNm": "Union Bank of India",
+                    "Addr1": "cts no 1 s.no. 1 PART",
+                    "Addr2": "UNION BANK OF INDIA,VILLAGE KOPRI, VIKHROLI,,OPPOSIT TO POWAI LAKE",
+                    "Loc": "Mumbai",
+                    "Stcd": "27",
+                    "Pin": "400072"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 122610116167093,
+                "AckDate": "2026-09-23 21:43:04",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "1a322ccca16ef38061430b7a16ad201bc5db91ec65f3a2b8b101b516a7f928b2",
+                "DocDtls": {
+                    "No": "27072627017",
+                    "Dt": "23/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "27072627017",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdBQUJDSTk2NjlSMVpIXCIsXCJCdXllckdzdGluXCI6XCIyN0FBQUNVMDU2NEc2WkNcIixcIkRvY05vXCI6XCIyNzA3MjYyNzAxN1wiLFwiRG9jVHlwXCI6XCJJTlZcIixcIkRvY0R0XCI6XCIyMy8wOS8yMDI2XCIsXCJUb3RJbnZWYWxcIjoyNjU1MDAuMCxcIkl0ZW1DbnRcIjoxLFwiTWFpbkhzbkNvZGVcIjpcIjk5ODMxMVwiLFwiSXJuXCI6XCIxYTMyMmNjY2ExNmVmMzgwNjE0MzBiN2ExNmFkMjAxYmM1ZGI5MWVjNjVmM2EyYjhiMTAxYjUxNmE3ZjkyOGIyXCIsXCJJcm5EdFwiOlwiMjAyNi0wOS0yMyAyMTo0MzowNFwifSJ9.ZK76safJlFORGfjQEL4lLYxCH4_k7Xtu1A9OqOHfBU8NWdV5SsCvztlfYAGHVY5zTSNlFspY4lyuBIw_Ol76c_q3zBlbmLnvpdrrnTwei-4uT9z7PqhB6K2qGZ0RRgfRfVElxzJ_nj-EYSLu3_yc6CTyeZrvNlG2AkY-oi90yqyCUISaWintzbv7-gP0-PNp6AhYslvmazPfwYZPXF4t0E6yblq_-hz8B-GESS3qv_mnL5xzLNTZaF7Qy4Cd2aEQSZywPGbbsnhiXVvhBemdRH64rFC03fVg9apGCqoarKmdHXqnwnJKGlRRsiBKVoq5ksjX8t7Zdr1TcBapObMR9w",
+                "QrCode": "{\"SellerGstin\":\"27AABCI9669R1ZH\",\"BuyerGstin\":\"27AAACU0564G6ZC\",\"DocNo\":\"27072627017\",\"DocTyp\":\"INV\",\"DocDt\":\"23/09/2026\",\"TotInvVal\":265500.0,\"ItemCnt\":1,\"MainHsnCode\":\"998311\",\"Irn\":\"1a322ccca16ef38061430b7a16ad201bc5db91ec65f3a2b8b101b516a7f928b2\",\"IrnDt\":\"2026-09-23 21:43:04\"}",
+                "EncodedId": "NDU5MTYy"
+            }
+        ]
+    },
+    "error": null
+}

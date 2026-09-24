@@ -1,0 +1,101 @@
+{
+    "timestamp": "2026-09-22T22:40:31.568249",
+    "document_no": "2712627045",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "2712627045",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "2712627045",
+                    "Dt": "11/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "29AAECJ1345A1ZZ",
+                    "LglNm": "Juniper Networks Solution India Private Limited",
+                    "TrdNm": "Juniper Networks Solution India Private Limited",
+                    "Pos": "29",
+                    "Addr1": "2nd Floor, Elnath Exora Business Park,",
+                    "Addr2": "Survey No. 111/1 to 115/A, Wing A&B,",
+                    "Loc": "Bangalore",
+                    "Pin": "560103",
+                    "Stcd": "29"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "N",
+                        "HsnCd": "998314",
+                        "Qty": 1,
+                        "Unit": "mtr",
+                        "UnitPrice": 200000,
+                        "Discount": 0,
+                        "GstRt": 0.0,
+                        "SgstAmt": 0,
+                        "IgstAmt": 0,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 200000,
+                        "AssAmt": 200000.0,
+                        "TotItemVal": 200000.0
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 200000.0,
+                    "CgstVal": 0.0,
+                    "SgstVal": 0.0,
+                    "IgstVal": 0.0,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": 0.0,
+                    "TotInvVal": 200000.0
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "Record": 1,
+                "Success": false,
+                "Fy": "202627",
+                "Messages": "HSN Code field value is invalid",
+                "Status": "ERROR",
+                "DocDtls": {
+                    "No": "2712627045",
+                    "Dt": "11/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "2712627045",
+                "LineItem": "1",
+                "EncodedId": "MA=="
+            }
+        ]
+    },
+    "error": null
+}

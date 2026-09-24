@@ -1,0 +1,8 @@
+#To Push Code to git
+
+git init
+git add . 
+
+#(. signifies all)
+
+git commit -m "Commit comment"

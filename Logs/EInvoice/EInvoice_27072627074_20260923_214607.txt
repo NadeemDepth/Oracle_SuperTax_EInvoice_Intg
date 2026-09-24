@@ -1,0 +1,115 @@
+{
+    "timestamp": "2026-09-23T21:46:07.992872",
+    "document_no": "27072627074",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27072627074",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "27072627074",
+                    "Dt": "23/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "27AAACP1206G2ZW",
+                    "LglNm": "Punjab & Sind Bank",
+                    "TrdNm": "Punjab & Sind Bank",
+                    "Pos": "27",
+                    "Addr1": "C/o Sify Technologies Limited",
+                    "Addr2": "7th floor Reliable Plaza, Plot No. K-10 Kalwa Industrial Area, Airoli , Navi Mumbai ,",
+                    "Loc": "Mumbai",
+                    "Pin": "400708",
+                    "Stcd": "27"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "AMC/ATS for Email Security (01-07-2026 to 30-06-2027)",
+                        "HsnCd": "998729",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 1500000,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 135000,
+                        "IgstAmt": 0,
+                        "CgstAmt": 135000,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 1500000,
+                        "AssAmt": 1500000.0,
+                        "TotItemVal": 1770000.0
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 1500000.0,
+                    "CgstVal": 135000,
+                    "SgstVal": 135000,
+                    "IgstVal": 0.0,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": 0.0,
+                    "TotInvVal": 1770000.0
+                },
+                "ShipDtls": {
+                    "LglNm": "Punjab & Sind Bank",
+                    "TrdNm": "Punjab & Sind Bank",
+                    "Addr1": "C/o Sify Technologies Limited",
+                    "Addr2": "7th floor Reliable Plaza, Plot No. K-10 Kalwa Industrial Area, Airoli , Navi Mumbai ,",
+                    "Loc": "Mumbai",
+                    "Stcd": "27",
+                    "Pin": "400708"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 122610116167738,
+                "AckDate": "2026-09-23 21:46:10",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "910647454b2020840d3a235fcc9fb815b9618ffa697b12b6362f9a057457132c",
+                "DocDtls": {
+                    "No": "27072627074",
+                    "Dt": "23/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "27072627074",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdBQUJDSTk2NjlSMVpIXCIsXCJCdXllckdzdGluXCI6XCIyN0FBQUNQMTIwNkcyWldcIixcIkRvY05vXCI6XCIyNzA3MjYyNzA3NFwiLFwiRG9jVHlwXCI6XCJJTlZcIixcIkRvY0R0XCI6XCIyMy8wOS8yMDI2XCIsXCJUb3RJbnZWYWxcIjoxNzcwMDAwLjAsXCJJdGVtQ250XCI6MSxcIk1haW5Ic25Db2RlXCI6XCI5OTg3MjlcIixcIklyblwiOlwiOTEwNjQ3NDU0YjIwMjA4NDBkM2EyMzVmY2M5ZmI4MTViOTYxOGZmYTY5N2IxMmI2MzYyZjlhMDU3NDU3MTMyY1wiLFwiSXJuRHRcIjpcIjIwMjYtMDktMjMgMjE6NDY6MTBcIn0ifQ.GKKrj2JxfBaA7pNh7SaPNLseO5guabgWQlluE0LH-pacZX_J68rq5OQhNw64YV692YX5AwTCzHv14xUrs9kw-98JurnPgujbXiM6FAgrDpiIgUnaVP1YIShppn7xBdDwqczPKooKnCFdXIyr1ONxpiuz-iqtKwWDA70Gh1Eeem3cjd8Q9K704uCg0r8fxHmKO_Leqg9H4R6GQbIm8ywO-aqCuHFNk40iNR1GhCOb9AOmMjtT_fLcufMgh7b3q_dQ1qt1p4nzNN-HWxASYud2oydEpTY5ohBemhYxgt2EeYSVJHV0BoMM3_fWW2I8kwghXaNB8x1SR3bQvqEEAUB4OQ",
+                "QrCode": "{\"SellerGstin\":\"27AABCI9669R1ZH\",\"BuyerGstin\":\"27AAACP1206G2ZW\",\"DocNo\":\"27072627074\",\"DocTyp\":\"INV\",\"DocDt\":\"23/09/2026\",\"TotInvVal\":1770000.0,\"ItemCnt\":1,\"MainHsnCode\":\"998729\",\"Irn\":\"910647454b2020840d3a235fcc9fb815b9618ffa697b12b6362f9a057457132c\",\"IrnDt\":\"2026-09-23 21:46:10\"}",
+                "EncodedId": "NDU5MjMw"
+            }
+        ]
+    },
+    "error": null
+}

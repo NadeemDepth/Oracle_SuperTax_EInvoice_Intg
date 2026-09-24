@@ -1,0 +1,116 @@
+{
+    "timestamp": "2026-09-21T13:45:37.407689",
+    "document_no": "742425142",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "742425142",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "CM",
+                    "No": "742425142",
+                    "Dt": "20/07/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "07AABCI9669R1ZJ",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "202A, 202B, 203 Ashoka Estate",
+                    "Addr2": "24 Barakhamba Road",
+                    "Loc": "New Delhi",
+                    "Pin": "110001",
+                    "Stcd": "07"
+                },
+                "BuyerDtls": {
+                    "Gstin": "09AADCL1368E1ZL",
+                    "LglNm": "LUCKNOW SMART CITY LIMITED",
+                    "TrdNm": "LUCKNOW SMART CITY LIMITED",
+                    "Pos": "09",
+                    "Addr1": "B.N. Road, ",
+                    "Addr2": "Front of Lalbagh Girls Inter Collage,Lalbagh,",
+                    "Loc": "Lucknow",
+                    "Pin": "226001",
+                    "Stcd": "09"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "Irrevocable Debts Written Off/back (P&L)",
+                        "HsnCd": "8471",
+                        "Qty": 0.3,
+                        "Unit": "NOS",
+                        "UnitPrice": 4601222.22,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 828220,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 1380366.67,
+                        "AssAmt": 1380366.67,
+                        "TotItemVal": 2208586.67
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 1380366.67,
+                    "CgstVal": 0.0,
+                    "SgstVal": 0.0,
+                    "IgstVal": 828220,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": 0.22,
+                    "TotInvVal": 2208586.89
+                },
+                "PrecDocDtls": [
+                    {
+                        "InvNo": "2712627047.0",
+                        "InvDt": "11/09/2026"
+                    }
+                ],
+                "EwbDtls": {
+                    "TransId": "27AADFV7589C1ZO",
+                    "TransName": "JMJ Transporters",
+                    "TransMode": "Road",
+                    "Distance": 100,
+                    "TransDocNo": "1234rgb",
+                    "TransDocDt": "18/09/2026",
+                    "VehNo": "MH043456",
+                    "VehType": "O",
+                    "IsEWayBillIntegrated": "true"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "Record": 1,
+                "Success": false,
+                "Fy": "202627",
+                "Messages": "Application Error. Please contact SuperTax.",
+                "DocDtls": {
+                    "No": "742425142",
+                    "Dt": "20/07/2026",
+                    "Typ": "CM"
+                },
+                "SellerDtls": {
+                    "Gstin": "07AABCI9669R1ZJ"
+                },
+                "CustDocNo": "742425142"
+            }
+        ]
+    },
+    "error": null
+}

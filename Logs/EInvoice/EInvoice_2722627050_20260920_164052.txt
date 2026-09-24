@@ -1,0 +1,116 @@
+{
+    "timestamp": "2026-09-20T16:40:52.052112",
+    "document_no": "2722627050",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "2722627050",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "CM",
+                    "No": "2722627050",
+                    "Dt": "11/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "27AACCB0774B2Z3",
+                    "LglNm": "Bank of Maharashtra",
+                    "TrdNm": "Bank of Maharashtra",
+                    "Pos": "27",
+                    "Addr1": "Head Office , Lokmangal, 1501, ",
+                    "Addr2": "Shivaji Nagar,.",
+                    "Loc": "Pune",
+                    "Pin": "411005",
+                    "Stcd": "27"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "Computers",
+                        "HsnCd": "8471",
+                        "Qty": 0.20000081960830918,
+                        "Unit": "NOS",
+                        "UnitPrice": 4880.38,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 87.84,
+                        "IgstAmt": 0,
+                        "CgstAmt": 87.84,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 976.08,
+                        "AssAmt": 976.08,
+                        "TotItemVal": 1151.76
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 976.08,
+                    "CgstVal": 87.84,
+                    "SgstVal": 87.84,
+                    "IgstVal": 0.0,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": 0.24,
+                    "TotInvVal": 1152.0
+                },
+                "PrecDocDtls": [
+                    {
+                        "InvNo": "2712627047.0",
+                        "InvDt": "11/09/2026"
+                    }
+                ],
+                "EwbDtls": {
+                    "TransId": "27AADFV7589C1ZO",
+                    "TransName": "JMJ Transporters",
+                    "TransMode": "Road",
+                    "Distance": 100,
+                    "TransDocNo": "1234rgb",
+                    "TransDocDt": "18/09/2026",
+                    "VehNo": "MH043456",
+                    "VehType": "O",
+                    "IsEWayBillIntegrated": "true"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "Record": 1,
+                "Success": false,
+                "Fy": "202627",
+                "Messages": "Application Error. Please contact SuperTax.",
+                "DocDtls": {
+                    "No": "2722627050",
+                    "Dt": "11/09/2026",
+                    "Typ": "CM"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "2722627050"
+            }
+        ]
+    },
+    "error": null
+}

@@ -1,0 +1,113 @@
+{
+    "timestamp": "2026-09-24T06:54:07.416188",
+    "document_no": "29072627003",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "29072627003",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "29072627003",
+                    "Dt": "24/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "29AABCI9669R1ZD",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Bhive Workspace solutions",
+                    "Addr2": "114/5, Old Madras Road, North Halasuru",
+                    "Loc": "Bangalore",
+                    "Pin": "560008",
+                    "Stcd": "29"
+                },
+                "BuyerDtls": {
+                    "Gstin": "29AAALB0015G1ZR",
+                    "LglNm": "BANGALORE WATER SUPPLY AND SEWERAGE BOARD",
+                    "TrdNm": "BANGALORE WATER SUPPLY AND SEWERAGE BOARD",
+                    "Pos": "29",
+                    "Addr1": "Executive Engineer  (RB & IT ),",
+                    "Addr2": "7TH Floor,Cauvery Bhavan,,Kempe Gowda Road",
+                    "Loc": "Bengaluru",
+                    "Pin": "560009",
+                    "Stcd": "29"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "ITSM/Helpdesk Tool with 5 technicians",
+                        "HsnCd": "997331",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 1061549.95,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 95539.49,
+                        "IgstAmt": 0,
+                        "CgstAmt": 95539.49,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 1061549.95,
+                        "AssAmt": 1061549.95,
+                        "TotItemVal": 1252628.93
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 1061549.95,
+                    "CgstVal": 95539.49,
+                    "SgstVal": 95539.49,
+                    "IgstVal": 0.0,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": 0.07,
+                    "TotInvVal": 1252629.0
+                },
+                "ShipDtls": {
+                    "LglNm": "BANGALORE WATER SUPPLY AND SEWERAGE BOARD",
+                    "TrdNm": "BANGALORE WATER SUPPLY AND SEWERAGE BOARD",
+                    "Addr1": "Executive Engineer  (RB & IT ),",
+                    "Addr2": "7TH Floor,Cauvery Bhavan,,Kempe Gowda Road",
+                    "Loc": "Bengaluru",
+                    "Stcd": "29",
+                    "Pin": "560009"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "Record": 1,
+                "Success": false,
+                "Fy": "202627",
+                "Messages": "Customer does not have access to Gstin 29AABCI9669R1ZD",
+                "Status": "ERROR",
+                "DocDtls": {
+                    "No": "29072627003",
+                    "Dt": "24/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "29AABCI9669R1ZD"
+                },
+                "TranDtls": {
+                    "SupTyp": "B2B"
+                },
+                "CustDocNo": "29072627003",
+                "EncodedId": "MA=="
+            }
+        ]
+    },
+    "error": null
+}

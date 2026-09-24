@@ -1,0 +1,163 @@
+{
+    "timestamp": "2026-09-23T21:45:12.592262",
+    "document_no": "27072627050",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27072627050",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "27072627050",
+                    "Dt": "23/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "08AAAAT6597N1ZM",
+                    "LglNm": "THE KOTA CENTRAL CO OP BANK LTD",
+                    "TrdNm": "THE KOTA CENTRAL CO OP BANK LTD",
+                    "Pos": "08",
+                    "Addr1": "Managing Director-",
+                    "Addr2": "H.O.\u00a0ARYA SAMAJ ROAD\u00a0RAMPURA,\u00a0RAMPURA\u00a0Kota",
+                    "Loc": "Kota",
+                    "Pin": "324006",
+                    "Stcd": "08"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "FMS Services: Period: 1st April-26 to 30th June-26 ||",
+                        "HsnCd": "998311",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 183471.55,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 33024.88,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 183471.55,
+                        "AssAmt": 183471.55,
+                        "TotItemVal": 216496.43
+                    },
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "AMC Services: Period: 1st Apr-26 to 30th Jun-26 ||",
+                        "HsnCd": "998313",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 75389.63,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 13570.13,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "2",
+                        "TotAmt": 75389.63,
+                        "AssAmt": 75389.63,
+                        "TotItemVal": 88959.76
+                    },
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "3rd Yr Renewal of ISO 27000 and 20000 Certificates ||",
+                        "HsnCd": "998311",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 3947.36,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 710.52,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "3",
+                        "TotAmt": 3947.36,
+                        "AssAmt": 3947.36,
+                        "TotItemVal": 4657.88
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 262808.54,
+                    "CgstVal": 0.0,
+                    "SgstVal": 0.0,
+                    "IgstVal": 47305.53,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": -0.07,
+                    "TotInvVal": 310114.0
+                },
+                "ShipDtls": {
+                    "LglNm": "THE KOTA CENTRAL CO OP BANK LTD",
+                    "TrdNm": "THE KOTA CENTRAL CO OP BANK LTD",
+                    "Addr1": "Managing Director-",
+                    "Addr2": "H.O.\u00a0ARYA SAMAJ ROAD\u00a0RAMPURA,\u00a0RAMPURA\u00a0Kota",
+                    "Loc": "Kota",
+                    "Stcd": "08",
+                    "Pin": "324006"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 122610116167543,
+                "AckDate": "2026-09-23 21:45:14",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "1379fbbcc90c186d9e0adc0c1bc5ad0338585a7c9660b4f863751a8dc84198cc",
+                "DocDtls": {
+                    "No": "27072627050",
+                    "Dt": "23/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "27072627050",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdBQUJDSTk2NjlSMVpIXCIsXCJCdXllckdzdGluXCI6XCIwOEFBQUFUNjU5N04xWk1cIixcIkRvY05vXCI6XCIyNzA3MjYyNzA1MFwiLFwiRG9jVHlwXCI6XCJJTlZcIixcIkRvY0R0XCI6XCIyMy8wOS8yMDI2XCIsXCJUb3RJbnZWYWxcIjozMTAxMTQuMCxcIkl0ZW1DbnRcIjozLFwiTWFpbkhzbkNvZGVcIjpcIjk5ODMxMVwiLFwiSXJuXCI6XCIxMzc5ZmJiY2M5MGMxODZkOWUwYWRjMGMxYmM1YWQwMzM4NTg1YTdjOTY2MGI0Zjg2Mzc1MWE4ZGM4NDE5OGNjXCIsXCJJcm5EdFwiOlwiMjAyNi0wOS0yMyAyMTo0NToxNFwifSJ9.fXLwtd6l2irjA_GrSjpjlWlCvvyLXGQUMMPffrI5BqUVwKsvx-9cTS_IGwMKPwybn7ZkX7e9sLq1nzbEtg03DXBv6Xn1YdR2lLWwe6fY8_yJY1h-tdm8P-zfNFE16HQGrJh4LPDlLksz8hedTVqWrL__jKQxDC2SYU4ih8b3s0sns0GCpV2k0gyaextOwhqykBXfGRQV39IYhp71ep8wTzJGZhsm9yOORmlJP3Yqj3SWh7miFU5fnmrwILFE-hXPwFTKHd48smfvrlrpZ1RORqBeq3kyqfj0yos7E3rjkqdeYhmnGXgIrPiUBdS-oJ_jVgP2bR5r9ZkPPzkae2cHbQ",
+                "QrCode": "{\"SellerGstin\":\"27AABCI9669R1ZH\",\"BuyerGstin\":\"08AAAAT6597N1ZM\",\"DocNo\":\"27072627050\",\"DocTyp\":\"INV\",\"DocDt\":\"23/09/2026\",\"TotInvVal\":310114.0,\"ItemCnt\":3,\"MainHsnCode\":\"998311\",\"Irn\":\"1379fbbcc90c186d9e0adc0c1bc5ad0338585a7c9660b4f863751a8dc84198cc\",\"IrnDt\":\"2026-09-23 21:45:14\"}",
+                "EncodedId": "NDU5MjEx"
+            }
+        ]
+    },
+    "error": null
+}

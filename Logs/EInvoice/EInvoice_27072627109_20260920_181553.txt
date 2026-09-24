@@ -1,0 +1,143 @@
+{
+    "timestamp": "2026-09-20T18:15:53.134562",
+    "document_no": "27072627109",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27072627109",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "27072627109",
+                    "Dt": "18/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "27AACCT7290E1Z7",
+                    "LglNm": "TATA UNISTORE LIMITED",
+                    "TrdNm": "TATA UNISTORE LIMITED",
+                    "Pos": "27",
+                    "Addr1": "B wing, 4th Floor, Empire Plaza-II",
+                    "Addr2": "LBS Road, Vikhroli, Mumbai Suburban,",
+                    "Loc": "Mumbai",
+                    "Pin": "400083",
+                    "Stcd": "27"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "HsnCd": "998319",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 4849166.67,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 436425,
+                        "IgstAmt": 0,
+                        "CgstAmt": 436425,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 4849166.67,
+                        "AssAmt": 4849166.67,
+                        "TotItemVal": 5722016.67
+                    },
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "Computers",
+                        "HsnCd": "8471",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 1,
+                        "Discount": 0,
+                        "GstRt": 0,
+                        "SgstAmt": 0,
+                        "IgstAmt": 0,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "2",
+                        "TotAmt": 1,
+                        "AssAmt": 1.0,
+                        "TotItemVal": 1.0
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 4849167.67,
+                    "CgstVal": 436425.0,
+                    "SgstVal": 436425.0,
+                    "IgstVal": 0.0,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": 0.33,
+                    "TotInvVal": 5722018.0
+                },
+                "EwbDtls": {
+                    "TransId": "27AAGCS0674R1ZN",
+                    "TransName": "TATA UNISTORE LIMITED",
+                    "TransMode": "Road",
+                    "Distance": 1,
+                    "TransDocNo": "STN/MUM/2627/01",
+                    "TransDocDt": "18/09/2026",
+                    "VehNo": "MH11BL4238",
+                    "VehType": "O",
+                    "IsEWayBillIntegrated": "true"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 122610116104890,
+                "AckDate": "2026-09-19 08:46:05",
+                "Record": 1,
+                "Success": false,
+                "Fy": "202627",
+                "Messages": "Duplicate IRN",
+                "Status": "ERROR",
+                "Irn": "bbc9a4ff7a0bd7b5bdb991f03745f5623115a2ad7215f0939ffea67d030581b0",
+                "DocDtls": {
+                    "No": "27072627109",
+                    "Dt": "18/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "TranDtls": {
+                    "SupTyp": "B2B"
+                },
+                "CustDocNo": "27072627109",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdBQUJDSTk2NjlSMVpIXCIsXCJCdXllckdzdGluXCI6XCIyN0FBQ0NUNzI5MEUxWjdcIixcIkRvY05vXCI6XCIyNzA3MjYyNzEwOVwiLFwiRG9jVHlwXCI6XCJJTlZcIixcIkRvY0R0XCI6XCIxOS8wOS8yMDI2XCIsXCJUb3RJbnZWYWxcIjoxMTQ0NDAzMy4wLFwiSXRlbUNudFwiOjIsXCJNYWluSHNuQ29kZVwiOlwiOTk4MzE5XCIsXCJJcm5cIjpcImJiYzlhNGZmN2EwYmQ3YjViZGI5OTFmMDM3NDVmNTYyMzExNWEyYWQ3MjE1ZjA5MzlmZmVhNjdkMDMwNTgxYjBcIixcIklybkR0XCI6XCIyMDI2LTA5LTE5IDA4OjQ2OjA1XCJ9In0.m689HHInv1fw3bbka9Iq1A1pZWxBdSuZtKpUatjy9NpJoPSpXUoQ07_jTnGgK_lu1kmDhKQZ493AGUKzVL-ozEoDJlsiqPEimbIEp3OO6kG9V7exRX5qBdUg_1XudsUU-8uYTSmaSHrAAJJEG3QbcG7LwKYolXwx99TzsU12Hgq4TpzTrn9jIv3-T5BQk_aZyCSPTW190sOb26v46q1uxOjLwbqXg0cc0QNtyNhR5CG5Ir19aYLe7avDm7Oc7Kk1TBX4PZYe6JM0Pml4F3ScF6-FOHu39jvtVkwWhnNWDhvcDj6ngbQxywlu_1AvIwH7UtxugnQsPlTAfCy8GCIxJA",
+                "QrCode": "{\"SellerGstin\":\"27AABCI9669R1ZH\",\"BuyerGstin\":\"27AACCT7290E1Z7\",\"DocNo\":\"27072627109\",\"DocTyp\":\"INV\",\"DocDt\":\"19/09/2026\",\"TotInvVal\":11444033.0,\"ItemCnt\":2,\"MainHsnCode\":\"998319\",\"Irn\":\"bbc9a4ff7a0bd7b5bdb991f03745f5623115a2ad7215f0939ffea67d030581b0\",\"IrnDt\":\"2026-09-19 08:46:05\"}",
+                "EncodedId": "NDU4NTk3"
+            }
+        ]
+    },
+    "error": null
+}

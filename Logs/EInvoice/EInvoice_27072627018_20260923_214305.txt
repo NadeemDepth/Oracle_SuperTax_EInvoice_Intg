@@ -1,0 +1,115 @@
+{
+    "timestamp": "2026-09-23T21:43:05.446866",
+    "document_no": "27072627018",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27072627018",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "27072627018",
+                    "Dt": "23/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "27AAACC2498P4Z0",
+                    "LglNm": "CENTRAL BANK OF INDIA",
+                    "TrdNm": "CENTRAL BANK OF INDIA",
+                    "Pos": "27",
+                    "Addr1": "17th Floor,",
+                    "Addr2": "Chandramukhi Building,,.",
+                    "Loc": "Mumbai",
+                    "Pin": "400021",
+                    "Stcd": "27"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "FMS engineers (period 1st Apr 2026 to 30th Jun 2026) ||",
+                        "HsnCd": "998311",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 2497500,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 224775,
+                        "IgstAmt": 0,
+                        "CgstAmt": 224775,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 2497500,
+                        "AssAmt": 2497500.0,
+                        "TotItemVal": 2947050.0
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 2497500.0,
+                    "CgstVal": 224775,
+                    "SgstVal": 224775,
+                    "IgstVal": 0.0,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": 0.0,
+                    "TotInvVal": 2947050.0
+                },
+                "ShipDtls": {
+                    "LglNm": "CENTRAL BANK OF INDIA",
+                    "TrdNm": "CENTRAL BANK OF INDIA",
+                    "Addr1": "17th Floor,",
+                    "Addr2": "Chandramukhi Building,,.",
+                    "Loc": "Mumbai",
+                    "Stcd": "27",
+                    "Pin": "400021"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 122610116167109,
+                "AckDate": "2026-09-23 21:43:07",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "6aa8b0013030c26cc703ca8b0abe4010eca18a17371a5c824feef834fd193e96",
+                "DocDtls": {
+                    "No": "27072627018",
+                    "Dt": "23/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "27072627018",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdBQUJDSTk2NjlSMVpIXCIsXCJCdXllckdzdGluXCI6XCIyN0FBQUNDMjQ5OFA0WjBcIixcIkRvY05vXCI6XCIyNzA3MjYyNzAxOFwiLFwiRG9jVHlwXCI6XCJJTlZcIixcIkRvY0R0XCI6XCIyMy8wOS8yMDI2XCIsXCJUb3RJbnZWYWxcIjoyOTQ3MDUwLjAsXCJJdGVtQ250XCI6MSxcIk1haW5Ic25Db2RlXCI6XCI5OTgzMTFcIixcIklyblwiOlwiNmFhOGIwMDEzMDMwYzI2Y2M3MDNjYThiMGFiZTQwMTBlY2ExOGExNzM3MWE1YzgyNGZlZWY4MzRmZDE5M2U5NlwiLFwiSXJuRHRcIjpcIjIwMjYtMDktMjMgMjE6NDM6MDdcIn0ifQ.kkOVLY2NWkOiBahyJIXPcWZE5VXlzAJmTA-sFjdk7SDdw7rIK799duuqTlTDanQrqad_-fdU-eMm1U9ue7RJLDlmhUMBDZPzUhIyDsOg20nKHraMOJmoqVoYRwIdPUho3rSXa5_dDS-MrPP7Dasn03DgLrsADvwdPhZxxZYdWLOtTbPosBq6MdcZAJVydLXQkB0GAp8-eytAWLHP1kxEPZnU22BMIw29Bc6AGwmFvZWtcholxBmdEcnF0LMlxoBEMOcDpk2Pttk-oDI-PQnIjOgjR2ex8cC_mmkpT2WWCTyX8InP3Yz2W8CL0CMkO9e55PxhqHWb17271dXMJPKe6w",
+                "QrCode": "{\"SellerGstin\":\"27AABCI9669R1ZH\",\"BuyerGstin\":\"27AAACC2498P4Z0\",\"DocNo\":\"27072627018\",\"DocTyp\":\"INV\",\"DocDt\":\"23/09/2026\",\"TotInvVal\":2947050.0,\"ItemCnt\":1,\"MainHsnCode\":\"998311\",\"Irn\":\"6aa8b0013030c26cc703ca8b0abe4010eca18a17371a5c824feef834fd193e96\",\"IrnDt\":\"2026-09-23 21:43:07\"}",
+                "EncodedId": "NDU5MTYz"
+            }
+        ]
+    },
+    "error": null
+}

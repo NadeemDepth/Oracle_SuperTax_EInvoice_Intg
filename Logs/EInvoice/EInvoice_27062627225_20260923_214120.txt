@@ -1,0 +1,139 @@
+{
+    "timestamp": "2026-09-23T21:41:20.790676",
+    "document_no": "27062627225",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27062627225",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "27062627225",
+                    "Dt": "23/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "27AAACZ2157Q1ZQ",
+                    "LglNm": "Zs Associates India Private Limited",
+                    "TrdNm": "Zs Associates India Private Limited",
+                    "Pos": "27",
+                    "Addr1": "World Trade Centre",
+                    "Addr2": "Tower 3 1st to 5th Floor ,Nagar Road S No. 1, Kharadi,",
+                    "Loc": "Pune",
+                    "Pin": "411014",
+                    "Stcd": "27"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "VM Support L1 Resource for the period (27-May -2026 to 30-Jun-2026)  ||",
+                        "HsnCd": "998311",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 152419.35,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 13717.74,
+                        "IgstAmt": 0,
+                        "CgstAmt": 13717.74,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 152419.35,
+                        "AssAmt": 152419.35,
+                        "TotItemVal": 179854.83
+                    },
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "VM Support L1 Resource for the period (01-Jun -2026 to 30-Jun-2026)  ||",
+                        "HsnCd": "998311",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 131250,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 11812.5,
+                        "IgstAmt": 0,
+                        "CgstAmt": 11812.5,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "2",
+                        "TotAmt": 131250,
+                        "AssAmt": 131250.0,
+                        "TotItemVal": 154875.0
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 283669.35,
+                    "CgstVal": 25530.24,
+                    "SgstVal": 25530.24,
+                    "IgstVal": 0.0,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": 0.17,
+                    "TotInvVal": 334730.0
+                },
+                "ShipDtls": {
+                    "LglNm": "Zs Associates India Private Limited",
+                    "TrdNm": "Zs Associates India Private Limited",
+                    "Addr1": "World Trade Centre",
+                    "Addr2": "Tower 3 1st to 5th Floor ,Nagar Road S No. 1, Kharadi,",
+                    "Loc": "Pune",
+                    "Stcd": "27",
+                    "Pin": "411014"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 122610116166960,
+                "AckDate": "2026-09-23 21:41:22",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "62e419ead934b1c239f060fb81ce4d7d4dfc09eb84efd9b63dea1da1ed982d54",
+                "DocDtls": {
+                    "No": "27062627225",
+                    "Dt": "23/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "27062627225",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdBQUJDSTk2NjlSMVpIXCIsXCJCdXllckdzdGluXCI6XCIyN0FBQUNaMjE1N1ExWlFcIixcIkRvY05vXCI6XCIyNzA2MjYyNzIyNVwiLFwiRG9jVHlwXCI6XCJJTlZcIixcIkRvY0R0XCI6XCIyMy8wOS8yMDI2XCIsXCJUb3RJbnZWYWxcIjozMzQ3MzAuMCxcIkl0ZW1DbnRcIjoyLFwiTWFpbkhzbkNvZGVcIjpcIjk5ODMxMVwiLFwiSXJuXCI6XCI2MmU0MTllYWQ5MzRiMWMyMzlmMDYwZmI4MWNlNGQ3ZDRkZmMwOWViODRlZmQ5YjYzZGVhMWRhMWVkOTgyZDU0XCIsXCJJcm5EdFwiOlwiMjAyNi0wOS0yMyAyMTo0MToyMlwifSJ9.ssgsSXasUKluR0FKWaTl5l9_9XaIUESNDodaYUOkclnyPOV29ckzGJWjqLkxY-Fxf-Dnm9MsakDn2Z1hF6FTgEA1Oued3lpr4j_va_9YUlAIEZXVAhipkMskTN5mjZqdXzA8D067ClgNaz9fnngaMgSHCVVtOzqbBQeF0Q5I3alN33EGQQ-rRMs7u9xyHdnk1gPJRYso43pZkNb0RNcoyxIEgkDophpgZnzk4rYWdxR5Y5nZioQsCpdH1IoNCSLmoh0rlMCFo1tOYAiEozETNmdb12i1Snq33Sc1BYf1bXkFHGD4cByUcyNkAp5lygOI7vosqb0O_lSgIhQcO6UETg",
+                "QrCode": "{\"SellerGstin\":\"27AABCI9669R1ZH\",\"BuyerGstin\":\"27AAACZ2157Q1ZQ\",\"DocNo\":\"27062627225\",\"DocTyp\":\"INV\",\"DocDt\":\"23/09/2026\",\"TotInvVal\":334730.0,\"ItemCnt\":2,\"MainHsnCode\":\"998311\",\"Irn\":\"62e419ead934b1c239f060fb81ce4d7d4dfc09eb84efd9b63dea1da1ed982d54\",\"IrnDt\":\"2026-09-23 21:41:22\"}",
+                "EncodedId": "NDU5MTI0"
+            }
+        ]
+    },
+    "error": null
+}

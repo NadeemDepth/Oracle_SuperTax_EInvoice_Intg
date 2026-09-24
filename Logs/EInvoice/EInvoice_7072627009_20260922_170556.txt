@@ -1,0 +1,126 @@
+{
+    "timestamp": "2026-09-22T17:05:56.067727",
+    "document_no": "7072627009",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "7072627009",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "SEZWP",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "7072627009",
+                    "Dt": "22/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "07AABCI9669R1ZJ",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "202A, 202B, 203 Ashoka Estate",
+                    "Addr2": "24 Barakhamba Road",
+                    "Loc": "New Delhi",
+                    "Pin": "110001",
+                    "Stcd": "07"
+                },
+                "BuyerDtls": {
+                    "Gstin": "24AAACO1598A3ZR",
+                    "LglNm": "Oil and Natural Gas Corporation Limited",
+                    "TrdNm": "Oil and Natural Gas Corporation Limited",
+                    "Pos": "24",
+                    "Addr1": "l/c Warehouse,  Receipt Section,  Dahej Plant,  Plot No.7/D,  GIDC lndustrial Estate  ONGC,  ",
+                    "Addr2": "SEZ-ll, ,",
+                    "Loc": "Dahej",
+                    "Pin": "392130",
+                    "Stcd": "24"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "Irrevocable Debts Written Off/back (P&L)",
+                        "HsnCd": "998713",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 5957.85,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 1072.41,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 5957.85,
+                        "AssAmt": 5957.85,
+                        "TotItemVal": 7030.26
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 5957.85,
+                    "CgstVal": 0.0,
+                    "SgstVal": 0.0,
+                    "IgstVal": 1072.41,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": -0.26,
+                    "TotInvVal": 7030.0
+                },
+                "PrecDocDtls": [
+                    {
+                        "InvNo": "2712627047.0",
+                        "InvDt": "11/09/2026"
+                    }
+                ],
+                "EwbDtls": {
+                    "TransId": "27AADFV7589C1ZO",
+                    "TransName": "JMJ Transporters",
+                    "TransMode": "Road",
+                    "Distance": 100,
+                    "TransDocNo": "1234rgb",
+                    "TransDocDt": "18/09/2026",
+                    "VehNo": "MH043456",
+                    "VehType": "O",
+                    "IsEWayBillIntegrated": "true"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 172610026355941,
+                "AckDate": "2026-09-22 17:05:57",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "InfoCode": "EWBERR",
+                "InfoDescCode": "4021,3049,4013,4009",
+                "InfoMessage": "The distance between the pincodes given is too high or low.,E Way Bill can be generated provided at least HSN of one item belongs to goods.,Transporter document date cannot be earlier than the invoice date.,TransportId -27AADFV7589C1ZO is not present in E WayBill system.",
+                "Irn": "80a226ff6e006af4a1ec3087aab1192c2f120c91064dbf8c11b5e6bc1df1ee4a",
+                "DocDtls": {
+                    "No": "7072627009",
+                    "Dt": "22/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "07AABCI9669R1ZJ"
+                },
+                "CustDocNo": "7072627009",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMDdBQUJDSTk2NjlSMVpKXCIsXCJCdXllckdzdGluXCI6XCIyNEFBQUNPMTU5OEEzWlJcIixcIkRvY05vXCI6XCI3MDcyNjI3MDA5XCIsXCJEb2NUeXBcIjpcIklOVlwiLFwiRG9jRHRcIjpcIjIyLzA5LzIwMjZcIixcIlRvdEludlZhbFwiOjcwMzAuMCxcIkl0ZW1DbnRcIjoxLFwiTWFpbkhzbkNvZGVcIjpcIjk5ODcxM1wiLFwiSXJuXCI6XCI4MGEyMjZmZjZlMDA2YWY0YTFlYzMwODdhYWIxMTkyYzJmMTIwYzkxMDY0ZGJmOGMxMWI1ZTZiYzFkZjFlZTRhXCIsXCJJcm5EdFwiOlwiMjAyNi0wOS0yMiAxNzowNTo1N1wifSJ9.oR1oLvOMYgEup0vIyDuullyU6uZ54KrDTaNnNhdYi1ivrAVeBl-ZqKxCkC2AW9XN_j5xGL7G7y_M0aGORWgKe1fb5qlZGHFD98OODON4ozNe0hrj2BxTcqYn5-qZaoPj4COijFysKb5bnoPkbNPgrHWDVWQUF1K-F9VfbKfPzS5yrrMlW7kLsbljapgPUyfJISAzf0rdX0lqxNoTZAV6CNOt3uJ4Q-SX_UTojJsCntkDjswE6W4kA8xzPkEmcDBRizkMH886fP9D1UJBC3GC6B3fGIahgjJYH78dcf4YFPHldcsRVZW_7lfwssVXH6-hFIGRX0rug9yzIC5e0zJsjQ",
+                "QrCode": "{\"SellerGstin\":\"07AABCI9669R1ZJ\",\"BuyerGstin\":\"24AAACO1598A3ZR\",\"DocNo\":\"7072627009\",\"DocTyp\":\"INV\",\"DocDt\":\"22/09/2026\",\"TotInvVal\":7030.0,\"ItemCnt\":1,\"MainHsnCode\":\"998713\",\"Irn\":\"80a226ff6e006af4a1ec3087aab1192c2f120c91064dbf8c11b5e6bc1df1ee4a\",\"IrnDt\":\"2026-09-22 17:05:57\"}",
+                "EncodedId": "NDU4OTgy"
+            }
+        ]
+    },
+    "error": null
+}

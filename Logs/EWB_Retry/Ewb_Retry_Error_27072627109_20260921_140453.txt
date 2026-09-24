@@ -1,0 +1,10 @@
+{
+    "timestamp": "2026-09-21T14:04:53.535851",
+    "identifier": "27072627109",
+    "request_payload": {
+        "trx_id": "4643188",
+        "irn": "bbc9a4ff7a0bd7b5bdb991f03745f5623115a2ad7215f0939ffea67d030581b0"
+    },
+    "response": null,
+    "error": "Trx ID 4643188 (Linked to IRN bbc9a4ff7a0bd7b5bdb991f03745f5623115a2ad7215f0939ffea67d030581b0) was not returned in the Eway Bill Integration Report."
+}

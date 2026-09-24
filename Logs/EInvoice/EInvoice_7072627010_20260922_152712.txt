@@ -1,0 +1,146 @@
+{
+    "timestamp": "2026-09-22T15:27:12.499471",
+    "document_no": "7072627010",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "7072627010",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "7072627010",
+                    "Dt": "22/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "07AABCI9669R1ZJ",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "202A, 202B, 203 Ashoka Estate",
+                    "Addr2": "24 Barakhamba Road",
+                    "Loc": "New Delhi",
+                    "Pin": "110001",
+                    "Stcd": "07"
+                },
+                "BuyerDtls": {
+                    "Gstin": "24AAACO1598A3ZR",
+                    "LglNm": "Oil and Natural Gas Corporation Limited",
+                    "TrdNm": "Oil and Natural Gas Corporation Limited",
+                    "Pos": "24",
+                    "Addr1": "l/c Warehouse,  Receipt Section,  Dahej Plant,  Plot No.7/D,  GIDC lndustrial Estate  ONGC,  ",
+                    "Addr2": "SEZ-ll, ,",
+                    "Loc": "Dahej",
+                    "Pin": "392130",
+                    "Stcd": "24"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "HsnCd": "998713",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 5957.85,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 0,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 5957.85,
+                        "AssAmt": 5957.85,
+                        "TotItemVal": 5957.85
+                    },
+                    {
+                        "IsServc": "Y",
+                        "HsnCd": "998713",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 5957.85,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 0,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "2",
+                        "TotAmt": 5957.85,
+                        "AssAmt": 5957.85,
+                        "TotItemVal": 5957.85
+                    },
+                    {
+                        "IsServc": "Y",
+                        "HsnCd": "998713",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 5957.85,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 0,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "3",
+                        "TotAmt": 5957.85,
+                        "AssAmt": 5957.85,
+                        "TotItemVal": 5957.85
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 17873.55,
+                    "CgstVal": 0.0,
+                    "SgstVal": 0.0,
+                    "IgstVal": 0.0,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": 0.45,
+                    "TotInvVal": 17874.0
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "Record": 1,
+                "Success": false,
+                "Fy": "202627",
+                "Messages": "Recepient  cannot be SEZ for - B2B transaction ,For Sl. No 1, IGST amount passed is not matching with taxable value and tax rate ",
+                "Status": "ERROR_FROM_IRP",
+                "DocDtls": {
+                    "No": "7072627010",
+                    "Dt": "22/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "07AABCI9669R1ZJ"
+                },
+                "CustDocNo": "7072627010",
+                "EncodedId": "NDU4OTY3"
+            }
+        ]
+    },
+    "error": null
+}

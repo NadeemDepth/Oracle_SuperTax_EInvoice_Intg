@@ -1,0 +1,24 @@
+{
+    "timestamp": "2026-09-22T23:38:16.143672",
+    "identifier": "27072627111",
+    "request_payload": {
+        "ewaybills": [
+            {
+                "ewaybill_no": "231010608980",
+                "ewaybill_cancel_reason": "1",
+                "ewaybill_cancel_remark": "Testing"
+            }
+        ]
+    },
+    "response": [
+        {
+            "record": 1,
+            "ewaybill_number": "231010608980",
+            "ewaybill_cancel_reason": "1",
+            "ewaybill_cancel_remark": "Testing",
+            "status": false,
+            "message": "E-Way Bill does not exist."
+        }
+    ],
+    "error": null
+}

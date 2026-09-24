@@ -1,0 +1,163 @@
+{
+    "timestamp": "2026-09-23T21:45:05.116609",
+    "document_no": "27072627062",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27072627062",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "27072627062",
+                    "Dt": "23/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "08AAAAT2537Q1Z0",
+                    "LglNm": "THE JALORE CENTRAL CO-OP BANK LTD",
+                    "TrdNm": "THE JALORE CENTRAL CO-OP BANK LTD",
+                    "Pos": "08",
+                    "Addr1": "Managing Director",
+                    "Addr2": "BAPU NAGAR\u00a0SAHAKAR BHAWAN,ONEWAY ROAD\u00a0JALORE",
+                    "Loc": "Jalore",
+                    "Pin": "343001",
+                    "Stcd": "08"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "FMS Services: Period: 1st April-26 to 30th Jun-26 || 998311",
+                        "HsnCd": "998311",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 197584.75,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 35565.26,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 197584.75,
+                        "AssAmt": 197584.75,
+                        "TotItemVal": 233150.01
+                    },
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "\"3rd Yr Renewal of ISO 27000 and 20000 Certificates\"",
+                        "HsnCd": "998311",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 4251.01,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 765.18,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "2",
+                        "TotAmt": 4251.01,
+                        "AssAmt": 4251.01,
+                        "TotItemVal": 5016.19
+                    },
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "AMC Services: Period: 1st Apr-26 to 30th Jun-26 || 998716",
+                        "HsnCd": "998313",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 81188.83,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 14613.99,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "3",
+                        "TotAmt": 81188.83,
+                        "AssAmt": 81188.83,
+                        "TotItemVal": 95802.82
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 283024.59,
+                    "CgstVal": 0.0,
+                    "SgstVal": 0.0,
+                    "IgstVal": 50944.43,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": -0.02,
+                    "TotInvVal": 333969.0
+                },
+                "ShipDtls": {
+                    "LglNm": "THE JALORE CENTRAL CO-OP BANK LTD",
+                    "TrdNm": "THE JALORE CENTRAL CO-OP BANK LTD",
+                    "Addr1": "Managing Director",
+                    "Addr2": "BAPU NAGAR\u00a0SAHAKAR BHAWAN,ONEWAY ROAD\u00a0JALORE",
+                    "Loc": "Jalore",
+                    "Stcd": "08",
+                    "Pin": "343001"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 122610116167516,
+                "AckDate": "2026-09-23 21:45:07",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "6591bb0c5c8120ef083b250fb1f64c1890b1b5a08defbe51ffaf4a9a5166b10d",
+                "DocDtls": {
+                    "No": "27072627062",
+                    "Dt": "23/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "27072627062",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdBQUJDSTk2NjlSMVpIXCIsXCJCdXllckdzdGluXCI6XCIwOEFBQUFUMjUzN1ExWjBcIixcIkRvY05vXCI6XCIyNzA3MjYyNzA2MlwiLFwiRG9jVHlwXCI6XCJJTlZcIixcIkRvY0R0XCI6XCIyMy8wOS8yMDI2XCIsXCJUb3RJbnZWYWxcIjozMzM5NjkuMCxcIkl0ZW1DbnRcIjozLFwiTWFpbkhzbkNvZGVcIjpcIjk5ODMxMVwiLFwiSXJuXCI6XCI2NTkxYmIwYzVjODEyMGVmMDgzYjI1MGZiMWY2NGMxODkwYjFiNWEwOGRlZmJlNTFmZmFmNGE5YTUxNjZiMTBkXCIsXCJJcm5EdFwiOlwiMjAyNi0wOS0yMyAyMTo0NTowN1wifSJ9.SwjRTfI0wSIZpzdUeVqNQyDAW2XYFfEvDToLqxGtRiGrZpN4YzDP_ylgGJpMX4K2RlvfdibCrUePiYn6MWz7ol3pPuMPuX0QTcNBasDJkNop-jbCS1wXZW-vjPj2UT8NlK2PZYZDd7a4rrhn04FqwEx-3Bw-ZFuB1q7kxZakgbWdkRUK0T88UXGlCihqZqyx53G2VM1_CRnFFY1QkX-ZroYVySByAl07rssBCIh0KYmwYWOfmlJs8BuAm7ovWQNwGOkdLlRP-xisR1OTMyEqW4WGQD0odDq-cn6jPyM9q849xoLsGC0nNqV9Z91IUOcAQGq8-GP6MHWbO5GiTF-PMA",
+                "QrCode": "{\"SellerGstin\":\"27AABCI9669R1ZH\",\"BuyerGstin\":\"08AAAAT2537Q1Z0\",\"DocNo\":\"27072627062\",\"DocTyp\":\"INV\",\"DocDt\":\"23/09/2026\",\"TotInvVal\":333969.0,\"ItemCnt\":3,\"MainHsnCode\":\"998311\",\"Irn\":\"6591bb0c5c8120ef083b250fb1f64c1890b1b5a08defbe51ffaf4a9a5166b10d\",\"IrnDt\":\"2026-09-23 21:45:07\"}",
+                "EncodedId": "NDU5MjA4"
+            }
+        ]
+    },
+    "error": null
+}

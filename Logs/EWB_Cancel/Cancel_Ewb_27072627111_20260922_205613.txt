@@ -1,0 +1,15 @@
+{
+    "timestamp": "2026-09-22T20:56:13.877486",
+    "identifier": "27072627111",
+    "request_payload": {
+        "ewaybills": [
+            {
+                "ewaybill_no": "231010608980",
+                "ewaybill_cancel_reason": "3",
+                "ewaybill_cancel_remark": "Test"
+            }
+        ]
+    },
+    "response": null,
+    "error": "400 Client Error:  for url: https://inspira.supertaxuat.in/api/integration/ewaybill/v1.02/cancel"
+}

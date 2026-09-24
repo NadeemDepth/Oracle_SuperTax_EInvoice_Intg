@@ -1,0 +1,18 @@
+# --- Oracle Fusion (BIP / SOAP source) ---
+FUSION_BASE_URL = "https://eijs-test.fa.em2.oraclecloud.com"
+FUSION_USERNAME = "nadeem@depthconsulting.in"
+FUSION_PASSWORD = "Welcome@123"
+FUSION_REPORT_ABS_PATH = "/Custom/Inspira/E-Invoicing/E-Invoice Integration Report.xdo"
+FUSION_EWB_REPORT_ABS_PATH = "/Custom/Inspira/E-Invoicing/Eway Bill Integration Report.xdo"
+FUSION_REPORT_OUTPUT_FORMAT = "EXCEL"
+
+FUSION_BYPASS_CACHE = false
+FUSION_FLATTEN_XML = false
+
+# --- SuperTax (REST target) ---
+SUPERTAX_API_URL = "https://inspira.supertaxuat.in/api/integration/einvoices/v1.01/sales/save"
+SUPERTAX_API_KEY = "OIsK2i0bobxIAoABILQIrY1A2LZri3qomJp7q3MzpT0ujU-Zq7FlnmTMHiWr5A6k"
+SUPERTAX_TIMEOUT_SECONDS = 30
+SUPERTAX_MAX_RETRIES = 3
+SUPERTAX_EWB_CANCEL_API_URL = "https://ewayuat.supertaxgst.in/api/invoices/cancelewaybill"
+SUPERTAX_EWB_API_KEY = "17e03251e6bd6d9febdd674f295f7c5da0627fbbcfaca4ec9e20380f41aa3fbf"

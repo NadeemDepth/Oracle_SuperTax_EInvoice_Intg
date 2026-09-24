@@ -1,0 +1,115 @@
+{
+    "timestamp": "2026-09-23T21:43:29.607033",
+    "document_no": "27072627020",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27072627020",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "27072627020",
+                    "Dt": "23/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "27AABCP2183M4Z2",
+                    "LglNm": "PI Industries Ltd.",
+                    "TrdNm": "PI Industries Ltd.",
+                    "Pos": "27",
+                    "Addr1": "Unit No. 3A",
+                    "Addr2": "Unit No. 3A, The ORB,Sahar, Andheri(East) situated at Village Marol,Taluka Andheri",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "Renewal of Q-radar SIEM Tool subscription for a period : 8-July-2026 to 7-Oct-2026",
+                        "HsnCd": "998319",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 1895750,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 170617.5,
+                        "IgstAmt": 0,
+                        "CgstAmt": 170617.5,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 1895750,
+                        "AssAmt": 1895750.0,
+                        "TotItemVal": 2236985.0
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 1895750.0,
+                    "CgstVal": 170617.5,
+                    "SgstVal": 170617.5,
+                    "IgstVal": 0.0,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": 0.0,
+                    "TotInvVal": 2236985.0
+                },
+                "ShipDtls": {
+                    "LglNm": "PI Industries Ltd.",
+                    "TrdNm": "PI Industries Ltd.",
+                    "Addr1": "Unit No. 3A",
+                    "Addr2": "Unit No. 3A, The ORB,Sahar, Andheri(East) situated at Village Marol,Taluka Andheri",
+                    "Loc": "Mumbai",
+                    "Stcd": "27",
+                    "Pin": "400059"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 122610116167181,
+                "AckDate": "2026-09-23 21:43:31",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "278aed2cec3ba9944b4d6d15fbe8ee65227afe0260d84e5dd3aea70df2f50798",
+                "DocDtls": {
+                    "No": "27072627020",
+                    "Dt": "23/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "27072627020",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdBQUJDSTk2NjlSMVpIXCIsXCJCdXllckdzdGluXCI6XCIyN0FBQkNQMjE4M000WjJcIixcIkRvY05vXCI6XCIyNzA3MjYyNzAyMFwiLFwiRG9jVHlwXCI6XCJJTlZcIixcIkRvY0R0XCI6XCIyMy8wOS8yMDI2XCIsXCJUb3RJbnZWYWxcIjoyMjM2OTg1LjAsXCJJdGVtQ250XCI6MSxcIk1haW5Ic25Db2RlXCI6XCI5OTgzMTlcIixcIklyblwiOlwiMjc4YWVkMmNlYzNiYTk5NDRiNGQ2ZDE1ZmJlOGVlNjUyMjdhZmUwMjYwZDg0ZTVkZDNhZWE3MGRmMmY1MDc5OFwiLFwiSXJuRHRcIjpcIjIwMjYtMDktMjMgMjE6NDM6MzFcIn0ifQ.qahwZt_O86W1vIhSwjKAA-1gY2EH5ZjoYGlBubPo9MNmVB1tXZ8dpSuLvp1Gb2rok4d277ELPzgp8Dr3vljjDCuN5C7HNhUGQUm2GrtGc0wIv0SyEGi4jFcr46LTeq6g39uPC_rrNwujj7Z7gh96N5OgEfHNl56QrYnN9KYDJF3SoxI8biKFhCPtqLDlzgvcXbVDac0rOmTfLjZijfuVSfczghEoisjG2ol5RNB_9JEUcLqoLsW62fr3c4NJutK2IqXftcuorhxY0VwqwrJNsk81r6gNQ7mY_bac7QTCB47-UDyi5rTY_zYqs6Bs1B9Nd-B4FT0IWXbO-FNMrYA3Yg",
+                "QrCode": "{\"SellerGstin\":\"27AABCI9669R1ZH\",\"BuyerGstin\":\"27AABCP2183M4Z2\",\"DocNo\":\"27072627020\",\"DocTyp\":\"INV\",\"DocDt\":\"23/09/2026\",\"TotInvVal\":2236985.0,\"ItemCnt\":1,\"MainHsnCode\":\"998319\",\"Irn\":\"278aed2cec3ba9944b4d6d15fbe8ee65227afe0260d84e5dd3aea70df2f50798\",\"IrnDt\":\"2026-09-23 21:43:31\"}",
+                "EncodedId": "NDU5MTcx"
+            }
+        ]
+    },
+    "error": null
+}

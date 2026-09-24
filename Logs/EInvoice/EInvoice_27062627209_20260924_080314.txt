@@ -1,0 +1,107 @@
+{
+    "timestamp": "2026-09-24T08:03:14.182852",
+    "document_no": "27062627209",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27062627209",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "27062627209",
+                    "Dt": "24/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "LglNm": "Govt. of Karnataka",
+                    "TrdNm": "Govt. of Karnataka",
+                    "Addr1": "Room No: 146A,",
+                    "Addr2": "First Floor, Gate No. 2,,M.S Building,",
+                    "Loc": "Bangalore",
+                    "Pin": "560001"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "Providing Man power for SOC services as per deliverables / Service requirements mentioned in RFP",
+                        "HsnCd": "998311",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 2349337,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 422880.66,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 2349337,
+                        "AssAmt": 2349337.0,
+                        "TotItemVal": 2772217.66
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 2349337.0,
+                    "CgstVal": 0.0,
+                    "SgstVal": 0.0,
+                    "IgstVal": 422880.66,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": 0.34,
+                    "TotInvVal": 2772218.0
+                },
+                "ShipDtls": {
+                    "LglNm": "Govt. of Karnataka",
+                    "TrdNm": "Govt. of Karnataka",
+                    "Addr1": "Room No: 146A,",
+                    "Addr2": "First Floor, Gate No. 2,,M.S Building,",
+                    "Loc": "Bangalore",
+                    "Pin": "560001",
+                    "Stcd": ""
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "Record": 1,
+                "Success": false,
+                "Fy": "202627",
+                "Messages": "Buyer GSTIN field value is invalid,Place of Supply field value is incorrect,Ship State Code field value is incorrect",
+                "Status": "ERROR",
+                "DocDtls": {
+                    "No": "27062627209",
+                    "Dt": "24/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "27062627209",
+                "EncodedId": "MA=="
+            }
+        ]
+    },
+    "error": null
+}

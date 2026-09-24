@@ -1,0 +1,9 @@
+{
+    "timestamp": "2026-09-22T23:37:22.225725",
+    "identifier": "231010608980",
+    "request_payload": {
+        "doc_no": "231010608980"
+    },
+    "response": null,
+    "error": "Document Number 231010608980 not found in Oracle App Composer."
+}

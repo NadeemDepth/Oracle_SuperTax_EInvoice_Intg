@@ -1,0 +1,10 @@
+{
+    "timestamp": "2026-09-22T23:42:05.562074",
+    "identifier": "27072627111",
+    "request_payload": {
+        "trx_id": "4645187",
+        "doc_no": "27072627111"
+    },
+    "response": null,
+    "error": "Document 27072627111 (Trx ID 4645187) was not returned in the Eway Bill Integration Report."
+}

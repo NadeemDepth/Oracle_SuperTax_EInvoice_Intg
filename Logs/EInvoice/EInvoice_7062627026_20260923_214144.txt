@@ -1,0 +1,115 @@
+{
+    "timestamp": "2026-09-23T21:41:44.237875",
+    "document_no": "7062627026",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "7062627026",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "7062627026",
+                    "Dt": "23/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "07AABCI9669R1ZJ",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "202A, 202B, 203 Ashoka Estate",
+                    "Addr2": "24 Barakhamba Road",
+                    "Loc": "New Delhi",
+                    "Pin": "110001",
+                    "Stcd": "07"
+                },
+                "BuyerDtls": {
+                    "Gstin": "24AAACO1598A4ZQ",
+                    "LglNm": "Oil and Natural Gas Corporation Limited",
+                    "TrdNm": "Oil and Natural Gas Corporation Limited",
+                    "Pos": "24",
+                    "Addr1": "INFOCOMM SERVICES, AHMEDABAD ASSET,",
+                    "Addr2": "CHANDKHEDA,",
+                    "Loc": "Ahmedabad",
+                    "Pin": "380005",
+                    "Stcd": "24"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "AMC for Min 1+3 Multi party VC endpoints including Codec, Speaker tracking camera, microphones, touchpanel etc (period 08.01.26 to 07.04.26)",
+                        "HsnCd": "998713",
+                        "Qty": 3,
+                        "Unit": "NOS",
+                        "UnitPrice": 5957.85,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 3217.24,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 17873.55,
+                        "AssAmt": 17873.55,
+                        "TotItemVal": 21090.79
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 17873.55,
+                    "CgstVal": 0.0,
+                    "SgstVal": 0.0,
+                    "IgstVal": 3217.24,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": 0.2,
+                    "TotInvVal": 21090.99
+                },
+                "ShipDtls": {
+                    "LglNm": "Oil and Natural Gas Corporation Limited",
+                    "TrdNm": "Oil and Natural Gas Corporation Limited",
+                    "Addr1": "INFOCOMM SERVICES, AHMEDABAD ASSET,",
+                    "Addr2": "CHANDKHEDA,",
+                    "Loc": "Ahmedabad",
+                    "Stcd": "24",
+                    "Pin": "380005"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 172610026358975,
+                "AckDate": "2026-09-23 21:41:46",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "37c57a019df564136080cb8b5ebb328a3f9159fab39630414f518573f3fa89db",
+                "DocDtls": {
+                    "No": "7062627026",
+                    "Dt": "23/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "07AABCI9669R1ZJ"
+                },
+                "CustDocNo": "7062627026",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMDdBQUJDSTk2NjlSMVpKXCIsXCJCdXllckdzdGluXCI6XCIyNEFBQUNPMTU5OEE0WlFcIixcIkRvY05vXCI6XCI3MDYyNjI3MDI2XCIsXCJEb2NUeXBcIjpcIklOVlwiLFwiRG9jRHRcIjpcIjIzLzA5LzIwMjZcIixcIlRvdEludlZhbFwiOjIxMDkwLjk5LFwiSXRlbUNudFwiOjEsXCJNYWluSHNuQ29kZVwiOlwiOTk4NzEzXCIsXCJJcm5cIjpcIjM3YzU3YTAxOWRmNTY0MTM2MDgwY2I4YjVlYmIzMjhhM2Y5MTU5ZmFiMzk2MzA0MTRmNTE4NTczZjNmYTg5ZGJcIixcIklybkR0XCI6XCIyMDI2LTA5LTIzIDIxOjQxOjQ2XCJ9In0.1LF232eU3C1sctm-x_iRCoTy7mY9Bwqh6YtxQFjpUyeUHAZIvYwj2YPoKZbsIjfH0BWvZMuEOQcYeZM1NMJXuGNXPMPP5OYSv2t3xMKZAbEHaXJMZVe-559YpN_cBcA8OqVIqf8Npp4rNFy2gON_PELVyRGrUzOAF9NJmSAXToBMIe9hPXHhl4hnOhZSo84sIApKx_JeZSyv8lsOWI8sBQ0O7J2HHqkO5vWlVEWFlGrC5WEWCN4QyJIpyYVPJqYM5uEdwQcw9MJQ5OyvC0JaQsF4-caJaL3aOZI2ZNPjrKrRI1nwxuD-U3gIC3OWf41fRyl_w6JIVR0SdO6-PH-rhQ",
+                "QrCode": "{\"SellerGstin\":\"07AABCI9669R1ZJ\",\"BuyerGstin\":\"24AAACO1598A4ZQ\",\"DocNo\":\"7062627026\",\"DocTyp\":\"INV\",\"DocDt\":\"23/09/2026\",\"TotInvVal\":21090.99,\"ItemCnt\":1,\"MainHsnCode\":\"998713\",\"Irn\":\"37c57a019df564136080cb8b5ebb328a3f9159fab39630414f518573f3fa89db\",\"IrnDt\":\"2026-09-23 21:41:46\"}",
+                "EncodedId": "NDU5MTMx"
+            }
+        ]
+    },
+    "error": null
+}

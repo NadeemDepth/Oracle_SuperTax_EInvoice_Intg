@@ -1,0 +1,115 @@
+{
+    "timestamp": "2026-09-23T21:42:01.648311",
+    "document_no": "7062627023",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "7062627023",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "7062627023",
+                    "Dt": "23/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "07AABCI9669R1ZJ",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "202A, 202B, 203 Ashoka Estate",
+                    "Addr2": "24 Barakhamba Road",
+                    "Loc": "New Delhi",
+                    "Pin": "110001",
+                    "Stcd": "07"
+                },
+                "BuyerDtls": {
+                    "Gstin": "18AAACO1598A2ZL",
+                    "LglNm": "Oil and Natural Gas Corporation Limited",
+                    "TrdNm": "Oil and Natural Gas Corporation Limited",
+                    "Pos": "18",
+                    "Addr1": "I/C-Chief  Manager (MM), ONGC Central Stores,",
+                    "Addr2": "Cinnamara,,",
+                    "Loc": "Jorhat",
+                    "Pin": "785704",
+                    "Stcd": "18"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "AMC for Min 1+3 Multi party VC endpoints including Codec, Speaker tracking camera, microphones, touchpanel etc (period 20.01.26 to 19.04.26)",
+                        "HsnCd": "998713",
+                        "Qty": 4,
+                        "Unit": "NOS",
+                        "UnitPrice": 5957.85,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 4289.65,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 23831.4,
+                        "AssAmt": 23831.4,
+                        "TotItemVal": 28121.05
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 23831.4,
+                    "CgstVal": 0.0,
+                    "SgstVal": 0.0,
+                    "IgstVal": 4289.65,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": -0.05,
+                    "TotInvVal": 28121.0
+                },
+                "ShipDtls": {
+                    "LglNm": "Oil and Natural Gas Corporation Limited",
+                    "TrdNm": "Oil and Natural Gas Corporation Limited",
+                    "Addr1": "I/C-Chief  Manager (MM), ONGC Central Stores,",
+                    "Addr2": "Cinnamara,,",
+                    "Loc": "Jorhat",
+                    "Stcd": "18",
+                    "Pin": "785704"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 172610026359035,
+                "AckDate": "2026-09-23 21:42:03",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "52808750bfc2c2f3649fc052cd0666b05ffc0e861053354533aefcc80eec1f8c",
+                "DocDtls": {
+                    "No": "7062627023",
+                    "Dt": "23/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "07AABCI9669R1ZJ"
+                },
+                "CustDocNo": "7062627023",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMDdBQUJDSTk2NjlSMVpKXCIsXCJCdXllckdzdGluXCI6XCIxOEFBQUNPMTU5OEEyWkxcIixcIkRvY05vXCI6XCI3MDYyNjI3MDIzXCIsXCJEb2NUeXBcIjpcIklOVlwiLFwiRG9jRHRcIjpcIjIzLzA5LzIwMjZcIixcIlRvdEludlZhbFwiOjI4MTIxLjAsXCJJdGVtQ250XCI6MSxcIk1haW5Ic25Db2RlXCI6XCI5OTg3MTNcIixcIklyblwiOlwiNTI4MDg3NTBiZmMyYzJmMzY0OWZjMDUyY2QwNjY2YjA1ZmZjMGU4NjEwNTMzNTQ1MzNhZWZjYzgwZWVjMWY4Y1wiLFwiSXJuRHRcIjpcIjIwMjYtMDktMjMgMjE6NDI6MDNcIn0ifQ.jnhHPuMgm3Q7ouLA5Qj7nF8psuKP8Hlu6Rg2QAQ2F3jSLAWZlZdtqoDLnZNzvhY_pOG0UlIweRJfJuspQbZB6g_wVcEheRhtMD20yQTWZ5BcXux4DRIUnLmEqPYSkjqAysGD7gGfz3hBSy6UbXpVUsTg01g6LmzFnGQ8boaz3VNPxWv2oJp5MEtEOsixuXUi6uquKnPrEH3XWgwJN0rQiGzH4wLamI7Nxd61lD1ZZDuuKYDnLWiQEzexRTihwYIoQPxFzuy6cn3fQCpzMhT_L9NziNxphj2y0a7UEFs1Lue9TclsLyJYBIQCp2IvrZ-Rz6hS69vqT4G2ykOnK9x2vQ",
+                "QrCode": "{\"SellerGstin\":\"07AABCI9669R1ZJ\",\"BuyerGstin\":\"18AAACO1598A2ZL\",\"DocNo\":\"7062627023\",\"DocTyp\":\"INV\",\"DocDt\":\"23/09/2026\",\"TotInvVal\":28121.0,\"ItemCnt\":1,\"MainHsnCode\":\"998713\",\"Irn\":\"52808750bfc2c2f3649fc052cd0666b05ffc0e861053354533aefcc80eec1f8c\",\"IrnDt\":\"2026-09-23 21:42:03\"}",
+                "EncodedId": "NDU5MTM4"
+            }
+        ]
+    },
+    "error": null
+}

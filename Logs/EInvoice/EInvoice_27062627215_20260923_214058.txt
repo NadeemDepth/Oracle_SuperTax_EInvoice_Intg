@@ -1,0 +1,115 @@
+{
+    "timestamp": "2026-09-23T21:40:58.467754",
+    "document_no": "27062627215",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27062627215",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "27062627215",
+                    "Dt": "23/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "32AABCT0022F5Z3",
+                    "LglNm": "The South Indian Bank Limited",
+                    "TrdNm": "The South Indian Bank Limited",
+                    "Pos": "32",
+                    "Addr1": "CISO Office,SIB Building, 5th Floor",
+                    "Addr2": "New Infopark Road Rajagiri Valley,Kakkanad",
+                    "Loc": "Kakkanad",
+                    "Pin": "682039",
+                    "Stcd": "32"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "\"SOC FM services for the Month of Jun 2026 (Annexure enclosed)  ||",
+                        "HsnCd": "998311",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 2083333.33,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 375000,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 2083333.33,
+                        "AssAmt": 2083333.33,
+                        "TotItemVal": 2458333.33
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 2083333.33,
+                    "CgstVal": 0.0,
+                    "SgstVal": 0.0,
+                    "IgstVal": 375000,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": -0.33,
+                    "TotInvVal": 2458333.0
+                },
+                "ShipDtls": {
+                    "LglNm": "The South Indian Bank Limited",
+                    "TrdNm": "The South Indian Bank Limited",
+                    "Addr1": "CISO Office,SIB Building, 5th Floor",
+                    "Addr2": "New Infopark Road Rajagiri Valley,Kakkanad",
+                    "Loc": "Kakkanad",
+                    "Stcd": "32",
+                    "Pin": "682039"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 122610116166881,
+                "AckDate": "2026-09-23 21:41:00",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "1aded99846ab201925b799975ac11751720bd9797cb4b1d7568f29e0f5b678c2",
+                "DocDtls": {
+                    "No": "27062627215",
+                    "Dt": "23/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "27062627215",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdBQUJDSTk2NjlSMVpIXCIsXCJCdXllckdzdGluXCI6XCIzMkFBQkNUMDAyMkY1WjNcIixcIkRvY05vXCI6XCIyNzA2MjYyNzIxNVwiLFwiRG9jVHlwXCI6XCJJTlZcIixcIkRvY0R0XCI6XCIyMy8wOS8yMDI2XCIsXCJUb3RJbnZWYWxcIjoyNDU4MzMzLjAsXCJJdGVtQ250XCI6MSxcIk1haW5Ic25Db2RlXCI6XCI5OTgzMTFcIixcIklyblwiOlwiMWFkZWQ5OTg0NmFiMjAxOTI1Yjc5OTk3NWFjMTE3NTE3MjBiZDk3OTdjYjRiMWQ3NTY4ZjI5ZTBmNWI2NzhjMlwiLFwiSXJuRHRcIjpcIjIwMjYtMDktMjMgMjE6NDE6MDBcIn0ifQ.bdm41x0ryWkEiO97XO5wa84aITxK3ZM7aqZ6KXrb0h8zFqyJ-FEVXfvvdSQc7ml2k7E7CkOT_NEHue9fNeFEHdZ3vMeaZ6kj3uL0MV8UksGdzYTxzq99PzviAhdMDqh3TmAtAlSPWh9u_7TL6o6y4eDzCSZxggxpHBxAz3OcTkVhgPpF0tZ2kflyV90P75acD6VJ1cdjRSxbcp0iLmm3NN8Txec-GXknQ6872QzclM2F2yV-kKBPvBwT25pA43Ss_FowuL0JCOtKjvzgrBDcVhYomepx7g5xHLL89gUPVIslAdoLt1i4K44lJD-Pot5GnFTSyOCoXZw9ke1w2JYomw",
+                "QrCode": "{\"SellerGstin\":\"27AABCI9669R1ZH\",\"BuyerGstin\":\"32AABCT0022F5Z3\",\"DocNo\":\"27062627215\",\"DocTyp\":\"INV\",\"DocDt\":\"23/09/2026\",\"TotInvVal\":2458333.0,\"ItemCnt\":1,\"MainHsnCode\":\"998311\",\"Irn\":\"1aded99846ab201925b799975ac11751720bd9797cb4b1d7568f29e0f5b678c2\",\"IrnDt\":\"2026-09-23 21:41:00\"}",
+                "EncodedId": "NDU5MTE1"
+            }
+        ]
+    },
+    "error": null
+}

@@ -1,0 +1,115 @@
+{
+    "timestamp": "2026-09-23T21:42:47.932568",
+    "document_no": "27072627008",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27072627008",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "27072627008",
+                    "Dt": "23/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "06AACCL0836E1ZX",
+                    "LglNm": "Leixir Resources Pvt Ltd",
+                    "TrdNm": "Leixir Resources Pvt Ltd",
+                    "Pos": "06",
+                    "Addr1": "Unit No.101, 1st Floor , Tower-2",
+                    "Addr2": "Vatika Business Park,",
+                    "Loc": "Gurgaon",
+                    "Pin": "122018",
+                    "Stcd": "06"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "CL-AWS-CONSUMPTION-CHARGES(MAY-26 Consumption)",
+                        "HsnCd": "998313",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 180.45,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 32.48,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 180.45,
+                        "AssAmt": 180.45,
+                        "TotItemVal": 212.93
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 180.45,
+                    "CgstVal": 0.0,
+                    "SgstVal": 0.0,
+                    "IgstVal": 32.48,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": 0.07,
+                    "TotInvVal": 213.0
+                },
+                "ShipDtls": {
+                    "LglNm": "Leixir Resources Pvt Ltd",
+                    "TrdNm": "Leixir Resources Pvt Ltd",
+                    "Addr1": "Unit No.101, 1st Floor , Tower-2",
+                    "Addr2": "Vatika Business Park,",
+                    "Loc": "Gurgaon",
+                    "Stcd": "06",
+                    "Pin": "122018"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 122610116167048,
+                "AckDate": "2026-09-23 21:42:50",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "673aa98a71b6670cc9fd232fd35b9b2a85036c0c21af691533f7f2246d5fdcd9",
+                "DocDtls": {
+                    "No": "27072627008",
+                    "Dt": "23/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "27072627008",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdBQUJDSTk2NjlSMVpIXCIsXCJCdXllckdzdGluXCI6XCIwNkFBQ0NMMDgzNkUxWlhcIixcIkRvY05vXCI6XCIyNzA3MjYyNzAwOFwiLFwiRG9jVHlwXCI6XCJJTlZcIixcIkRvY0R0XCI6XCIyMy8wOS8yMDI2XCIsXCJUb3RJbnZWYWxcIjoyMTMuMCxcIkl0ZW1DbnRcIjoxLFwiTWFpbkhzbkNvZGVcIjpcIjk5ODMxM1wiLFwiSXJuXCI6XCI2NzNhYTk4YTcxYjY2NzBjYzlmZDIzMmZkMzViOWIyYTg1MDM2YzBjMjFhZjY5MTUzM2Y3ZjIyNDZkNWZkY2Q5XCIsXCJJcm5EdFwiOlwiMjAyNi0wOS0yMyAyMTo0Mjo1MFwifSJ9.xPr4EriklVH_99woAnD4CW1-vkmvZbeeKFxcEMavmHXyNfz-8HOX5psJ17pDQBj-5KEhtH7VvO8WMC22--Mt683nNcIXO0RObDkSLGYYOs6D_LqTdaD-c4V4IY71U4hvWpNpXeBR5gbCzrQsFf4f6uTzLaxqAbyrAS1lK-E2nj5wBWRxBeiDWT50zeUCPDyt_Z-2ymDnGHYhToeUi91TNrBoUHbEy5LxATatTceF2mxipi1XuT5Z6YoEf4GZCUxEzePRziR9jsbS0Yn7_Eycra2Cm6M638ZHpx9PgFQInkY2mPBpSzNIDupCOp1q4p7FS-LSMw7PHkByTfq8h2psrA",
+                "QrCode": "{\"SellerGstin\":\"27AABCI9669R1ZH\",\"BuyerGstin\":\"06AACCL0836E1ZX\",\"DocNo\":\"27072627008\",\"DocTyp\":\"INV\",\"DocDt\":\"23/09/2026\",\"TotInvVal\":213.0,\"ItemCnt\":1,\"MainHsnCode\":\"998313\",\"Irn\":\"673aa98a71b6670cc9fd232fd35b9b2a85036c0c21af691533f7f2246d5fdcd9\",\"IrnDt\":\"2026-09-23 21:42:50\"}",
+                "EncodedId": "NDU5MTU3"
+            }
+        ]
+    },
+    "error": null
+}

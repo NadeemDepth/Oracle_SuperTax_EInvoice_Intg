@@ -1,0 +1,115 @@
+{
+    "timestamp": "2026-09-23T21:40:12.668362",
+    "document_no": "27062627201",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27062627201",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "27062627201",
+                    "Dt": "23/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "27AABCP2183M4Z2",
+                    "LglNm": "PI Industries Ltd.",
+                    "TrdNm": "PI Industries Ltd.",
+                    "Pos": "27",
+                    "Addr1": "Unit No. 3A",
+                    "Addr2": "Unit No. 3A, The ORB,Sahar, Andheri(East) situated at Village Marol,Taluka Andheri",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "Azure billing Monthly consumption Period 01-05-2026 to 31-05-2026",
+                        "HsnCd": "998313",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 96569,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 8691.21,
+                        "IgstAmt": 0,
+                        "CgstAmt": 8691.21,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 96569,
+                        "AssAmt": 96569.0,
+                        "TotItemVal": 113951.42
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 96569.0,
+                    "CgstVal": 8691.21,
+                    "SgstVal": 8691.21,
+                    "IgstVal": 0.0,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": -0.42,
+                    "TotInvVal": 113951.0
+                },
+                "ShipDtls": {
+                    "LglNm": "PI Industries Ltd.",
+                    "TrdNm": "PI Industries Ltd.",
+                    "Addr1": "Unit No. 3A",
+                    "Addr2": "Unit No. 3A, The ORB,Sahar, Andheri(East) situated at Village Marol,Taluka Andheri",
+                    "Loc": "Mumbai",
+                    "Stcd": "27",
+                    "Pin": "400059"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 122610116166720,
+                "AckDate": "2026-09-23 21:40:14",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "195385ff69d5be82931b106d96ffde02099243208a90fb760edf7bd825c6238b",
+                "DocDtls": {
+                    "No": "27062627201",
+                    "Dt": "23/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "27062627201",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdBQUJDSTk2NjlSMVpIXCIsXCJCdXllckdzdGluXCI6XCIyN0FBQkNQMjE4M000WjJcIixcIkRvY05vXCI6XCIyNzA2MjYyNzIwMVwiLFwiRG9jVHlwXCI6XCJJTlZcIixcIkRvY0R0XCI6XCIyMy8wOS8yMDI2XCIsXCJUb3RJbnZWYWxcIjoxMTM5NTEuMCxcIkl0ZW1DbnRcIjoxLFwiTWFpbkhzbkNvZGVcIjpcIjk5ODMxM1wiLFwiSXJuXCI6XCIxOTUzODVmZjY5ZDViZTgyOTMxYjEwNmQ5NmZmZGUwMjA5OTI0MzIwOGE5MGZiNzYwZWRmN2JkODI1YzYyMzhiXCIsXCJJcm5EdFwiOlwiMjAyNi0wOS0yMyAyMTo0MDoxNFwifSJ9.N89kiGKp_St0IT-4UgM09n0lpguxf_at9gLW8VOgZdsqhdkfrQi1c3AB7iW6GZGRvjiorZZjLHNqjuWxSv1bInIIANrkWhlQeIkvyf7mo8upZPj_Md3MrA82GkumOOArBdkh29zbRK2LikQa-kU9Qe9DD-Y7n98IHXMiE0sQ1ms_DNC7GDIsGc2R-jkRpPfYJxpkG-V94ZRrkvCcvGLxQrW8E9tUls8TiAlOaYQYdjX5ADU0O3tb9lc7mG64E_YwlBbKAXUm0WiQfJ_tNSCcMjIQ02QV4W_EqcyJp30fUUsNBkVHaVMAQ7UUBgPXNPUFOnpc5AoShR3K5sK_Xf1szw",
+                "QrCode": "{\"SellerGstin\":\"27AABCI9669R1ZH\",\"BuyerGstin\":\"27AABCP2183M4Z2\",\"DocNo\":\"27062627201\",\"DocTyp\":\"INV\",\"DocDt\":\"23/09/2026\",\"TotInvVal\":113951.0,\"ItemCnt\":1,\"MainHsnCode\":\"998313\",\"Irn\":\"195385ff69d5be82931b106d96ffde02099243208a90fb760edf7bd825c6238b\",\"IrnDt\":\"2026-09-23 21:40:14\"}",
+                "EncodedId": "NDU5MDk5"
+            }
+        ]
+    },
+    "error": null
+}

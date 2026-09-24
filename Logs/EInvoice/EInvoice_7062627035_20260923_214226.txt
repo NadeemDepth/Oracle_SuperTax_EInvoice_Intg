@@ -1,0 +1,115 @@
+{
+    "timestamp": "2026-09-23T21:42:26.111833",
+    "document_no": "7062627035",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "7062627035",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "7062627035",
+                    "Dt": "23/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "07AABCI9669R1ZJ",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "202A, 202B, 203 Ashoka Estate",
+                    "Addr2": "24 Barakhamba Road",
+                    "Loc": "New Delhi",
+                    "Pin": "110001",
+                    "Stcd": "07"
+                },
+                "BuyerDtls": {
+                    "Gstin": "37AAACO1598A1ZM",
+                    "LglNm": "Oil and Natural Gas Corporation Limited",
+                    "TrdNm": "Oil and Natural Gas Corporation Limited",
+                    "Pos": "37",
+                    "Addr1": "Infocom section, ONGC HPHT Asset, Door No.10-743, Building 1, Opp. Mahindra Showroom, APIIC Colony,",
+                    "Addr2": "Ramannayyapeta,,",
+                    "Loc": "Kakinada",
+                    "Pin": "533005",
+                    "Stcd": "37"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "AMC for Min 1+3 Multi party VC endpoints including Codec, Speaker tracking camera, microphones, touchpanel etc (period 20.01.26 to 19.04.26)",
+                        "HsnCd": "998713",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 5957.85,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 1072.41,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 5957.85,
+                        "AssAmt": 5957.85,
+                        "TotItemVal": 7030.26
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 5957.85,
+                    "CgstVal": 0.0,
+                    "SgstVal": 0.0,
+                    "IgstVal": 1072.41,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": -0.26,
+                    "TotInvVal": 7030.0
+                },
+                "ShipDtls": {
+                    "LglNm": "Oil and Natural Gas Corporation Limited",
+                    "TrdNm": "Oil and Natural Gas Corporation Limited",
+                    "Addr1": "Infocom section, ONGC HPHT Asset, Door No.10-743, Building 1, Opp. Mahindra Showroom, APIIC Colony,",
+                    "Addr2": "Ramannayyapeta,,",
+                    "Loc": "Kakinada",
+                    "Stcd": "37",
+                    "Pin": "533005"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 172610026359132,
+                "AckDate": "2026-09-23 21:42:28",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "d74686222ab7a150f51feae80058b97fa57b5ed6b0447af80e783bbae863618c",
+                "DocDtls": {
+                    "No": "7062627035",
+                    "Dt": "23/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "07AABCI9669R1ZJ"
+                },
+                "CustDocNo": "7062627035",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMDdBQUJDSTk2NjlSMVpKXCIsXCJCdXllckdzdGluXCI6XCIzN0FBQUNPMTU5OEExWk1cIixcIkRvY05vXCI6XCI3MDYyNjI3MDM1XCIsXCJEb2NUeXBcIjpcIklOVlwiLFwiRG9jRHRcIjpcIjIzLzA5LzIwMjZcIixcIlRvdEludlZhbFwiOjcwMzAuMCxcIkl0ZW1DbnRcIjoxLFwiTWFpbkhzbkNvZGVcIjpcIjk5ODcxM1wiLFwiSXJuXCI6XCJkNzQ2ODYyMjJhYjdhMTUwZjUxZmVhZTgwMDU4Yjk3ZmE1N2I1ZWQ2YjA0NDdhZjgwZTc4M2JiYWU4NjM2MThjXCIsXCJJcm5EdFwiOlwiMjAyNi0wOS0yMyAyMTo0MjoyOFwifSJ9.f3c1RWqy193Wia6_4yll7zrHHMofGc8NsyV0z3ClPOs_u5AMb9H6ZvhmKj6rlj_BDOim8-vnApRsb2_6ZhDJrXXoWED-juRHF0eBv94Rhu2mH8XYtwNxeWwaIJvjr4nmQhS-wq9OIblc34_XK30HJ5ZwxEf0YT_MrxfgF0m-oout_q5dvxeWEoulbufXUPw-cBDqfRmPZI4ZkGg9f8NLWi2GNv-EGNXY-5d4x3XcUytksiJgD0xNclwMCW05b-ZKjCL0QqayB3Uv63Q06zmcuF20XMWHNq_5dJwka5vZ8HcPtWM6ou44VAbW_QdD_ApUOZYzrJG2dMWp4ozv62r_6g",
+                "QrCode": "{\"SellerGstin\":\"07AABCI9669R1ZJ\",\"BuyerGstin\":\"37AAACO1598A1ZM\",\"DocNo\":\"7062627035\",\"DocTyp\":\"INV\",\"DocDt\":\"23/09/2026\",\"TotInvVal\":7030.0,\"ItemCnt\":1,\"MainHsnCode\":\"998713\",\"Irn\":\"d74686222ab7a150f51feae80058b97fa57b5ed6b0447af80e783bbae863618c\",\"IrnDt\":\"2026-09-23 21:42:28\"}",
+                "EncodedId": "NDU5MTQ4"
+            }
+        ]
+    },
+    "error": null
+}

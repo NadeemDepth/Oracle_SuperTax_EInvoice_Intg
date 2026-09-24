@@ -1,0 +1,115 @@
+{
+    "timestamp": "2026-09-23T21:46:34.253079",
+    "document_no": "27072627090",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27072627090",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "27072627090",
+                    "Dt": "23/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "27AACCB0774B2Z3",
+                    "LglNm": "Bank of Maharashtra",
+                    "TrdNm": "Bank of Maharashtra",
+                    "Pos": "27",
+                    "Addr1": "Head Office , Lokmangal, 1501,",
+                    "Addr2": "Shivaji Nagar,.",
+                    "Loc": "Pune",
+                    "Pin": "411005",
+                    "Stcd": "27"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "ATS of Software solution at DRC (Red Hat) 01-07-2026 to 30-09-2026",
+                        "HsnCd": "998313",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 611625,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 55046.25,
+                        "IgstAmt": 0,
+                        "CgstAmt": 55046.25,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 611625,
+                        "AssAmt": 611625.0,
+                        "TotItemVal": 721717.5
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 611625.0,
+                    "CgstVal": 55046.25,
+                    "SgstVal": 55046.25,
+                    "IgstVal": 0.0,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": 0.5,
+                    "TotInvVal": 721718.0
+                },
+                "ShipDtls": {
+                    "LglNm": "Bank of Maharashtra",
+                    "TrdNm": "Bank of Maharashtra",
+                    "Addr1": "Head Office , Lokmangal, 1501,",
+                    "Addr2": "Shivaji Nagar,.",
+                    "Loc": "Pune",
+                    "Stcd": "27",
+                    "Pin": "411005"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 122610116167835,
+                "AckDate": "2026-09-23 21:46:36",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "9b76b178ce5024dac7028e796228599629d50bbb20a85d0dedc02af6cf3ca5f2",
+                "DocDtls": {
+                    "No": "27072627090",
+                    "Dt": "23/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "27072627090",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdBQUJDSTk2NjlSMVpIXCIsXCJCdXllckdzdGluXCI6XCIyN0FBQ0NCMDc3NEIyWjNcIixcIkRvY05vXCI6XCIyNzA3MjYyNzA5MFwiLFwiRG9jVHlwXCI6XCJJTlZcIixcIkRvY0R0XCI6XCIyMy8wOS8yMDI2XCIsXCJUb3RJbnZWYWxcIjo3MjE3MTguMCxcIkl0ZW1DbnRcIjoxLFwiTWFpbkhzbkNvZGVcIjpcIjk5ODMxM1wiLFwiSXJuXCI6XCI5Yjc2YjE3OGNlNTAyNGRhYzcwMjhlNzk2MjI4NTk5NjI5ZDUwYmJiMjBhODVkMGRlZGMwMmFmNmNmM2NhNWYyXCIsXCJJcm5EdFwiOlwiMjAyNi0wOS0yMyAyMTo0NjozNlwifSJ9.q-hMwxSePIkWTxuBESp8_GpeMHd-mriy54v_qfNqS59-4gx8cOzpHFjYZ02ElFXcRNUwvy-Ox4VDQ7icSN2LJLZ0SuTkFO6cBGd6eI8NSorvj22V46GpYMlna_8St5uLuCR2F93HOwrlnNMX66NpTovMUl_DCzGIpO30cimyKEW4Xab1QziY4eOBVAdsJXDzMdjamTxZO2LmY3gO9Nff3Bmlw5zAdRttA3OYyvx5aLB51Dy3ZFZX6hYOUJrLpF04qlCWURuJ3bw2Yw6cnWQOYSCEqgcY9K1Ldbx4m-2O1OqRLPadHG_UogDhzy8U6efLpgDOa5SliGuGZQ6vFqq1EQ",
+                "QrCode": "{\"SellerGstin\":\"27AABCI9669R1ZH\",\"BuyerGstin\":\"27AACCB0774B2Z3\",\"DocNo\":\"27072627090\",\"DocTyp\":\"INV\",\"DocDt\":\"23/09/2026\",\"TotInvVal\":721718.0,\"ItemCnt\":1,\"MainHsnCode\":\"998313\",\"Irn\":\"9b76b178ce5024dac7028e796228599629d50bbb20a85d0dedc02af6cf3ca5f2\",\"IrnDt\":\"2026-09-23 21:46:36\"}",
+                "EncodedId": "NDU5MjQw"
+            }
+        ]
+    },
+    "error": null
+}

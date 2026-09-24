@@ -1,0 +1,163 @@
+{
+    "timestamp": "2026-09-23T21:45:29.200063",
+    "document_no": "27072627056",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27072627056",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "27072627056",
+                    "Dt": "23/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "08AABFT0209R2ZX",
+                    "LglNm": "THE GANGANAGAR KENDRIYA SI BANK LTD.",
+                    "TrdNm": "THE GANGANAGAR KENDRIYA SI BANK LTD.",
+                    "Pos": "08",
+                    "Addr1": "Managing Director-",
+                    "Addr2": "Post Box no. 39, ,Opp. Main Post Office,",
+                    "Loc": "Sri Ganganagar",
+                    "Pin": "335001",
+                    "Stcd": "08"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "FMS Services: Period: 1st Apr-26 to 30th Jun-26 ||",
+                        "HsnCd": "998311",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 324603.52,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 58428.63,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 324603.52,
+                        "AssAmt": 324603.52,
+                        "TotItemVal": 383032.15
+                    },
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "AMC Services: Period: 1st Apr-26 to 30th Jun-26 ||",
+                        "HsnCd": "998313",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 133381.64,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 24008.7,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "2",
+                        "TotAmt": 133381.64,
+                        "AssAmt": 133381.64,
+                        "TotItemVal": 157390.34
+                    },
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "3rd Yr Renewal of ISO 27000 and 20000 Certificates ||",
+                        "HsnCd": "998311",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 6983.8,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 1257.08,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "3",
+                        "TotAmt": 6983.8,
+                        "AssAmt": 6983.8,
+                        "TotItemVal": 8240.88
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 464968.96,
+                    "CgstVal": 0.0,
+                    "SgstVal": 0.0,
+                    "IgstVal": 83694.41,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": -0.37,
+                    "TotInvVal": 548663.0
+                },
+                "ShipDtls": {
+                    "LglNm": "THE GANGANAGAR KENDRIYA SI BANK LTD.",
+                    "TrdNm": "THE GANGANAGAR KENDRIYA SI BANK LTD.",
+                    "Addr1": "Managing Director-",
+                    "Addr2": "Post Box no. 39, ,Opp. Main Post Office,",
+                    "Loc": "Sri Ganganagar",
+                    "Stcd": "08",
+                    "Pin": "335001"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 122610116167604,
+                "AckDate": "2026-09-23 21:45:31",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "69feb3cc5441849b90fddf63da28af405d5ea91a8ef791e4515c4f4c75622486",
+                "DocDtls": {
+                    "No": "27072627056",
+                    "Dt": "23/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "27072627056",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdBQUJDSTk2NjlSMVpIXCIsXCJCdXllckdzdGluXCI6XCIwOEFBQkZUMDIwOVIyWlhcIixcIkRvY05vXCI6XCIyNzA3MjYyNzA1NlwiLFwiRG9jVHlwXCI6XCJJTlZcIixcIkRvY0R0XCI6XCIyMy8wOS8yMDI2XCIsXCJUb3RJbnZWYWxcIjo1NDg2NjMuMCxcIkl0ZW1DbnRcIjozLFwiTWFpbkhzbkNvZGVcIjpcIjk5ODMxMVwiLFwiSXJuXCI6XCI2OWZlYjNjYzU0NDE4NDliOTBmZGRmNjNkYTI4YWY0MDVkNWVhOTFhOGVmNzkxZTQ1MTVjNGY0Yzc1NjIyNDg2XCIsXCJJcm5EdFwiOlwiMjAyNi0wOS0yMyAyMTo0NTozMVwifSJ9.ur-ttCpA7qjrKE6Gz6w0I3oRWUHdVihRL32D3RYFnCyBGDsWiznenbnJKjhLfNYw706A5mAuBkOA2-_EvEPgFlQ7xJf65cMgG09pP3t4AIYTaDJSRP5IwhGbVaGuKRaSFUnsuiQW-fL8vSZHhap7CKmdzsRUgACnESyFseL8OjcX1dWJSAXkxE6F1k4yDG4P2sPfOwc22UakntYAzaYffEovqtVYYdwlUS274Zrh2VJFNM7d2xqYzWnZyZDDiQ1PMzcNanJh4Im_ABZVR1vZA-RkqbalnL62i0fPfM872RQj5H8XUp9yGBoHuP22N1hyfZADsHVfGA3lZ0MhwPGB_g",
+                "QrCode": "{\"SellerGstin\":\"27AABCI9669R1ZH\",\"BuyerGstin\":\"08AABFT0209R2ZX\",\"DocNo\":\"27072627056\",\"DocTyp\":\"INV\",\"DocDt\":\"23/09/2026\",\"TotInvVal\":548663.0,\"ItemCnt\":3,\"MainHsnCode\":\"998311\",\"Irn\":\"69feb3cc5441849b90fddf63da28af405d5ea91a8ef791e4515c4f4c75622486\",\"IrnDt\":\"2026-09-23 21:45:31\"}",
+                "EncodedId": "NDU5MjE3"
+            }
+        ]
+    },
+    "error": null
+}

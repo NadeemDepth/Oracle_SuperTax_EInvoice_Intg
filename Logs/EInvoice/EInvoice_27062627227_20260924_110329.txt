@@ -1,0 +1,158 @@
+{
+    "timestamp": "2026-09-24T11:03:29.089799",
+    "document_no": "27062627227",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27062627227",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "27062627227",
+                    "Dt": "24/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "27AAMCS5499J3ZE",
+                    "LglNm": "SURYODAY SMALL FINANCE BANK LIMITED",
+                    "TrdNm": "SURYODAY SMALL FINANCE BANK LIMITED",
+                    "Pos": "27",
+                    "Addr1": "1101, PLOT NO. 65, 11TH FLOOR,",
+                    "Addr2": "SHARDA TERRACES, SECTOR-11, CBD BELAPUR,,",
+                    "Loc": "Thane",
+                    "Pin": "400614",
+                    "Stcd": "27"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "IBMSecurityQRadar XDRPackage Software 100 Resource Unit AnnualSW Subscription&Support Renewal, E0AE3ZX - 01-Jun-26 to 31-May-27",
+                        "HsnCd": "998313",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 1670224.64,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 150320.22,
+                        "IgstAmt": 0,
+                        "CgstAmt": 150320.21,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 1670224.64,
+                        "AssAmt": 1670224.64,
+                        "TotItemVal": 1970865.07
+                    },
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "IBMSecurityGuardiumPackage(Software) per 100 Resource Units AnnualSW Subscription&Support Renewal- E0NW7LL - 01-Jun-26 to 31-May-27",
+                        "HsnCd": "998313",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 2473902,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 222651.18,
+                        "IgstAmt": 0,
+                        "CgstAmt": 222651.18,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "2",
+                        "TotAmt": 2473902,
+                        "AssAmt": 2473902.0,
+                        "TotItemVal": 2919204.36
+                    },
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "IBMSecurityGuardiumfor File and Database Encryption OVA with Live Data Transformation per Resource",
+                        "HsnCd": "998313",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 2056713.48,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 185104.21,
+                        "IgstAmt": 0,
+                        "CgstAmt": 185104.21,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "3",
+                        "TotAmt": 2056713.48,
+                        "AssAmt": 2056713.48,
+                        "TotItemVal": 2426921.9
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 6200840.12,
+                    "CgstVal": 558075.6,
+                    "SgstVal": 558075.61,
+                    "IgstVal": 0.0,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": -0.33,
+                    "TotInvVal": 7316991.0
+                },
+                "ShipDtls": {
+                    "LglNm": "SURYODAY SMALL FINANCE BANK LIMITED",
+                    "TrdNm": "SURYODAY SMALL FINANCE BANK LIMITED",
+                    "Addr1": "1101, PLOT NO. 65, 11TH FLOOR,",
+                    "Addr2": "SHARDA TERRACES, SECTOR-11, CBD BELAPUR,,",
+                    "Loc": "Thane",
+                    "Stcd": "27",
+                    "Pin": "400614"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "Record": 1,
+                "Success": false,
+                "Fy": "202627",
+                "Messages": "For Sl. No 1, SGST and CGST amounts are not equal ",
+                "Status": "ERROR_FROM_IRP",
+                "DocDtls": {
+                    "No": "27062627227",
+                    "Dt": "24/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "27062627227",
+                "EncodedId": "NDU5MTI1"
+            }
+        ]
+    },
+    "error": null
+}

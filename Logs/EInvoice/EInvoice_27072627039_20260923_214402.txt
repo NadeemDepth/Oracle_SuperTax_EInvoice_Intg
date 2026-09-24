@@ -1,0 +1,163 @@
+{
+    "timestamp": "2026-09-23T21:44:02.682607",
+    "document_no": "27072627039",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27072627039",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "27072627039",
+                    "Dt": "23/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "08AADAT6473G1Z7",
+                    "LglNm": "THE CHURU CENTRAL CO-OPERATIVE BANK LIMITED",
+                    "TrdNm": "THE CHURU CENTRAL CO-OPERATIVE BANK LIMITED",
+                    "Pos": "08",
+                    "Addr1": "Managing Director-",
+                    "Addr2": "1, The Churu Central Co-Operative Bank Ltd.,,Near Dharm Stoop, Bissau Road,",
+                    "Loc": "CHURU",
+                    "Pin": "331001",
+                    "Stcd": "08"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "AMC Services: Period: 1st April 2026 to 30th June 2026",
+                        "HsnCd": "998313",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 57992.02,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 10438.56,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 57992.02,
+                        "AssAmt": 57992.02,
+                        "TotItemVal": 68430.58
+                    },
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "\"3rd Yr Renewal of ISO 27000 and 20000 Certificates\"",
+                        "HsnCd": "998311",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 3036.43,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 546.56,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "2",
+                        "TotAmt": 3036.43,
+                        "AssAmt": 3036.43,
+                        "TotItemVal": 3582.99
+                    },
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "FMS Services: Period: 1st April 2026 to 30th June 2026",
+                        "HsnCd": "998311",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 141131.96,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 25403.75,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "3",
+                        "TotAmt": 141131.96,
+                        "AssAmt": 141131.96,
+                        "TotItemVal": 166535.71
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 202160.41,
+                    "CgstVal": 0.0,
+                    "SgstVal": 0.0,
+                    "IgstVal": 36388.87,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": -0.28,
+                    "TotInvVal": 238549.0
+                },
+                "ShipDtls": {
+                    "LglNm": "THE CHURU CENTRAL CO-OPERATIVE BANK LIMITED",
+                    "TrdNm": "THE CHURU CENTRAL CO-OPERATIVE BANK LIMITED",
+                    "Addr1": "Managing Director-",
+                    "Addr2": "1, The Churu Central Co-Operative Bank Ltd.,,Near Dharm Stoop, Bissau Road,",
+                    "Loc": "CHURU",
+                    "Stcd": "08",
+                    "Pin": "331001"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 122610116167303,
+                "AckDate": "2026-09-23 21:44:04",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "487f2268e716eac2915d0f23fff04171d274b082a942ca86bb8097a6d174ff59",
+                "DocDtls": {
+                    "No": "27072627039",
+                    "Dt": "23/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "27072627039",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdBQUJDSTk2NjlSMVpIXCIsXCJCdXllckdzdGluXCI6XCIwOEFBREFUNjQ3M0cxWjdcIixcIkRvY05vXCI6XCIyNzA3MjYyNzAzOVwiLFwiRG9jVHlwXCI6XCJJTlZcIixcIkRvY0R0XCI6XCIyMy8wOS8yMDI2XCIsXCJUb3RJbnZWYWxcIjoyMzg1NDkuMCxcIkl0ZW1DbnRcIjozLFwiTWFpbkhzbkNvZGVcIjpcIjk5ODMxMVwiLFwiSXJuXCI6XCI0ODdmMjI2OGU3MTZlYWMyOTE1ZDBmMjNmZmYwNDE3MWQyNzRiMDgyYTk0MmNhODZiYjgwOTdhNmQxNzRmZjU5XCIsXCJJcm5EdFwiOlwiMjAyNi0wOS0yMyAyMTo0NDowNFwifSJ9.oYyUV9B5-aIVeBwFia0wwn9y_iFeC_AZjQG4kmgT8GkbaF1Esn9cNB70VQuWep4apEdYeBx5Mgu1Q0TjlooUUPyBMenDwmKt0qOVAcXomu7EmlNPQmqCBcC1ptkicVVfWHb9B4oJZC--FbFwU31dFdriyJGUFAMsRRDrvw6NlLyque5jw4YbDCBxKqENmFu-S4MlmQ5n2fd4zVbeQho6iCANHB-sHWdgPUFfVHdnatk3tGtD-ydXnSGVDUJJxGWamwDyJbtuGPE5D1Q45E7tK92BQnLlogG13vwzM0VnyFTZL9Q2XM6Dn2XqL3IiwW4qsgbiA8rOzOtR5OAQmOeikA",
+                "QrCode": "{\"SellerGstin\":\"27AABCI9669R1ZH\",\"BuyerGstin\":\"08AADAT6473G1Z7\",\"DocNo\":\"27072627039\",\"DocTyp\":\"INV\",\"DocDt\":\"23/09/2026\",\"TotInvVal\":238549.0,\"ItemCnt\":3,\"MainHsnCode\":\"998311\",\"Irn\":\"487f2268e716eac2915d0f23fff04171d274b082a942ca86bb8097a6d174ff59\",\"IrnDt\":\"2026-09-23 21:44:04\"}",
+                "EncodedId": "NDU5MTg1"
+            }
+        ]
+    },
+    "error": null
+}

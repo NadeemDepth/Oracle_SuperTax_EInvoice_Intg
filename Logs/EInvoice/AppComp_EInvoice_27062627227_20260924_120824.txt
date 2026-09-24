@@ -1,0 +1,20 @@
+{
+    "timestamp": "2026-09-24T12:08:24.753203",
+    "document_no": "27062627227",
+    "fusion_request_payload": {
+        "Supply_Type_c": "B2B",
+        "SellerGSTIN_c": "27AABCI9669R1ZH",
+        "DocType_c": "INV",
+        "DocNumber_c": "27062627227",
+        "Success_c": "false",
+        "Messages_c": "For Sl. No 1, SGST and CGST amounts are not equal ",
+        "Status_c": "SUCCESS",
+        "Trx_Id_c": "4618190",
+        "Trx_Number_c": "27062627227",
+        "DocDate_c": "24/09/2026",
+        "Record_c": "1",
+        "FinYear_c": "202627"
+    },
+    "fusion_response": "<HTML><HEAD><TITLE>Error</TITLE></HEAD><BODY>\nAn error occurred while processing your request.<p>\nReference&#32;&#35;221&#46;47fed417&#46;1790231606&#46;12034455\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;221&#46;47fed417&#46;1790231606&#46;12034455</P>\n</BODY></HTML>\n",
+    "error": "HTTP 504"
+}

@@ -1,0 +1,115 @@
+{
+    "timestamp": "2026-09-23T21:43:44.046209",
+    "document_no": "7072627001",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "7072627001",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "7072627001",
+                    "Dt": "23/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "07AABCI9669R1ZJ",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "202A, 202B, 203 Ashoka Estate",
+                    "Addr2": "24 Barakhamba Road",
+                    "Loc": "New Delhi",
+                    "Pin": "110001",
+                    "Stcd": "07"
+                },
+                "BuyerDtls": {
+                    "Gstin": "07AAECI2377M3Z5",
+                    "LglNm": "INDIA POST PAYMENTS BANK LIMITED",
+                    "TrdNm": "INDIA POST PAYMENTS BANK LIMITED",
+                    "Pos": "07",
+                    "Addr1": "2nd Floor, Speed Post Center,",
+                    "Addr2": "Bhai Vir Singh,,Marg. Gole Market",
+                    "Loc": "New Delhi",
+                    "Pin": "110001",
+                    "Stcd": "07"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "O&M cost for the month of Apr, May & Jun 2026   || 998311",
+                        "HsnCd": "998311",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 15253640.43,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 1372827.63,
+                        "IgstAmt": 0,
+                        "CgstAmt": 1372827.63,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 15253640.43,
+                        "AssAmt": 15253640.43,
+                        "TotItemVal": 17999295.69
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 15253640.43,
+                    "CgstVal": 1372827.63,
+                    "SgstVal": 1372827.63,
+                    "IgstVal": 0.0,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": 0.31,
+                    "TotInvVal": 17999296.0
+                },
+                "ShipDtls": {
+                    "LglNm": "INDIA POST PAYMENTS BANK LIMITED",
+                    "TrdNm": "INDIA POST PAYMENTS BANK LIMITED",
+                    "Addr1": "2nd Floor, Speed Post Center,",
+                    "Addr2": "Bhai Vir Singh,,Marg. Gole Market",
+                    "Loc": "New Delhi",
+                    "Stcd": "07",
+                    "Pin": "110001"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 172610026359150,
+                "AckDate": "2026-09-23 21:43:46",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "bf31ec95b20224ecbb9d50af9b4a378a9024c1c6ff746dc25eb8016c82c613f0",
+                "DocDtls": {
+                    "No": "7072627001",
+                    "Dt": "23/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "07AABCI9669R1ZJ"
+                },
+                "CustDocNo": "7072627001",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMDdBQUJDSTk2NjlSMVpKXCIsXCJCdXllckdzdGluXCI6XCIwN0FBRUNJMjM3N00zWjVcIixcIkRvY05vXCI6XCI3MDcyNjI3MDAxXCIsXCJEb2NUeXBcIjpcIklOVlwiLFwiRG9jRHRcIjpcIjIzLzA5LzIwMjZcIixcIlRvdEludlZhbFwiOjE3OTk5Mjk2LjAsXCJJdGVtQ250XCI6MSxcIk1haW5Ic25Db2RlXCI6XCI5OTgzMTFcIixcIklyblwiOlwiYmYzMWVjOTViMjAyMjRlY2JiOWQ1MGFmOWI0YTM3OGE5MDI0YzFjNmZmNzQ2ZGMyNWViODAxNmM4MmM2MTNmMFwiLFwiSXJuRHRcIjpcIjIwMjYtMDktMjMgMjE6NDM6NDZcIn0ifQ.VC8vhG_9vqjkEkyorWBMU3ODPkUncoGTsCIkrWQlPD3QaQbbVb5wQ8Dfnq9lN4w0P7R7HC0CghR0YbsiAavazm4s69zLRaOST7e46OjGBo5QYEu--nSTjfIeTTFKOG25qClBK2BknOXPIuqIAzUQLg3lsKmzRypmtFGZoCx7LSOSmpanraGjYwLOAbQPZbjhz0-CeIFfPoIYq4y4P3wKhrOlcf8zzLnS13q6SkiWDUo2QPoKprP4dCpkWyDE522OXwZtNwi47gP9Tq0ECwQZGm_dVpHfVxw_PFQf6qejjlbBsFTvDNBa36MA2dGOsLPVQFJTg6wRoS8-dlcWuix60A",
+                "QrCode": "{\"SellerGstin\":\"07AABCI9669R1ZJ\",\"BuyerGstin\":\"07AAECI2377M3Z5\",\"DocNo\":\"7072627001\",\"DocTyp\":\"INV\",\"DocDt\":\"23/09/2026\",\"TotInvVal\":17999296.0,\"ItemCnt\":1,\"MainHsnCode\":\"998311\",\"Irn\":\"bf31ec95b20224ecbb9d50af9b4a378a9024c1c6ff746dc25eb8016c82c613f0\",\"IrnDt\":\"2026-09-23 21:43:46\"}",
+                "EncodedId": "NDU5MTc3"
+            }
+        ]
+    },
+    "error": null
+}

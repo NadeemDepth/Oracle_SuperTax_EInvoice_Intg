@@ -1,0 +1,101 @@
+{
+    "timestamp": "2026-09-22T22:40:45.816514",
+    "document_no": "2712627047",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "2712627047",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "2712627047",
+                    "Dt": "11/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "27AACCB0774B2Z3",
+                    "LglNm": "Bank of Maharashtra",
+                    "TrdNm": "Bank of Maharashtra",
+                    "Pos": "27",
+                    "Addr1": "Head Office , Lokmangal, 1501,",
+                    "Addr2": "Shivaji Nagar,.",
+                    "Loc": "Pune",
+                    "Pin": "411005",
+                    "Stcd": "27"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "N",
+                        "HsnCd": "998314",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 4880.38,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 439.23,
+                        "IgstAmt": 0,
+                        "CgstAmt": 439.23,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 4880.38,
+                        "AssAmt": 4880.38,
+                        "TotItemVal": 5758.84
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 4880.38,
+                    "CgstVal": 439.23,
+                    "SgstVal": 439.23,
+                    "IgstVal": 0.0,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": 0.16,
+                    "TotInvVal": 5759.0
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "Record": 1,
+                "Success": false,
+                "Fy": "202627",
+                "Messages": "HSN Code field value is invalid",
+                "Status": "ERROR",
+                "DocDtls": {
+                    "No": "2712627047",
+                    "Dt": "11/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "2712627047",
+                "LineItem": "1",
+                "EncodedId": "MA=="
+            }
+        ]
+    },
+    "error": null
+}

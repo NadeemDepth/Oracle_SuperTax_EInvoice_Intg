@@ -1,0 +1,115 @@
+{
+    "timestamp": "2026-09-23T21:46:13.035667",
+    "document_no": "27072627081",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27072627081",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "27072627081",
+                    "Dt": "23/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "27AAACS7018R1ZT",
+                    "LglNm": "SHRIRAM FINANCE LIMITED",
+                    "TrdNm": "SHRIRAM FINANCE LIMITED",
+                    "Pos": "27",
+                    "Addr1": "6th Floor (level 2), Building No. Q2,",
+                    "Addr2": "Aurum Q Parc, Gen 4/1, TTC,Thane Belapur Road,  Ghansoli,",
+                    "Loc": "NAVI Mumbai",
+                    "Pin": "400710",
+                    "Stcd": "27"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "Base-Qradar-10K Licence Remote SOC (Period - 1-07-2026 to 30-09-2026)",
+                        "HsnCd": "998319",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 2578524.5,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 232067.2,
+                        "IgstAmt": 0,
+                        "CgstAmt": 232067.2,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 2578524.5,
+                        "AssAmt": 2578524.5,
+                        "TotItemVal": 3042658.9
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 2578524.5,
+                    "CgstVal": 232067.2,
+                    "SgstVal": 232067.2,
+                    "IgstVal": 0.0,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": 0.1,
+                    "TotInvVal": 3042659.0
+                },
+                "ShipDtls": {
+                    "LglNm": "SHRIRAM FINANCE LIMITED",
+                    "TrdNm": "SHRIRAM FINANCE LIMITED",
+                    "Addr1": "6th Floor (level 2), Building No. Q2,",
+                    "Addr2": "Aurum Q Parc, Gen 4/1, TTC,Thane Belapur Road,  Ghansoli,",
+                    "Loc": "NAVI Mumbai",
+                    "Stcd": "27",
+                    "Pin": "400710"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 122610116167756,
+                "AckDate": "2026-09-23 21:46:15",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "075caced0c00f1bd730310332967f053e721d2ff561bb7c1e9893c86bf97894c",
+                "DocDtls": {
+                    "No": "27072627081",
+                    "Dt": "23/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "27072627081",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdBQUJDSTk2NjlSMVpIXCIsXCJCdXllckdzdGluXCI6XCIyN0FBQUNTNzAxOFIxWlRcIixcIkRvY05vXCI6XCIyNzA3MjYyNzA4MVwiLFwiRG9jVHlwXCI6XCJJTlZcIixcIkRvY0R0XCI6XCIyMy8wOS8yMDI2XCIsXCJUb3RJbnZWYWxcIjozMDQyNjU5LjAsXCJJdGVtQ250XCI6MSxcIk1haW5Ic25Db2RlXCI6XCI5OTgzMTlcIixcIklyblwiOlwiMDc1Y2FjZWQwYzAwZjFiZDczMDMxMDMzMjk2N2YwNTNlNzIxZDJmZjU2MWJiN2MxZTk4OTNjODZiZjk3ODk0Y1wiLFwiSXJuRHRcIjpcIjIwMjYtMDktMjMgMjE6NDY6MTVcIn0ifQ.ZwbInfmlXwARIBBUQODZR87Lr84CGEanVLLEsdV9lSWmMKkN3yA6HmRr64tcAOAAMJC34LCmTQXBxGh89p-NO0lxf3w1ur2gVxJ6v3M4mhKKVRm0k74Dt4gHO3zXPhVvCBQTxLRaGMwI-s76aVSAsTC4pg8FfQ80lLGdr0WdlIzlvpKFNlneTh-WYhRh2z9ehaQ8CqeHnb-y9qz1q1DIK1T6WZpy3nbK9cdwARjB7CETlLrRgJKq6Z6yxU6ZTRfM9WTPlpU3_nXnrgddr917XDHtV9SW3AYGljOykVAF_bjf8s9NH2mjJfEAyaQeiqNjbfB_AyvXZB6SoKu4kzJrlw",
+                "QrCode": "{\"SellerGstin\":\"27AABCI9669R1ZH\",\"BuyerGstin\":\"27AAACS7018R1ZT\",\"DocNo\":\"27072627081\",\"DocTyp\":\"INV\",\"DocDt\":\"23/09/2026\",\"TotInvVal\":3042659.0,\"ItemCnt\":1,\"MainHsnCode\":\"998319\",\"Irn\":\"075caced0c00f1bd730310332967f053e721d2ff561bb7c1e9893c86bf97894c\",\"IrnDt\":\"2026-09-23 21:46:15\"}",
+                "EncodedId": "NDU5MjMy"
+            }
+        ]
+    },
+    "error": null
+}

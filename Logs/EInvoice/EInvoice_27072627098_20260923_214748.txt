@@ -1,0 +1,115 @@
+{
+    "timestamp": "2026-09-23T21:47:48.781530",
+    "document_no": "27072627098",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27072627098",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "27072627098",
+                    "Dt": "23/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "33ABACS0671B1ZY",
+                    "LglNm": "INTERISE PROJECT MANAGEMENT PRIVATE LIMITED",
+                    "TrdNm": "INTERISE PROJECT MANAGEMENT PRIVATE LIMITED",
+                    "Pos": "33",
+                    "Addr1": "5th floor",
+                    "Addr2": "SKCL Tech square,SIDCO Industrail Estate,",
+                    "Loc": "Chennai",
+                    "Pin": "600032",
+                    "Stcd": "33"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "Licenses for SIEM 24x7 SOC services Period 01-07-2026 to 31-12-2026 (Qty 49)",
+                        "HsnCd": "998319",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 883225,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 158980.5,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 883225,
+                        "AssAmt": 883225.0,
+                        "TotItemVal": 1042205.5
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 883225.0,
+                    "CgstVal": 0.0,
+                    "SgstVal": 0.0,
+                    "IgstVal": 158980.5,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": 0.5,
+                    "TotInvVal": 1042206.0
+                },
+                "ShipDtls": {
+                    "LglNm": "INTERISE PROJECT MANAGEMENT PRIVATE LIMITED",
+                    "TrdNm": "INTERISE PROJECT MANAGEMENT PRIVATE LIMITED",
+                    "Addr1": "5th floor",
+                    "Addr2": "SKCL Tech square,SIDCO Industrail Estate,",
+                    "Loc": "Chennai",
+                    "Stcd": "33",
+                    "Pin": "600032"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 122610116167932,
+                "AckDate": "2026-09-23 21:47:51",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "ead10de4524af0117a0b5c31e26c362ab9f06d1bc3cf804b5d4b4dc18c26b642",
+                "DocDtls": {
+                    "No": "27072627098",
+                    "Dt": "23/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "27072627098",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdBQUJDSTk2NjlSMVpIXCIsXCJCdXllckdzdGluXCI6XCIzM0FCQUNTMDY3MUIxWllcIixcIkRvY05vXCI6XCIyNzA3MjYyNzA5OFwiLFwiRG9jVHlwXCI6XCJJTlZcIixcIkRvY0R0XCI6XCIyMy8wOS8yMDI2XCIsXCJUb3RJbnZWYWxcIjoxMDQyMjA2LjAsXCJJdGVtQ250XCI6MSxcIk1haW5Ic25Db2RlXCI6XCI5OTgzMTlcIixcIklyblwiOlwiZWFkMTBkZTQ1MjRhZjAxMTdhMGI1YzMxZTI2YzM2MmFiOWYwNmQxYmMzY2Y4MDRiNWQ0YjRkYzE4YzI2YjY0MlwiLFwiSXJuRHRcIjpcIjIwMjYtMDktMjMgMjE6NDc6NTFcIn0ifQ.XTC4vRsEKboaHjhWzhXXYe2siPaLluvBbKgZxRqq-VPGqw-Io7SHAuikAW0lHW7a-86HH3VbMKoX8wH1kVHEaO5Jnt1CCrcJ_8IufsKWgFB_crU4Pvn364w81tQ8gBbwLQBAfn2Ejc18LxfoZhNJHd3c2qgAiBkJ_csWxQ3qJuzo4DMN50nInvmmMf3xZpJZvpa6hBeBWYGagckWQ6Jffb15HDkyK9sGzyMU-Kv8QR92CSx4_ZrRtey4u5HswbPM06Jhwo1mZcSHQpii04kUlRY5htJfmCnu23s_r2IKCa4p-GgSUi9mOeAqHM3-m2dhE3OyQFDcChgHbCfcULXXJQ",
+                "QrCode": "{\"SellerGstin\":\"27AABCI9669R1ZH\",\"BuyerGstin\":\"33ABACS0671B1ZY\",\"DocNo\":\"27072627098\",\"DocTyp\":\"INV\",\"DocDt\":\"23/09/2026\",\"TotInvVal\":1042206.0,\"ItemCnt\":1,\"MainHsnCode\":\"998319\",\"Irn\":\"ead10de4524af0117a0b5c31e26c362ab9f06d1bc3cf804b5d4b4dc18c26b642\",\"IrnDt\":\"2026-09-23 21:47:51\"}",
+                "EncodedId": "NDU5MjQ4"
+            }
+        ]
+    },
+    "error": null
+}

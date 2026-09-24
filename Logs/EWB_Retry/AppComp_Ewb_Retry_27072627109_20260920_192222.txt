@@ -1,0 +1,96 @@
+{
+    "timestamp": "2026-09-20T19:22:22.013769",
+    "identifier": "27072627109",
+    "request_payload": {
+        "InfoCode_c": "False",
+        "InfoDescCode_c": "ERROR_FROM_IRP",
+        "InfoMessage_c": "E Way Bill can be generated provided at least HSN of one item belongs to goods.,Transporter document date cannot be earlier than the invoice date."
+    },
+    "response": {
+        "Id": 300003804298294,
+        "RecordName": "SR-0000202-260920",
+        "CreatedBy": "nadeem@depthconsulting.in",
+        "CreationDate": "2026-09-20T12:45:54+00:00",
+        "LastUpdatedBy": "nadeem@depthconsulting.in",
+        "LastUpdateDate": "2026-09-20T12:48:01+00:00",
+        "RecordNumber": "961943",
+        "LastUpdateLogin": null,
+        "UserLastUpdateDate": null,
+        "ConflictId": 0,
+        "CurrencyCode": "INR",
+        "CurcyConvRateType": "Corporate",
+        "CorpCurrencyCode": "INR",
+        "Ack_Date_c": "2026-09-19 08:46:05",
+        "Ack_Number_c": "122610116104890",
+        "IRN_Number_c": "bbc9a4ff7a0bd7b5bdb991f03745f5623115a2ad7215f0939ffea67d030581b0",
+        "Supply_Type_c": "B2B",
+        "Trx_Id_c": 4643188,
+        "Trx_Number_c": "27072627109",
+        "RawQRCode_c": "{\"SellerGstin\":\"27AABCI9669R1ZH\",\"BuyerGstin\":\"27AACCT7290E1Z7\",\"DocNo\":\"27072627109\",\"DocTyp\":\"INV\",\"DocDt\":\"19/09/2026\",\"TotInvVal\":11444033.0,\"ItemCnt\":2,\"MainHsnCode\":\"998319\",\"Irn\":\"bbc9a4ff7a0bd7b5bdb991f03745f5623115a2ad7215f0939ffea67d030581b0\",\"IrnDt\":\"2026-09-19 08:46:05\"}",
+        "EwbNo_c": null,
+        "EwbDate_c": null,
+        "EwbValidTill_c": null,
+        "SelectedRow": null,
+        "Record_c": "1",
+        "Success_c": "false",
+        "Messages_c": "Duplicate IRN",
+        "Status_c": "ERROR",
+        "FinYear_c": "202627",
+        "SellerGSTIN_c": "27AABCI9669R1ZH",
+        "DocType_c": "INV",
+        "DocNumber_c": "27072627109",
+        "DocDate_c": "18/09/2026",
+        "SignedQRCode_c": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdBQUJDSTk2NjlSMVpIXCIsXCJCdXllckdzdGluXCI6XCIyN0FBQ0NUNzI5MEUxWjdcIixcIkRvY05vXCI6XCIyNzA3MjYyNzEwOVwiLFwiRG9jVHlwXCI6XCJJTlZcIixcIkRvY0R0XCI6XCIxOS8wOS8yMDI2XCIsXCJUb3RJbnZWYWxcIjoxMTQ0NDAzMy4wLFwiSXRlbUNudFwiOjIsXCJNYWluSHNuQ29kZVwiOlwiOTk4MzE5XCIsXCJJcm5cIjpcImJiYzlhNGZmN2EwYmQ3YjViZGI5OTFmMDM3NDVmNTYyMzExNWEyYWQ3MjE1ZjA5MzlmZmVhNjdkMDMwNTgxYjBcIixcIklybkR0XCI6XCIyMDI2LTA5LTE5IDA4OjQ2OjA1XCJ9In0.m689HHInv1fw3bbka9Iq1A1pZWxBdSuZtKpUatjy9NpJoPSpXUoQ07_jTnGgK_lu1kmDhKQZ493AGUKzVL-ozEoDJlsiqPEimbIEp3OO6kG9V7exRX5qBdUg_1XudsUU-8uYTSmaSHrAAJJEG3QbcG7LwKYolXwx99TzsU12Hgq4TpzTrn9jIv3-T5BQk_aZyCSPTW190sOb26v46q1uxOjLwbqXg0cc0QNtyNhR5CG5Ir19aYLe7avDm7Oc7Kk1TBX4PZYe6JM0Pml4F3ScF6-FOHu39jvtVkwWhnNWDhvcDj6ngbQxywlu_1AvIwH7UtxugnQsPlTAfCy8GCIxJA",
+        "InfoCode_c": "False",
+        "InfoDescCode_c": "ERROR_FROM_IRP",
+        "InfoMessage_c": "E Way Bill can be generated provided at least HSN of one item belongs to goods.,Transporter document date cannot be earlier than the invoice date.",
+        "links": [
+            {
+                "rel": "self",
+                "href": "https://eijs-test.fa.em2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/Inspira_Einvoice_c/300003804298294",
+                "name": "Inspira_Einvoice_c",
+                "kind": "item",
+                "properties": {
+                    "changeIndicator": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200146A6176612E6D6174682E426967446563696D616C54C71557F981284F0300024900057363616C654C0006696E7456616C7400164C6A6176612F6D6174682F426967496E74656765723B787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B020000787000000000737200146A6176612E6D6174682E426967496E74656765728CFC9F1FA93BFB1D030006490008626974436F756E744900096269744C656E67746849001366697273744E6F6E7A65726F427974654E756D49000C6C6F776573745365744269744900067369676E756D5B00096D61676E69747564657400025B427871007E0004FFFFFFFFFFFFFFFFFFFFFFFEFFFFFFFE00000001757200025B42ACF317F8060854E002000078700000000102787878"
+                }
+            },
+            {
+                "rel": "canonical",
+                "href": "https://eijs-test.fa.em2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/Inspira_Einvoice_c/300003804298294",
+                "name": "Inspira_Einvoice_c",
+                "kind": "item"
+            },
+            {
+                "rel": "lov",
+                "href": "https://eijs-test.fa.em2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/Inspira_Einvoice_c/300003804298294/lov/ViewAccessor_CurrencyCode",
+                "name": "ViewAccessor_CurrencyCode",
+                "kind": "collection"
+            },
+            {
+                "rel": "child",
+                "href": "https://eijs-test.fa.em2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/Inspira_Einvoice_c/300003804298294/child/Attachment",
+                "name": "Attachment",
+                "kind": "collection"
+            },
+            {
+                "rel": "child",
+                "href": "https://eijs-test.fa.em2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/Inspira_Einvoice_c/300003804298294/child/Note",
+                "name": "Note",
+                "kind": "collection"
+            },
+            {
+                "rel": "child",
+                "href": "https://eijs-test.fa.em2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/Inspira_Einvoice_c/300003804298294/child/smartActions",
+                "name": "smartActions",
+                "kind": "collection"
+            },
+            {
+                "rel": "enclosure",
+                "href": "https://eijs-test.fa.em2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/Inspira_Einvoice_c/300003804298294/enclosure/QR_Code_c",
+                "name": "QR_Code_c",
+                "kind": "other"
+            }
+        ]
+    },
+    "error": null
+}

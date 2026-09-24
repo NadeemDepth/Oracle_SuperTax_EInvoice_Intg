@@ -1,0 +1,114 @@
+{
+    "timestamp": "2026-09-23T21:19:21.550962",
+    "document_no": "27072627100",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27072627100",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "27072627100",
+                    "Dt": "23/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "27AAACB4376M1ZD",
+                    "LglNm": "BALAJI TELEFILMS LIMITED",
+                    "TrdNm": "BALAJI TELEFILMS LIMITED",
+                    "Pos": "27",
+                    "Addr1": "C13, Balaji House, Dalia Industrial Estate,",
+                    "Addr2": "New Link Road, Andheri(w),",
+                    "Loc": "Mumbai",
+                    "Pin": "400053",
+                    "Stcd": "27"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "HsnCd": "998539",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 2000,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 180,
+                        "IgstAmt": 0,
+                        "CgstAmt": 180,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 2000,
+                        "AssAmt": 2000.0,
+                        "TotItemVal": 2360.0
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 2000.0,
+                    "CgstVal": 180,
+                    "SgstVal": 180,
+                    "IgstVal": 0.0,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": 0.0,
+                    "TotInvVal": 2360.0
+                },
+                "ShipDtls": {
+                    "LglNm": "BALAJI TELEFILMS LIMITED",
+                    "TrdNm": "BALAJI TELEFILMS LIMITED",
+                    "Addr1": "C13, Balaji House, Dalia Industrial Estate,",
+                    "Addr2": "New Link Road, Andheri(w),",
+                    "Loc": "Mumbai",
+                    "Stcd": "27",
+                    "Pin": "400053"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 122610116166641,
+                "AckDate": "2026-09-23 21:19:23",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "028be19fa568e2e1139a07ccd6a8f71086932bc3799de5e2d0dfee88274d1d27",
+                "DocDtls": {
+                    "No": "27072627100",
+                    "Dt": "23/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "27072627100",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdBQUJDSTk2NjlSMVpIXCIsXCJCdXllckdzdGluXCI6XCIyN0FBQUNCNDM3Nk0xWkRcIixcIkRvY05vXCI6XCIyNzA3MjYyNzEwMFwiLFwiRG9jVHlwXCI6XCJJTlZcIixcIkRvY0R0XCI6XCIyMy8wOS8yMDI2XCIsXCJUb3RJbnZWYWxcIjoyMzYwLjAsXCJJdGVtQ250XCI6MSxcIk1haW5Ic25Db2RlXCI6XCI5OTg1MzlcIixcIklyblwiOlwiMDI4YmUxOWZhNTY4ZTJlMTEzOWEwN2NjZDZhOGY3MTA4NjkzMmJjMzc5OWRlNWUyZDBkZmVlODgyNzRkMWQyN1wiLFwiSXJuRHRcIjpcIjIwMjYtMDktMjMgMjE6MTk6MjNcIn0ifQ.hNlFypR011_h0qtNvS4FlcaZjF4MtL5p96chaEex5ruuu3u6SjomTX57cUIhBRh7254InnSIXI-tlXUd2bBpvgY5dZhJRvAKt7QTgaxP8Pk4UGwNnzci6B93tGnv-pO7SEK03fX3gajN_THmcTvjgs0KNw229A-8FrVTxi6eI7hGz8z6T8zV-V8pWN7kZGeUNofGlnbNO0KOB-wQQCxtHv1AuefXtsfXay71og4Fnu4AzN36rCp1bbWY9vygfaQvOwZP_ilRWZJImiViKc9ujR4OBGBLdlZKOgjVNEj2aJPqRe0WkM9LFZOBJWp33QbmBj8xYaAIzuzHcE59PLPemA",
+                "QrCode": "{\"SellerGstin\":\"27AABCI9669R1ZH\",\"BuyerGstin\":\"27AAACB4376M1ZD\",\"DocNo\":\"27072627100\",\"DocTyp\":\"INV\",\"DocDt\":\"23/09/2026\",\"TotInvVal\":2360.0,\"ItemCnt\":1,\"MainHsnCode\":\"998539\",\"Irn\":\"028be19fa568e2e1139a07ccd6a8f71086932bc3799de5e2d0dfee88274d1d27\",\"IrnDt\":\"2026-09-23 21:19:23\"}",
+                "EncodedId": "NDU5MDk3"
+            }
+        ]
+    },
+    "error": null
+}

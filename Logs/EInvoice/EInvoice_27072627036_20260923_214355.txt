@@ -1,0 +1,163 @@
+{
+    "timestamp": "2026-09-23T21:43:55.824338",
+    "document_no": "27072627036",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27072627036",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "27072627036",
+                    "Dt": "23/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "08AAAAT8126B1ZQ",
+                    "LglNm": "THE CENTRAL CO OPERATIVE BANK LTD",
+                    "TrdNm": "THE CENTRAL CO OPERATIVE BANK LTD",
+                    "Pos": "08",
+                    "Addr1": "Managing Director-",
+                    "Addr2": "52,BALAJI MARKET,,,",
+                    "Loc": "BHILWARA",
+                    "Pin": "311001",
+                    "Stcd": "08"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "\"3rd Yr Renewal of ISO 27000 and 20000 Certificates\"",
+                        "HsnCd": "998311",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 5465.58,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 983.8,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 5465.58,
+                        "AssAmt": 5465.58,
+                        "TotItemVal": 6449.38
+                    },
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "AMC Services: Period: 1st April 2026 to 30th June 2026",
+                        "HsnCd": "998313",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 104385.63,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 18789.41,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "2",
+                        "TotAmt": 104385.63,
+                        "AssAmt": 104385.63,
+                        "TotItemVal": 123175.04
+                    },
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "FMS Services: Period: 1st April 2026 to 30th June 2026",
+                        "HsnCd": "998311",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 254037.53,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 45726.76,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "3",
+                        "TotAmt": 254037.53,
+                        "AssAmt": 254037.53,
+                        "TotItemVal": 299764.29
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 363888.74,
+                    "CgstVal": 0.0,
+                    "SgstVal": 0.0,
+                    "IgstVal": 65499.97,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": 0.29,
+                    "TotInvVal": 429389.0
+                },
+                "ShipDtls": {
+                    "LglNm": "THE CENTRAL CO OPERATIVE BANK LTD",
+                    "TrdNm": "THE CENTRAL CO OPERATIVE BANK LTD",
+                    "Addr1": "Managing Director-",
+                    "Addr2": "52,BALAJI MARKET,,,",
+                    "Loc": "BHILWARA",
+                    "Stcd": "08",
+                    "Pin": "311001"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 122610116167279,
+                "AckDate": "2026-09-23 21:43:58",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "0f7c5e52c297bba23ed09822f1fe7b168abac515339f1eff823fa9a7bfdc49d7",
+                "DocDtls": {
+                    "No": "27072627036",
+                    "Dt": "23/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "27072627036",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdBQUJDSTk2NjlSMVpIXCIsXCJCdXllckdzdGluXCI6XCIwOEFBQUFUODEyNkIxWlFcIixcIkRvY05vXCI6XCIyNzA3MjYyNzAzNlwiLFwiRG9jVHlwXCI6XCJJTlZcIixcIkRvY0R0XCI6XCIyMy8wOS8yMDI2XCIsXCJUb3RJbnZWYWxcIjo0MjkzODkuMCxcIkl0ZW1DbnRcIjozLFwiTWFpbkhzbkNvZGVcIjpcIjk5ODMxMVwiLFwiSXJuXCI6XCIwZjdjNWU1MmMyOTdiYmEyM2VkMDk4MjJmMWZlN2IxNjhhYmFjNTE1MzM5ZjFlZmY4MjNmYTlhN2JmZGM0OWQ3XCIsXCJJcm5EdFwiOlwiMjAyNi0wOS0yMyAyMTo0Mzo1OFwifSJ9.kXvm-KHiO6gTikoBJkvNP_PNfgebAx7f_2lUFs9zGs3Ithk5gAe221ZlTlrj781lULGSTt1fTgbmsJ-gHj0ltZiqhrMlAOCe1rwXAafsEitxDEplKjyRndhf89_VhCVtjd8h6_BQ8gyi1zuz1h8mxbGy_3vwg29nSMFlBUX9vJYuP80xrqnzxN1Bcz8phPpVcl69uWkFnhHUc8wHMB2RZ7G2SvxBwbug3UsXnGU_5WhoSWdYfGmsuVdcouj4M2jAU_6MTlAzKSmdlJxYTc4k4d-w5WMHek0nsUu_IhR8FdxfjnZKnXxmPl3kHvIzNFYMf32GgMbIPYQzia8l96tDrA",
+                "QrCode": "{\"SellerGstin\":\"27AABCI9669R1ZH\",\"BuyerGstin\":\"08AAAAT8126B1ZQ\",\"DocNo\":\"27072627036\",\"DocTyp\":\"INV\",\"DocDt\":\"23/09/2026\",\"TotInvVal\":429389.0,\"ItemCnt\":3,\"MainHsnCode\":\"998311\",\"Irn\":\"0f7c5e52c297bba23ed09822f1fe7b168abac515339f1eff823fa9a7bfdc49d7\",\"IrnDt\":\"2026-09-23 21:43:58\"}",
+                "EncodedId": "NDU5MTgy"
+            }
+        ]
+    },
+    "error": null
+}

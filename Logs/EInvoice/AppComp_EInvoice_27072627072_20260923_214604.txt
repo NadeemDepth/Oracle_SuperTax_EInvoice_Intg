@@ -1,0 +1,110 @@
+{
+    "timestamp": "2026-09-23T21:46:04.128229",
+    "document_no": "27072627072",
+    "fusion_request_payload": {
+        "Supply_Type_c": "B2B",
+        "SellerGSTIN_c": "27AABCI9669R1ZH",
+        "DocType_c": "CRN",
+        "DocNumber_c": "27072627072",
+        "Success_c": "true",
+        "Messages_c": "Saved successfully",
+        "Status_c": "REGISTERED",
+        "Trx_Id_c": "4628217",
+        "Trx_Number_c": "27072627072",
+        "DocDate_c": "23/09/2026",
+        "Ack_Date_c": "2026-09-23 21:46:04",
+        "Ack_Number_c": "122610116167710",
+        "Record_c": "1",
+        "FinYear_c": "202627",
+        "IRN_Number_c": "a456dd48185b2237dd10d01c2b46cd30500231ab4632e19e9842a29470e65195",
+        "SignedQRCode_c": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdBQUJDSTk2NjlSMVpIXCIsXCJCdXllckdzdGluXCI6XCIzM0FBQ0NOOTg1MkcxWkNcIixcIkRvY05vXCI6XCIyNzA3MjYyNzA3MlwiLFwiRG9jVHlwXCI6XCJDUk5cIixcIkRvY0R0XCI6XCIyMy8wOS8yMDI2XCIsXCJUb3RJbnZWYWxcIjo5MjU3OTYuMDQsXCJJdGVtQ250XCI6MixcIk1haW5Ic25Db2RlXCI6XCI5OTgzMTFcIixcIklyblwiOlwiYTQ1NmRkNDgxODViMjIzN2RkMTBkMDFjMmI0NmNkMzA1MDAyMzFhYjQ2MzJlMTllOTg0MmEyOTQ3MGU2NTE5NVwiLFwiSXJuRHRcIjpcIjIwMjYtMDktMjMgMjE6NDY6MDRcIn0ifQ.scxlaiecLl9sux54DFvlHDnkHsp56kPGYd3NWDYGmdWM8N2sozRCO2GItURmXXhatnz5m_thL8ujX8XYagtxpQu2wH7NOZLfuy-4TKg6nSPMtPjzJ5Mj3vxM5IbFWFx3WUMX5dYycJZDmIaIQAF7KS6D7uIQfg65KV8XfThly69w1COU9j7fxr9MWZfdOox9oCp5Ml5hhhBOxBiePVGlC1qVXBnONCJNmc8DCNxBhoAhIP9ygg3LN3wqJTNJVdyZHKxZ2-H2OWcQOZB2MEEqVI7641kK0vpV_qNiYtqHqKLjGJtVxSJWRYgvTKkj1Tvt5RYtxXLmaE6Uni9qc7uUBg",
+        "RawQRCode_c": "{\"SellerGstin\":\"27AABCI9669R1ZH\",\"BuyerGstin\":\"33AACCN9852G1ZC\",\"DocNo\":\"27072627072\",\"DocTyp\":\"CRN\",\"DocDt\":\"23/09/2026\",\"TotInvVal\":925796.04,\"ItemCnt\":2,\"MainHsnCode\":\"998311\",\"Irn\":\"a456dd48185b2237dd10d01c2b46cd30500231ab4632e19e9842a29470e65195\",\"IrnDt\":\"2026-09-23 21:46:04\"}"
+    },
+    "fusion_response": {
+        "Id": 300003804366308,
+        "RecordName": "SR-0000381-260923",
+        "CreatedBy": "nadeem@depthconsulting.in",
+        "CreationDate": "2026-09-23T16:16:06+00:00",
+        "LastUpdatedBy": "nadeem@depthconsulting.in",
+        "LastUpdateDate": "2026-09-23T16:16:06.031+00:00",
+        "RecordNumber": "963099",
+        "LastUpdateLogin": null,
+        "UserLastUpdateDate": null,
+        "ConflictId": 0,
+        "CurrencyCode": "INR",
+        "CurcyConvRateType": "Corporate",
+        "CorpCurrencyCode": "INR",
+        "Ack_Date_c": "2026-09-23 21:46:04",
+        "Ack_Number_c": "122610116167710",
+        "IRN_Number_c": "a456dd48185b2237dd10d01c2b46cd30500231ab4632e19e9842a29470e65195",
+        "Supply_Type_c": "B2B",
+        "Trx_Id_c": 4628217,
+        "Trx_Number_c": "27072627072",
+        "RawQRCode_c": "{\"SellerGstin\":\"27AABCI9669R1ZH\",\"BuyerGstin\":\"33AACCN9852G1ZC\",\"DocNo\":\"27072627072\",\"DocTyp\":\"CRN\",\"DocDt\":\"23/09/2026\",\"TotInvVal\":925796.04,\"ItemCnt\":2,\"MainHsnCode\":\"998311\",\"Irn\":\"a456dd48185b2237dd10d01c2b46cd30500231ab4632e19e9842a29470e65195\",\"IrnDt\":\"2026-09-23 21:46:04\"}",
+        "EwbNo_c": null,
+        "EwbDate_c": null,
+        "EwbValidTill_c": null,
+        "SelectedRow": null,
+        "Record_c": "1",
+        "Success_c": "true",
+        "Messages_c": "Saved successfully",
+        "Status_c": "REGISTERED",
+        "FinYear_c": "202627",
+        "SellerGSTIN_c": "27AABCI9669R1ZH",
+        "DocType_c": "CRN",
+        "DocNumber_c": "27072627072",
+        "DocDate_c": "23/09/2026",
+        "SignedQRCode_c": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdBQUJDSTk2NjlSMVpIXCIsXCJCdXllckdzdGluXCI6XCIzM0FBQ0NOOTg1MkcxWkNcIixcIkRvY05vXCI6XCIyNzA3MjYyNzA3MlwiLFwiRG9jVHlwXCI6XCJDUk5cIixcIkRvY0R0XCI6XCIyMy8wOS8yMDI2XCIsXCJUb3RJbnZWYWxcIjo5MjU3OTYuMDQsXCJJdGVtQ250XCI6MixcIk1haW5Ic25Db2RlXCI6XCI5OTgzMTFcIixcIklyblwiOlwiYTQ1NmRkNDgxODViMjIzN2RkMTBkMDFjMmI0NmNkMzA1MDAyMzFhYjQ2MzJlMTllOTg0MmEyOTQ3MGU2NTE5NVwiLFwiSXJuRHRcIjpcIjIwMjYtMDktMjMgMjE6NDY6MDRcIn0ifQ.scxlaiecLl9sux54DFvlHDnkHsp56kPGYd3NWDYGmdWM8N2sozRCO2GItURmXXhatnz5m_thL8ujX8XYagtxpQu2wH7NOZLfuy-4TKg6nSPMtPjzJ5Mj3vxM5IbFWFx3WUMX5dYycJZDmIaIQAF7KS6D7uIQfg65KV8XfThly69w1COU9j7fxr9MWZfdOox9oCp5Ml5hhhBOxBiePVGlC1qVXBnONCJNmc8DCNxBhoAhIP9ygg3LN3wqJTNJVdyZHKxZ2-H2OWcQOZB2MEEqVI7641kK0vpV_qNiYtqHqKLjGJtVxSJWRYgvTKkj1Tvt5RYtxXLmaE6Uni9qc7uUBg",
+        "InfoCode_c": null,
+        "InfoDescCode_c": null,
+        "InfoMessage_c": null,
+        "links": [
+            {
+                "rel": "self",
+                "href": "https://eijs-test.fa.em2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/Inspira_Einvoice_c/300003804366308",
+                "name": "Inspira_Einvoice_c",
+                "kind": "item",
+                "properties": {
+                    "changeIndicator": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200146A6176612E6D6174682E426967446563696D616C54C71557F981284F0300024900057363616C654C0006696E7456616C7400164C6A6176612F6D6174682F426967496E74656765723B787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B020000787000000000737200146A6176612E6D6174682E426967496E74656765728CFC9F1FA93BFB1D030006490008626974436F756E744900096269744C656E67746849001366697273744E6F6E7A65726F427974654E756D49000C6C6F776573745365744269744900067369676E756D5B00096D61676E69747564657400025B427871007E0004FFFFFFFFFFFFFFFFFFFFFFFEFFFFFFFE00000001757200025B42ACF317F8060854E002000078700000000101787878"
+                }
+            },
+            {
+                "rel": "canonical",
+                "href": "https://eijs-test.fa.em2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/Inspira_Einvoice_c/300003804366308",
+                "name": "Inspira_Einvoice_c",
+                "kind": "item"
+            },
+            {
+                "rel": "lov",
+                "href": "https://eijs-test.fa.em2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/Inspira_Einvoice_c/300003804366308/lov/ViewAccessor_CurrencyCode",
+                "name": "ViewAccessor_CurrencyCode",
+                "kind": "collection"
+            },
+            {
+                "rel": "child",
+                "href": "https://eijs-test.fa.em2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/Inspira_Einvoice_c/300003804366308/child/Attachment",
+                "name": "Attachment",
+                "kind": "collection"
+            },
+            {
+                "rel": "child",
+                "href": "https://eijs-test.fa.em2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/Inspira_Einvoice_c/300003804366308/child/Note",
+                "name": "Note",
+                "kind": "collection"
+            },
+            {
+                "rel": "child",
+                "href": "https://eijs-test.fa.em2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/Inspira_Einvoice_c/300003804366308/child/smartActions",
+                "name": "smartActions",
+                "kind": "collection"
+            },
+            {
+                "rel": "enclosure",
+                "href": "https://eijs-test.fa.em2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/Inspira_Einvoice_c/300003804366308/enclosure/QR_Code_c",
+                "name": "QR_Code_c",
+                "kind": "other"
+            }
+        ]
+    },
+    "error": null
+}

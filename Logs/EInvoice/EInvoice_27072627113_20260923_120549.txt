@@ -1,0 +1,121 @@
+{
+    "timestamp": "2026-09-23T12:05:49.839578",
+    "document_no": "27072627113",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27072627113",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "27072627113",
+                    "Dt": "23/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "27AAACL0582H1ZM",
+                    "LglNm": "LIFE INSURANCE CORPORATION OF INDIA",
+                    "TrdNm": "LIFE INSURANCE CORPORATION OF INDIA",
+                    "Pos": "27",
+                    "Addr1": "Central Office,Information Technology,(SD",
+                    "Addr2": "DEPT \u201cJeevan Seva\u201d Annexe, II FL,,S V ROAD,Santacruz West",
+                    "Loc": "Mumbai",
+                    "Pin": "400054",
+                    "Stcd": "27"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "N",
+                        "HsnCd": "998314",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 159221573.91,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 14329941.65,
+                        "IgstAmt": 0,
+                        "CgstAmt": 14329941.65,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 159221573.91,
+                        "AssAmt": 159221573.91,
+                        "TotItemVal": 187881457.21
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 159221573.91,
+                    "CgstVal": 14329941.65,
+                    "SgstVal": 14329941.65,
+                    "IgstVal": 0.0,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": -0.21,
+                    "TotInvVal": 187881457.0
+                },
+                "ShipDtls": {
+                    "LglNm": "LIFE INSURANCE CORPORATION OF INDIA",
+                    "TrdNm": "LIFE INSURANCE CORPORATION OF INDIA",
+                    "Addr1": "Central Office,Information Technology,(SD",
+                    "Addr2": "DEPT \u201cJeevan Seva\u201d Annexe, II FL,,S V ROAD,Santacruz West",
+                    "Loc": "Mumbai",
+                    "Stcd": "27",
+                    "Pin": "400054"
+                },
+                "EwbDtls": {
+                    "TransId": "27AAGCS0674R1ZN",
+                    "TransName": "Satellite Cargo Connexion Private Limited",
+                    "TransMode": "Road",
+                    "Distance": 5,
+                    "TransDocNo": "STN/MUM/2627/01",
+                    "TransDocDt": "23/09/2026",
+                    "VehNo": "MH11BL4238",
+                    "VehType": "O",
+                    "IsEWayBillIntegrated": "true"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "Record": 1,
+                "Success": false,
+                "Fy": "202627",
+                "Messages": "HSN Code field value is invalid",
+                "Status": "ERROR",
+                "DocDtls": {
+                    "No": "27072627113",
+                    "Dt": "23/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "27072627113",
+                "LineItem": "1",
+                "EncodedId": "MA=="
+            }
+        ]
+    },
+    "error": null
+}

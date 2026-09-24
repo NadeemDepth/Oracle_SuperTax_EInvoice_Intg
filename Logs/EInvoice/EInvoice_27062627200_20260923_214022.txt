@@ -1,0 +1,115 @@
+{
+    "timestamp": "2026-09-23T21:40:22.144649",
+    "document_no": "27062627200",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27062627200",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "27062627200",
+                    "Dt": "23/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "09AAACU0564G8Z8",
+                    "LglNm": "Union Bank of India",
+                    "TrdNm": "Union Bank of India",
+                    "Pos": "09",
+                    "Addr1": "Union Bank of India,",
+                    "Addr2": "RO Kanpur,117/H-1/240 Pandunagar",
+                    "Loc": "Kanpur",
+                    "Pin": "208005",
+                    "Stcd": "09"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "AMC for Codes& display (RO Kanpur) Period 01-04-2026 to 30-06-2026",
+                        "HsnCd": "998729",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 22617.5,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 4071.15,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 22617.5,
+                        "AssAmt": 22617.5,
+                        "TotItemVal": 26688.65
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 22617.5,
+                    "CgstVal": 0.0,
+                    "SgstVal": 0.0,
+                    "IgstVal": 4071.15,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": 0.35,
+                    "TotInvVal": 26689.0
+                },
+                "ShipDtls": {
+                    "LglNm": "Union Bank of India",
+                    "TrdNm": "Union Bank of India",
+                    "Addr1": "Union Bank of India,",
+                    "Addr2": "RO Kanpur,117/H-1/240 Pandunagar",
+                    "Loc": "Kanpur",
+                    "Stcd": "09",
+                    "Pin": "208005"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 122610116166757,
+                "AckDate": "2026-09-23 21:40:23",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "1a8a33b037eac1eb42c22be4feeb728560239f6641ed57b40c9782e17f632051",
+                "DocDtls": {
+                    "No": "27062627200",
+                    "Dt": "23/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "27062627200",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdBQUJDSTk2NjlSMVpIXCIsXCJCdXllckdzdGluXCI6XCIwOUFBQUNVMDU2NEc4WjhcIixcIkRvY05vXCI6XCIyNzA2MjYyNzIwMFwiLFwiRG9jVHlwXCI6XCJJTlZcIixcIkRvY0R0XCI6XCIyMy8wOS8yMDI2XCIsXCJUb3RJbnZWYWxcIjoyNjY4OS4wLFwiSXRlbUNudFwiOjEsXCJNYWluSHNuQ29kZVwiOlwiOTk4NzI5XCIsXCJJcm5cIjpcIjFhOGEzM2IwMzdlYWMxZWI0MmMyMmJlNGZlZWI3Mjg1NjAyMzlmNjY0MWVkNTdiNDBjOTc4MmUxN2Y2MzIwNTFcIixcIklybkR0XCI6XCIyMDI2LTA5LTIzIDIxOjQwOjIzXCJ9In0.hCKi6wsWTRVEvA6pG-prFHujRcfjtG6q_znZ-dPdbFbPkPtiDCi3bVyT_ugkrV4UDMvXiimu35GCe9Q5n5ZZmdB1Arn9Ubrn0F7X1mjH9zHTF92VcH-qlZGVpTJ-q92Dn4Zi5qu7XrkspZX-M6h2daRM7F5w9Xp3nAPOJPCPUg36BmzYMYCxXmJt_vJAI0BW5sT83QWhB6lpQscsyW2a-QVobnNkIcRe5YbOdinLDGz8U9KY4ojxfqiLulOXlpNpYX2Iov9JwXeAQkLcJxqoseGWMLMB1z2wif4-AGhQTndWUSUnNwB5qNggHMUlhKiPCpgkf1tLjkmf3fCweLKqvA",
+                "QrCode": "{\"SellerGstin\":\"27AABCI9669R1ZH\",\"BuyerGstin\":\"09AAACU0564G8Z8\",\"DocNo\":\"27062627200\",\"DocTyp\":\"INV\",\"DocDt\":\"23/09/2026\",\"TotInvVal\":26689.0,\"ItemCnt\":1,\"MainHsnCode\":\"998729\",\"Irn\":\"1a8a33b037eac1eb42c22be4feeb728560239f6641ed57b40c9782e17f632051\",\"IrnDt\":\"2026-09-23 21:40:23\"}",
+                "EncodedId": "NDU5MTAy"
+            }
+        ]
+    },
+    "error": null
+}

@@ -1,0 +1,61 @@
+{
+    "timestamp": "2026-09-22T15:07:11.449988",
+    "identifier": "7072627007",
+    "request_payload": {
+        "ewaybill": [
+            {
+                "Irn": "4db842722d2eafd84b7cb34da1e00a3c855d8f89d34ed40d3cf96b98717d09d4",
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "7072627007",
+                    "Dt": "18/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "07AABCI9669R1ZJ"
+                },
+                "EwbDtls": {
+                    "TransId": "27AAGCS0674R1ZN",
+                    "TransName": "Satellite Cargo Connexion Private Limited",
+                    "TransMode": "Road",
+                    "Distance": 10,
+                    "TransDocNo": "STN/MUM/2627/01",
+                    "TransDocDt": "21/09/2026",
+                    "VehNo": "MH11BL4238",
+                    "VehType": "O",
+                    "IsEWayBillIntegrated": "true"
+                }
+            }
+        ]
+    },
+    "response": {
+        "ewayBill": [
+            {
+                "DocDtls": {
+                    "No": "7072627007",
+                    "Dt": "18/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "07AABCI9669R1ZJ"
+                },
+                "EwbDtls": {
+                    "TransMode": "ROAD",
+                    "TransId": "27AAGCS0674R1ZN",
+                    "TransName": "Satellite Cargo Connexion Private Limited",
+                    "Distance": "10",
+                    "TransDocNo": "STN/MUM/2627/01",
+                    "TransDocDt": "21/09/2026",
+                    "VehNo": "MH11BL4238",
+                    "VehType": "O"
+                },
+                "Success": false,
+                "Status": "ERROR_FROM_IRP",
+                "Record": 1,
+                "Message": "E Way Bill can be generated provided at least HSN of one item belongs to goods.",
+                "EncodedId": "NDU4OTQ1",
+                "Irn": "4db842722d2eafd84b7cb34da1e00a3c855d8f89d34ed40d3cf96b98717d09d4"
+            }
+        ]
+    },
+    "error": null
+}

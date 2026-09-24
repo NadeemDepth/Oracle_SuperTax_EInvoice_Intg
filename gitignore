@@ -1,0 +1,14 @@
+# Sensitive environment variables (CRITICAL)
+.env
+
+# Python caching folders
+__pycache__/
+*.pyc
+
+# Local application logs
+#/Logs/
+
+# Local developmental backups
+#/Development_Backup/
+
+/pyproject.toml/

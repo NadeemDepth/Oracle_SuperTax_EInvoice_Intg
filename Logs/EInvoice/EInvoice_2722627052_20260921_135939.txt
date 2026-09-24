@@ -1,0 +1,116 @@
+{
+    "timestamp": "2026-09-21T13:59:39.840929",
+    "document_no": "2722627052",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "2722627052",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "SEZWP",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "CM",
+                    "No": "2722627052",
+                    "Dt": "11/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "29AAACI4403L1ZK ",
+                    "LglNm": "IBM India Private Limited ",
+                    "TrdNm": "IBM India Private Limited ",
+                    "Pos": "29",
+                    "Addr1": "Subramanya Arcade Level 3,12,Bannerghatta road,",
+                    "Addr2": "Bangalore -560029,",
+                    "Loc": "Bangalore",
+                    "Pin": "560029",
+                    "Stcd": "29"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "Resource Billing for Jun 26 to Inspira Tech Asia Pte Ltd on Cost plus method",
+                        "HsnCd": "8471",
+                        "Qty": 0.4,
+                        "Unit": "NOS",
+                        "UnitPrice": 1823119,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 131264.57,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 729247.6,
+                        "AssAmt": 729247.6,
+                        "TotItemVal": 860512.17
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 729247.6,
+                    "CgstVal": 0.0,
+                    "SgstVal": 0.0,
+                    "IgstVal": 131264.57,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": 0.17,
+                    "TotInvVal": 860512.34
+                },
+                "PrecDocDtls": [
+                    {
+                        "InvNo": "2712627047.0",
+                        "InvDt": "11/09/2026"
+                    }
+                ],
+                "EwbDtls": {
+                    "TransId": "27AADFV7589C1ZO",
+                    "TransName": "JMJ Transporters",
+                    "TransMode": "Road",
+                    "Distance": 100,
+                    "TransDocNo": "1234rgb",
+                    "TransDocDt": "18/09/2026",
+                    "VehNo": "MH043456",
+                    "VehType": "O",
+                    "IsEWayBillIntegrated": "true"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "Record": 1,
+                "Success": false,
+                "Fy": "202627",
+                "Messages": "Application Error. Please contact SuperTax.",
+                "DocDtls": {
+                    "No": "2722627052",
+                    "Dt": "11/09/2026",
+                    "Typ": "CM"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "2722627052"
+            }
+        ]
+    },
+    "error": null
+}

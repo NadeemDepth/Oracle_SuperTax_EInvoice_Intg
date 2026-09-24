@@ -1,0 +1,16 @@
+# Oracle SuperTax E-Invoice Integration
+# Install with:
+#   python -m pip install -r requirements.txt
+ 
+requests>=2.31.0
+urllib3>=2.0.0
+zeep>=4.2.1
+lxml>=4.9.3
+python-dotenv>=1.0.0
+pandas>=2.0.0
+openpyxl>=3.1.0
+xlrd>=2.0.1
+html5lib>=1.1
+streamlit>=1.30.0
+flask==3.0.3
+gunicorn==23.0.0

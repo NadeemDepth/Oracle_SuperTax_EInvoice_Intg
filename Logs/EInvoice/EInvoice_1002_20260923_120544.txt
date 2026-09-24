@@ -1,0 +1,113 @@
+{
+    "timestamp": "2026-09-23T12:05:44.591879",
+    "document_no": "1002",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "1002",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "1002",
+                    "Dt": "04/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "24AABCI9669R1ZN",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Sub Plot no. 3, Block no. 265, Prime Estate \u2013 3",
+                    "Addr2": "Mahalaxmi Cold Storage, Sanathal Char Rasta, Village- Sanathal",
+                    "Loc": "Ahmedabad",
+                    "Pin": "382210",
+                    "Stcd": "24"
+                },
+                "BuyerDtls": {
+                    "Gstin": "27AACCC9192Q1ZU",
+                    "LglNm": "CDSL VENTURES LIMITED",
+                    "TrdNm": "CDSL VENTURES LIMITED",
+                    "Pos": "27",
+                    "Addr1": "A-wing, 25th floor, Marathon Futurex",
+                    "Addr2": "Mafatlal Mills Compounds, N.M Joshi Marg,,Lower Parel,",
+                    "Loc": "Mumbai",
+                    "Pin": "400013",
+                    "Stcd": "27"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "N",
+                        "PrdDesc": "Computers",
+                        "HsnCd": "847130",
+                        "Qty": 2,
+                        "Unit": "NOS",
+                        "UnitPrice": 80000,
+                        "Discount": 0,
+                        "GstRt": 3,
+                        "SgstAmt": 0,
+                        "IgstAmt": 4800,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 160000,
+                        "AssAmt": 160000.0,
+                        "TotItemVal": 164800.0
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 160000.0,
+                    "CgstVal": 0.0,
+                    "SgstVal": 0.0,
+                    "IgstVal": 4800,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": 0.0,
+                    "TotInvVal": 164800.0
+                },
+                "ShipDtls": {
+                    "LglNm": "CDSL VENTURES LIMITED",
+                    "TrdNm": "CDSL VENTURES LIMITED",
+                    "Addr1": "C/O Reliance Communication Infrastructure Ltd",
+                    "Addr2": "Internet Data Centre Plot #20 Hitech City Madhapur,",
+                    "Loc": "Hyderabad",
+                    "Stcd": "27",
+                    "Pin": "400013"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "Record": 1,
+                "Success": false,
+                "Fy": "202627",
+                "Messages": "Customer does not have access to Gstin 24AABCI9669R1ZN",
+                "Status": "ERROR",
+                "DocDtls": {
+                    "No": "1002",
+                    "Dt": "04/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "24AABCI9669R1ZN"
+                },
+                "TranDtls": {
+                    "SupTyp": "B2B"
+                },
+                "CustDocNo": "1002",
+                "EncodedId": "MA=="
+            }
+        ]
+    },
+    "error": null
+}

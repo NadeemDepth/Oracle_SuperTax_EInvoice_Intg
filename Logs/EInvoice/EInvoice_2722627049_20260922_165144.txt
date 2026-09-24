@@ -1,0 +1,110 @@
+{
+    "timestamp": "2026-09-22T16:51:44.590540",
+    "document_no": "2722627049",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "2722627049",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "CM",
+                    "No": "2722627049",
+                    "Dt": "11/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "29AAACI4403L1ZK ",
+                    "LglNm": "IBM India Private Limited ",
+                    "TrdNm": "IBM India Private Limited ",
+                    "Pos": "29",
+                    "Addr1": "Subramanya Arcade Level 3,12,Bannerghatta road,",
+                    "Addr2": "Bangalore -560029,",
+                    "Loc": "Bangalore",
+                    "Pin": "560029",
+                    "Stcd": "29"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "N",
+                        "PrdDesc": "Computers",
+                        "HsnCd": "8471",
+                        "Qty": 0.5,
+                        "Unit": "NOS",
+                        "UnitPrice": 1823119,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 164080.71,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 911559.5,
+                        "AssAmt": 911559.5,
+                        "TotItemVal": 1075640.21
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 911559.5,
+                    "CgstVal": 0.0,
+                    "SgstVal": 0.0,
+                    "IgstVal": 164080.71,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": 0.21,
+                    "TotInvVal": 1075640.42
+                },
+                "EwbDtls": {
+                    "TransId": "27AADFV7589C1ZO",
+                    "TransName": "JMJ Transporters",
+                    "TransMode": "Road",
+                    "Distance": 100,
+                    "TransDocNo": "1234rgb",
+                    "TransDocDt": "18/09/2026",
+                    "VehNo": "MH043456",
+                    "VehType": "O",
+                    "IsEWayBillIntegrated": "true"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "Record": 1,
+                "Success": false,
+                "Fy": "202627",
+                "Messages": "Application Error. Please contact SuperTax.",
+                "DocDtls": {
+                    "No": "2722627049",
+                    "Dt": "11/09/2026",
+                    "Typ": "CM"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "2722627049"
+            }
+        ]
+    },
+    "error": null
+}

@@ -1,0 +1,116 @@
+{
+    "timestamp": "2026-09-21T13:59:19.259037",
+    "document_no": "276032021083",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "276032021083",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "DM",
+                    "No": "276032021083",
+                    "Dt": "11/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "27AAOCS7558N1ZA",
+                    "LglNm": "INDIGRID LIMITED",
+                    "TrdNm": "INDIGRID LIMITED",
+                    "Pos": "27",
+                    "Addr1": "1st Floor, Unit no. 101, Windsor",
+                    "Addr2": "Kalina Santa Cruz East,,",
+                    "Loc": "Mumbai",
+                    "Pin": "400098",
+                    "Stcd": "27"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "Irrevocable Debts Written Off/back (P&L)",
+                        "HsnCd": "8471",
+                        "Qty": 0.3,
+                        "Unit": "NOS",
+                        "UnitPrice": 366494.25,
+                        "Discount": 0,
+                        "GstRt": 0,
+                        "SgstAmt": 0,
+                        "IgstAmt": 0,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 109948.27,
+                        "AssAmt": 109948.27,
+                        "TotItemVal": 109948.27
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 109948.27,
+                    "CgstVal": 0.0,
+                    "SgstVal": 0.0,
+                    "IgstVal": 0.0,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": 0.25,
+                    "TotInvVal": 109948.52
+                },
+                "PrecDocDtls": [
+                    {
+                        "InvNo": "2712627047.0",
+                        "InvDt": "11/09/2026"
+                    }
+                ],
+                "EwbDtls": {
+                    "TransId": "27AADFV7589C1ZO",
+                    "TransName": "JMJ Transporters",
+                    "TransMode": "Road",
+                    "Distance": 100,
+                    "TransDocNo": "1234rgb",
+                    "TransDocDt": "18/09/2026",
+                    "VehNo": "MH043456",
+                    "VehType": "O",
+                    "IsEWayBillIntegrated": "true"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "Record": 1,
+                "Success": false,
+                "Fy": "202627",
+                "Messages": "Application Error. Please contact SuperTax.",
+                "DocDtls": {
+                    "No": "276032021083",
+                    "Dt": "11/09/2026",
+                    "Typ": "DM"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "276032021083"
+            }
+        ]
+    },
+    "error": null
+}

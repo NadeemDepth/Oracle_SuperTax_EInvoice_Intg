@@ -1,0 +1,139 @@
+{
+    "timestamp": "2026-09-23T21:45:56.727814",
+    "document_no": "27072627070",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27072627070",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "CRN",
+                    "No": "27072627070",
+                    "Dt": "23/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "33AACCN9852G1ZC",
+                    "LglNm": "National Payments Corporation Of India",
+                    "TrdNm": "National Payments Corporation Of India",
+                    "Pos": "33",
+                    "Addr1": "Plot No. 6/D-6,",
+                    "Addr2": "SIPCOT IT Park,,Siruseri,",
+                    "Loc": "Chennai",
+                    "Pin": "603103",
+                    "Stcd": "33"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "FMS Charges L2  Resource for SOC Monitoring for the Quarter - Apr' 2026 to Jun' 2026 ||",
+                        "HsnCd": "998311",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 456947.91,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 82250.62,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 456947.91,
+                        "AssAmt": 456947.91,
+                        "TotItemVal": 539198.53
+                    },
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "FMS Charges L1  Resource for SOC Monitoring for the Quarter - Apr' 2026 to Jun' 2026 ||",
+                        "HsnCd": "998311",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 327624.99,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 58972.5,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "2",
+                        "TotAmt": 327624.99,
+                        "AssAmt": 327624.99,
+                        "TotItemVal": 386597.49
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 784572.9,
+                    "CgstVal": 0.0,
+                    "SgstVal": 0.0,
+                    "IgstVal": 141223.12,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": 0.02,
+                    "TotInvVal": 925796.04
+                },
+                "ShipDtls": {
+                    "LglNm": "National Payments Corporation Of India",
+                    "TrdNm": "National Payments Corporation Of India",
+                    "Addr1": "Plot No. 6/D-6,",
+                    "Addr2": "SIPCOT IT Park,,Siruseri,",
+                    "Loc": "Chennai",
+                    "Stcd": "33",
+                    "Pin": "603103"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 122610116167695,
+                "AckDate": "2026-09-23 21:45:59",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "d919ba02d303fadd70c8eabd7c30b728140c7de30d1a45d247b049677f75da7e",
+                "DocDtls": {
+                    "No": "27072627070",
+                    "Dt": "23/09/2026",
+                    "Typ": "CRN"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "27072627070",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdBQUJDSTk2NjlSMVpIXCIsXCJCdXllckdzdGluXCI6XCIzM0FBQ0NOOTg1MkcxWkNcIixcIkRvY05vXCI6XCIyNzA3MjYyNzA3MFwiLFwiRG9jVHlwXCI6XCJDUk5cIixcIkRvY0R0XCI6XCIyMy8wOS8yMDI2XCIsXCJUb3RJbnZWYWxcIjo5MjU3OTYuMDQsXCJJdGVtQ250XCI6MixcIk1haW5Ic25Db2RlXCI6XCI5OTgzMTFcIixcIklyblwiOlwiZDkxOWJhMDJkMzAzZmFkZDcwYzhlYWJkN2MzMGI3MjgxNDBjN2RlMzBkMWE0NWQyNDdiMDQ5Njc3Zjc1ZGE3ZVwiLFwiSXJuRHRcIjpcIjIwMjYtMDktMjMgMjE6NDU6NTlcIn0ifQ.Rxh8wCfpkuLNTeMRvIABZRptluDbz8SAFLkh8JeucHxXq9EklyX-sQwOL17OE1ALtnPL1d7WQlWAAVG_rYaTst5715aTLO_jqNlbZ4txiHsSE95MKJJsAdIUTBalORNoEI_kn3y4K8-09OOKoL3PgWbUXqyx_ZpNI2MC6vnNlrl-YG66hcnexFKZh5BnJVys1uMzLHRMCtp_HYIMzKpDxPO_oQxXPqdccNES2QlFYuGf4Edv6LrwkiKkEdvAltyRbpuXD1RUgNwGNJWDBRmpKTMCOZ8wikxVGvOYMRT7KCyooEg5HyTS2UdZ1Ft_LK8hRicAaVoRsEC6jSA-RIfisQ",
+                "QrCode": "{\"SellerGstin\":\"27AABCI9669R1ZH\",\"BuyerGstin\":\"33AACCN9852G1ZC\",\"DocNo\":\"27072627070\",\"DocTyp\":\"CRN\",\"DocDt\":\"23/09/2026\",\"TotInvVal\":925796.04,\"ItemCnt\":2,\"MainHsnCode\":\"998311\",\"Irn\":\"d919ba02d303fadd70c8eabd7c30b728140c7de30d1a45d247b049677f75da7e\",\"IrnDt\":\"2026-09-23 21:45:59\"}",
+                "EncodedId": "NDU5MjI2"
+            }
+        ]
+    },
+    "error": null
+}

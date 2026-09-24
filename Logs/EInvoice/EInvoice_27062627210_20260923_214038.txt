@@ -1,0 +1,115 @@
+{
+    "timestamp": "2026-09-23T21:40:38.395902",
+    "document_no": "27062627210",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27062627210",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "27062627210",
+                    "Dt": "23/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "27AAACZ2157Q1ZQ",
+                    "LglNm": "Zs Associates India Private Limited",
+                    "TrdNm": "Zs Associates India Private Limited",
+                    "Pos": "27",
+                    "Addr1": "World Trade Centre",
+                    "Addr2": "Tower 3 1st to 5th Floor ,Nagar Road S No. 1, Kharadi,",
+                    "Loc": "Pune",
+                    "Pin": "411014",
+                    "Stcd": "27"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "L2 Resources Consultant for the period 01-May-26 to 31-May-2026 ||",
+                        "HsnCd": "998311",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 238356,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 21452.04,
+                        "IgstAmt": 0,
+                        "CgstAmt": 21452.04,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 238356,
+                        "AssAmt": 238356.0,
+                        "TotItemVal": 281260.08
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 238356.0,
+                    "CgstVal": 21452.04,
+                    "SgstVal": 21452.04,
+                    "IgstVal": 0.0,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": -0.08,
+                    "TotInvVal": 281260.0
+                },
+                "ShipDtls": {
+                    "LglNm": "Zs Associates India Private Limited",
+                    "TrdNm": "Zs Associates India Private Limited",
+                    "Addr1": "World Trade Centre",
+                    "Addr2": "Tower 3 1st to 5th Floor ,Nagar Road S No. 1, Kharadi,",
+                    "Loc": "Pune",
+                    "Stcd": "27",
+                    "Pin": "411014"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 122610116166818,
+                "AckDate": "2026-09-23 21:40:40",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "8f72b16ebbf2fcf011ba580673a439368d31cb84bd0b254b7b9af920591ca535",
+                "DocDtls": {
+                    "No": "27062627210",
+                    "Dt": "23/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "27062627210",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdBQUJDSTk2NjlSMVpIXCIsXCJCdXllckdzdGluXCI6XCIyN0FBQUNaMjE1N1ExWlFcIixcIkRvY05vXCI6XCIyNzA2MjYyNzIxMFwiLFwiRG9jVHlwXCI6XCJJTlZcIixcIkRvY0R0XCI6XCIyMy8wOS8yMDI2XCIsXCJUb3RJbnZWYWxcIjoyODEyNjAuMCxcIkl0ZW1DbnRcIjoxLFwiTWFpbkhzbkNvZGVcIjpcIjk5ODMxMVwiLFwiSXJuXCI6XCI4ZjcyYjE2ZWJiZjJmY2YwMTFiYTU4MDY3M2E0MzkzNjhkMzFjYjg0YmQwYjI1NGI3YjlhZjkyMDU5MWNhNTM1XCIsXCJJcm5EdFwiOlwiMjAyNi0wOS0yMyAyMTo0MDo0MFwifSJ9.qkeAppqJZBTHhgyyxCKN_Y2FGwxwopbSHbIBrzL0XF5jzlGG8PDvaoK7mIFhc4IeSQQ1YJBss3ydkjHve8FBmCU4E5dDHM13pJLSX7MVEU4CqYbU6TybG8AVWNk3N_-46ib6wk3Ziwp59SZ751oeqYrx-7_RKXFRuxqx1rp9sxSYvz27sQHVe1lflRoFtlLm8hgWrpjKS0Ct8gK2n0edooEa7VjHb5VYYTMSDb1sfQJyRPnFSUW0c5-LHmsGHcxo8DPUmtKqU1LaOiKaCqagndLmQmpu4HgftUwK8kr69eGToZUXhoRakoOKMHZ4qj3tzpKny5NKw9S4jSV6TMgfiA",
+                "QrCode": "{\"SellerGstin\":\"27AABCI9669R1ZH\",\"BuyerGstin\":\"27AAACZ2157Q1ZQ\",\"DocNo\":\"27062627210\",\"DocTyp\":\"INV\",\"DocDt\":\"23/09/2026\",\"TotInvVal\":281260.0,\"ItemCnt\":1,\"MainHsnCode\":\"998311\",\"Irn\":\"8f72b16ebbf2fcf011ba580673a439368d31cb84bd0b254b7b9af920591ca535\",\"IrnDt\":\"2026-09-23 21:40:40\"}",
+                "EncodedId": "NDU5MTA4"
+            }
+        ]
+    },
+    "error": null
+}

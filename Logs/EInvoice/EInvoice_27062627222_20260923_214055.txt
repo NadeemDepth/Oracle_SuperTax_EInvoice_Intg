@@ -1,0 +1,115 @@
+{
+    "timestamp": "2026-09-23T21:40:55.696756",
+    "document_no": "27062627222",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27062627222",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "27062627222",
+                    "Dt": "23/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "09AAGCB9339N2ZX",
+                    "LglNm": "BonusHub Digital Solutions Pvt Ltd.",
+                    "TrdNm": "BonusHub Digital Solutions Pvt Ltd.",
+                    "Pos": "09",
+                    "Addr1": "B-152,",
+                    "Addr2": "1st Floor, Sector \u2013 6,,G.B.",
+                    "Loc": "Noida",
+                    "Pin": "201301",
+                    "Stcd": "09"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "IBM Security Guardium Package (Software)per 100 Resource Units Annual SW Subscription & Support Renewal(Coverage start from 01-07-2026 to 30-06-2027 )",
+                        "HsnCd": "998313",
+                        "Qty": 12,
+                        "Unit": "NOS",
+                        "UnitPrice": 40984,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 88525.44,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 491808,
+                        "AssAmt": 491808.0,
+                        "TotItemVal": 580333.44
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 491808.0,
+                    "CgstVal": 0.0,
+                    "SgstVal": 0.0,
+                    "IgstVal": 88525.44,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": -0.44,
+                    "TotInvVal": 580333.0
+                },
+                "ShipDtls": {
+                    "LglNm": "BonusHub Digital Solutions Pvt Ltd.",
+                    "TrdNm": "BonusHub Digital Solutions Pvt Ltd.",
+                    "Addr1": "B-152,",
+                    "Addr2": "1st Floor, Sector \u2013 6,,G.B.",
+                    "Loc": "Noida",
+                    "Stcd": "09",
+                    "Pin": "201301"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 122610116166872,
+                "AckDate": "2026-09-23 21:40:57",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "f84607ddbbb9b9d56b5dafa6600dd2438d9535cba43c7790ce6b1e71a3ac6d2d",
+                "DocDtls": {
+                    "No": "27062627222",
+                    "Dt": "23/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "27062627222",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdBQUJDSTk2NjlSMVpIXCIsXCJCdXllckdzdGluXCI6XCIwOUFBR0NCOTMzOU4yWlhcIixcIkRvY05vXCI6XCIyNzA2MjYyNzIyMlwiLFwiRG9jVHlwXCI6XCJJTlZcIixcIkRvY0R0XCI6XCIyMy8wOS8yMDI2XCIsXCJUb3RJbnZWYWxcIjo1ODAzMzMuMCxcIkl0ZW1DbnRcIjoxLFwiTWFpbkhzbkNvZGVcIjpcIjk5ODMxM1wiLFwiSXJuXCI6XCJmODQ2MDdkZGJiYjliOWQ1NmI1ZGFmYTY2MDBkZDI0MzhkOTUzNWNiYTQzYzc3OTBjZTZiMWU3MWEzYWM2ZDJkXCIsXCJJcm5EdFwiOlwiMjAyNi0wOS0yMyAyMTo0MDo1N1wifSJ9.oefwQCz9tLX7WIM3zXbMxUG8khu1265KmISOCSuwMa88rQM077fi8wE7j_5Z5MYSLE805xFG_omkhvZ2XO86Uq3tY7pwE2IhyFzYXCpzaGURDgGwtmtMOMZjYDMrKgxNgcnmHFeLTvBv2z5WvbxE0DoKbOMxrjMe4NvZThkpMtpw9ytu55tMF-TgXVZFQ06WPL6WHyBZAhUiVIJOR5Ia4eWN9wA0ULIEY_KqwHv7HMftEyK9kx-e-fin3Nnj39TRKl18wg2Ll-F74xZyC81Tpp33CKkL9zimYZl92oewBa8kWINay6GibYNbBVs2ozDknss4OzYtVk2ZNj6zUA_-XQ",
+                "QrCode": "{\"SellerGstin\":\"27AABCI9669R1ZH\",\"BuyerGstin\":\"09AAGCB9339N2ZX\",\"DocNo\":\"27062627222\",\"DocTyp\":\"INV\",\"DocDt\":\"23/09/2026\",\"TotInvVal\":580333.0,\"ItemCnt\":1,\"MainHsnCode\":\"998313\",\"Irn\":\"f84607ddbbb9b9d56b5dafa6600dd2438d9535cba43c7790ce6b1e71a3ac6d2d\",\"IrnDt\":\"2026-09-23 21:40:57\"}",
+                "EncodedId": "NDU5MTE0"
+            }
+        ]
+    },
+    "error": null
+}

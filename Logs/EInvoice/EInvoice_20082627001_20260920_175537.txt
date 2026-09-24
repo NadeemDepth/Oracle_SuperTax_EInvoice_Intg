@@ -1,0 +1,93 @@
+{
+    "timestamp": "2026-09-20T17:55:37.697133",
+    "document_no": "20082627001",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "20082627001",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "20082627001",
+                    "Dt": "18/09/2026"
+                },
+                "SellerDtls": {
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Suite 8, Level 9, ",
+                    "Addr2": "111 Phillip St, Parramatta, NSW 2150",
+                    "Loc": "Parramatta",
+                    "Pin": "2150"
+                },
+                "BuyerDtls": {
+                    "LglNm": "Ksr Eyecare Pvt Ltd",
+                    "TrdNm": "Ksr Eyecare Pvt Ltd",
+                    "Addr1": "Ksr Eyecare Pvt Ltd",
+                    "Addr2": "Mumbai,",
+                    "Loc": "Mumbai"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "HsnCd": "998314",
+                        "Qty": 1,
+                        "UnitPrice": 25000,
+                        "Discount": 0,
+                        "GstRt": 0,
+                        "SgstAmt": 0,
+                        "IgstAmt": 0,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 25000,
+                        "AssAmt": 25000.0,
+                        "TotItemVal": 25000.0
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 25000.0,
+                    "CgstVal": 0.0,
+                    "SgstVal": 0.0,
+                    "IgstVal": 0.0,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": 0,
+                    "TotInvVal": 25000.0
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "Record": 1,
+                "Success": false,
+                "Messages": "GSTIN should not be empty",
+                "Status": "ERROR",
+                "DocDtls": {
+                    "No": "20082627001",
+                    "Dt": "18/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {},
+                "TranDtls": {
+                    "SupTyp": "B2B"
+                },
+                "CustDocNo": "20082627001",
+                "EncodedId": "MA=="
+            }
+        ]
+    },
+    "error": null
+}

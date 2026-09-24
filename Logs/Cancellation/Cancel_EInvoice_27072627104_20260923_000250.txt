@@ -1,0 +1,30 @@
+{
+    "timestamp": "2026-09-23T00:02:50.198622",
+    "identifier": "27072627104",
+    "request_payload": {
+        "invoices": [
+            {
+                "Irn": "b98b72ba9f93b58ad463e2264ff96cc6cadb301b97514ad3b2242bfb8578e801",
+                "CnlRsn": "2",
+                "CnlRem": "Test"
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Invoice cancelled",
+                "Status": "CANCELLED",
+                "Irn": "b98b72ba9f93b58ad463e2264ff96cc6cadb301b97514ad3b2242bfb8578e801",
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "EncodedId": "NDU4NjA5"
+            }
+        ]
+    },
+    "error": null
+}

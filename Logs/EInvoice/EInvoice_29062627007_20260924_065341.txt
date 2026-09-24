@@ -1,0 +1,113 @@
+{
+    "timestamp": "2026-09-24T06:53:41.949505",
+    "document_no": "29062627007",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "29062627007",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "29062627007",
+                    "Dt": "24/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "29AABCI9669R1ZD",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Bhive Workspace solutions",
+                    "Addr2": "114/5, Old Madras Road, North Halasuru",
+                    "Loc": "Bangalore",
+                    "Pin": "560008",
+                    "Stcd": "29"
+                },
+                "BuyerDtls": {
+                    "Gstin": "29AAACC6106G7ZR",
+                    "LglNm": "Canara Bank",
+                    "TrdNm": "Canara Bank",
+                    "Pos": "29",
+                    "Addr1": "Centralized Procurement & Vendor Management Vertical,",
+                    "Addr2": "IT Wing, Head office, ,#14 Naveen Complex, MG Road",
+                    "Loc": "Bengaluru",
+                    "Pin": "560001",
+                    "Stcd": "29"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "NMS- Onsite Resident Engineer  FMS Charges for the period 1st Apr 2026 To 30th Jun 2026",
+                        "HsnCd": "998311",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 182568.75,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 16431.18,
+                        "IgstAmt": 0,
+                        "CgstAmt": 16431.18,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 182568.75,
+                        "AssAmt": 182568.75,
+                        "TotItemVal": 215431.11
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 182568.75,
+                    "CgstVal": 16431.18,
+                    "SgstVal": 16431.18,
+                    "IgstVal": 0.0,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": -0.11,
+                    "TotInvVal": 215431.0
+                },
+                "ShipDtls": {
+                    "LglNm": "Canara Bank",
+                    "TrdNm": "Canara Bank",
+                    "Addr1": "Centralized Procurement & Vendor Management Vertical,",
+                    "Addr2": "IT Wing, Head office, ,#14 Naveen Complex, MG Road",
+                    "Loc": "Bengaluru",
+                    "Stcd": "29",
+                    "Pin": "560001"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "Record": 1,
+                "Success": false,
+                "Fy": "202627",
+                "Messages": "Customer does not have access to Gstin 29AABCI9669R1ZD",
+                "Status": "ERROR",
+                "DocDtls": {
+                    "No": "29062627007",
+                    "Dt": "24/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "29AABCI9669R1ZD"
+                },
+                "TranDtls": {
+                    "SupTyp": "B2B"
+                },
+                "CustDocNo": "29062627007",
+                "EncodedId": "MA=="
+            }
+        ]
+    },
+    "error": null
+}

@@ -1,0 +1,163 @@
+{
+    "timestamp": "2026-09-23T21:40:53.138096",
+    "document_no": "27062627221",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27062627221",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "27062627221",
+                    "Dt": "23/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "27AAACK4409J1ZK",
+                    "LglNm": "KOTAK MAHINDRA BANK LIMITED",
+                    "TrdNm": "KOTAK MAHINDRA BANK LIMITED",
+                    "Pos": "27",
+                    "Addr1": "Kotak Infiniti, 1st Floor, Building No. 21,",
+                    "Addr2": "Infinity Park Off Western express Highway,,General A K Vaidya Marg, Malad East,",
+                    "Loc": "Mumbai",
+                    "Pin": "400097",
+                    "Stcd": "27"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "SOC and Incident Response On-Site Security Services month of May 2026",
+                        "HsnCd": "998311",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 1407916.32,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 126712.46,
+                        "IgstAmt": 0,
+                        "CgstAmt": 126712.46,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 1407916.32,
+                        "AssAmt": 1407916.32,
+                        "TotItemVal": 1661341.24
+                    },
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "SOC and Incident Response On-Site Security Services month of Apr 2026",
+                        "HsnCd": "998311",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 1409347.5,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 126841.27,
+                        "IgstAmt": 0,
+                        "CgstAmt": 126841.27,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "2",
+                        "TotAmt": 1409347.5,
+                        "AssAmt": 1409347.5,
+                        "TotItemVal": 1663030.04
+                    },
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "SOC and Incident Response On-Site Security Services month of Jun 2026",
+                        "HsnCd": "998311",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 1382183,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 124396.47,
+                        "IgstAmt": 0,
+                        "CgstAmt": 124396.47,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "3",
+                        "TotAmt": 1382183,
+                        "AssAmt": 1382183.0,
+                        "TotItemVal": 1630975.94
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 4199446.82,
+                    "CgstVal": 377950.2,
+                    "SgstVal": 377950.2,
+                    "IgstVal": 0.0,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": -0.22,
+                    "TotInvVal": 4955347.0
+                },
+                "ShipDtls": {
+                    "LglNm": "KOTAK MAHINDRA BANK LIMITED",
+                    "TrdNm": "KOTAK MAHINDRA BANK LIMITED",
+                    "Addr1": "Kotak Infiniti, 1st Floor, Building No. 21,",
+                    "Addr2": "Infinity Park Off Western express Highway,,General A K Vaidya Marg, Malad East,",
+                    "Loc": "Mumbai",
+                    "Stcd": "27",
+                    "Pin": "400097"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 122610116166863,
+                "AckDate": "2026-09-23 21:40:55",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "f9571c1327a59704017555fd526fc2fd1593a37826ddb01d14d7fb37e1c1d810",
+                "DocDtls": {
+                    "No": "27062627221",
+                    "Dt": "23/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "27062627221",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdBQUJDSTk2NjlSMVpIXCIsXCJCdXllckdzdGluXCI6XCIyN0FBQUNLNDQwOUoxWktcIixcIkRvY05vXCI6XCIyNzA2MjYyNzIyMVwiLFwiRG9jVHlwXCI6XCJJTlZcIixcIkRvY0R0XCI6XCIyMy8wOS8yMDI2XCIsXCJUb3RJbnZWYWxcIjo0OTU1MzQ3LjAsXCJJdGVtQ250XCI6MyxcIk1haW5Ic25Db2RlXCI6XCI5OTgzMTFcIixcIklyblwiOlwiZjk1NzFjMTMyN2E1OTcwNDAxNzU1NWZkNTI2ZmMyZmQxNTkzYTM3ODI2ZGRiMDFkMTRkN2ZiMzdlMWMxZDgxMFwiLFwiSXJuRHRcIjpcIjIwMjYtMDktMjMgMjE6NDA6NTVcIn0ifQ.OQ5avLy0xzzxYYmJZHdu457IZQF0n37Tmrz60HyvFB6-L6I5IY5dGn3ZnhUbDfuQHYENwZ1-aZnVStmoSwz554Z1A2O2sslaAZlfxPsBwnRJP04meIIkwiNsllMTIhYFOUV0uGN6QJw8LCH_wgpwpoBcaHCUxUJ2zKW5K0Vc2pTuvLjBUwBtT_0bGbywuelYVmKSBdzZhuGFpzxeYrJZsdcGEVBpRA2Cw5012ow5TsCWCbuX1LjevS7HIRjZDJYvpQiNPZHL_cifPxtn5tBosvkN08DAhdTWZQc7fy5rIrIayyrqpyaKOu1cca67ORDNvbpxQqT3H6v_1AhV1aOssw",
+                "QrCode": "{\"SellerGstin\":\"27AABCI9669R1ZH\",\"BuyerGstin\":\"27AAACK4409J1ZK\",\"DocNo\":\"27062627221\",\"DocTyp\":\"INV\",\"DocDt\":\"23/09/2026\",\"TotInvVal\":4955347.0,\"ItemCnt\":3,\"MainHsnCode\":\"998311\",\"Irn\":\"f9571c1327a59704017555fd526fc2fd1593a37826ddb01d14d7fb37e1c1d810\",\"IrnDt\":\"2026-09-23 21:40:55\"}",
+                "EncodedId": "NDU5MTEz"
+            }
+        ]
+    },
+    "error": null
+}

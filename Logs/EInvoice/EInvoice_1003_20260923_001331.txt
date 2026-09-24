@@ -1,0 +1,115 @@
+{
+    "timestamp": "2026-09-23T00:13:31.871713",
+    "document_no": "1003",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "1003",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "1003",
+                    "Dt": "04/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "19AABCI9669R1ZE",
+                    "LglNm": "Inspira Enterprise India Limited (KL)",
+                    "TrdNm": "Inspira Enterprise India Limited (KL)",
+                    "Pos": "19",
+                    "Addr1": "WEST BENGAL OFFICE LOCATION,Rbd-Boulveard,",
+                    "Addr2": "8th Floor, Plot K 1,,Sectore V Block Ep And Gp, Saltlake City",
+                    "Loc": "HOWRAH",
+                    "Pin": "700091",
+                    "Stcd": "19"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "N",
+                        "PrdDesc": "Computers",
+                        "HsnCd": "847130",
+                        "Qty": 2,
+                        "Unit": "NOS",
+                        "UnitPrice": 100000,
+                        "Discount": 0,
+                        "GstRt": 12,
+                        "SgstAmt": 0,
+                        "IgstAmt": 24000,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 200000,
+                        "AssAmt": 200000.0,
+                        "TotItemVal": 224000.0
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 200000.0,
+                    "CgstVal": 0.0,
+                    "SgstVal": 0.0,
+                    "IgstVal": 24000,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": 0.0,
+                    "TotInvVal": 224000.0
+                },
+                "ShipDtls": {
+                    "LglNm": "Inspira Enterprise India Limited (KL)",
+                    "TrdNm": "Inspira Enterprise India Limited (KL)",
+                    "Addr1": "CCI Logistics Ltd. 454 AND 456,",
+                    "Addr2": "Sankrial Industrial Park,,NH-6 Dhulagari, Howrah",
+                    "Loc": "HOWRAH",
+                    "Stcd": "19",
+                    "Pin": "700091"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 122610116157476,
+                "AckDate": "2026-09-23 00:13:33",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "5b99cc099af9621dc3b5ee1a325b041ad3f9b6ea5b679296d9fe6e39b71c0742",
+                "DocDtls": {
+                    "No": "1003",
+                    "Dt": "04/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "1003",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdBQUJDSTk2NjlSMVpIXCIsXCJCdXllckdzdGluXCI6XCIxOUFBQkNJOTY2OVIxWkVcIixcIkRvY05vXCI6XCIxMDAzXCIsXCJEb2NUeXBcIjpcIklOVlwiLFwiRG9jRHRcIjpcIjA0LzA5LzIwMjZcIixcIlRvdEludlZhbFwiOjIyNDAwMC4wLFwiSXRlbUNudFwiOjEsXCJNYWluSHNuQ29kZVwiOlwiODQ3MTMwXCIsXCJJcm5cIjpcIjViOTljYzA5OWFmOTYyMWRjM2I1ZWUxYTMyNWIwNDFhZDNmOWI2ZWE1YjY3OTI5NmQ5ZmU2ZTM5YjcxYzA3NDJcIixcIklybkR0XCI6XCIyMDI2LTA5LTIzIDAwOjEzOjMzXCJ9In0.la1aEyq8csmaS7sdVmr1ZXTvuhyVZXAVAe6_fQ2NImahl6w7uC0yZUCILSwZWL9OC7YByZthtX2VcUewr4N4EzAlRiaq3L2vbgs9OEzRPxFXHiqCHMqKxFp05XkwdhSmAzhyv4j3LgoXLITZR0lPDRJdFnORbbo3Agx_WLnILEvWiqMEZruIDCxZtWE-R17V2a_WX4Jw6xml69Ox_X7DuVmIFY09hBqnwYZ_2yPGwHuOk27UU8ChmVnjkOWF86konDvD3JxQSVYb_EhfeZTAsmoMvdnhFilO75pueow1O3zGCyaC0RDIteginvG5L-SsBuq9ir0JBWrg6gKMP5VpvA",
+                "QrCode": "{\"SellerGstin\":\"27AABCI9669R1ZH\",\"BuyerGstin\":\"19AABCI9669R1ZE\",\"DocNo\":\"1003\",\"DocTyp\":\"INV\",\"DocDt\":\"04/09/2026\",\"TotInvVal\":224000.0,\"ItemCnt\":1,\"MainHsnCode\":\"847130\",\"Irn\":\"5b99cc099af9621dc3b5ee1a325b041ad3f9b6ea5b679296d9fe6e39b71c0742\",\"IrnDt\":\"2026-09-23 00:13:33\"}",
+                "EncodedId": "NDU3NjMz"
+            }
+        ]
+    },
+    "error": null
+}

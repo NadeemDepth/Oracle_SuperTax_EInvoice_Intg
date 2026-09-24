@@ -1,0 +1,163 @@
+{
+    "timestamp": "2026-09-23T21:42:50.390773",
+    "document_no": "27072627010",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27072627010",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "27072627010",
+                    "Dt": "23/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "27AAOCS7558N1ZA",
+                    "LglNm": "INDIGRID LIMITED",
+                    "TrdNm": "INDIGRID LIMITED",
+                    "Pos": "27",
+                    "Addr1": "1st Floor, Unit no. 101, Windsor",
+                    "Addr2": "Kalina Santa Cruz East,,",
+                    "Loc": "Mumbai",
+                    "Pin": "400098",
+                    "Stcd": "27"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "Threat Intelligence - Guardian Appliance Period 01-07-2026. to 30-09-2026.",
+                        "HsnCd": "998319",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 51030,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 4592.7,
+                        "IgstAmt": 0,
+                        "CgstAmt": 4592.7,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 51030,
+                        "AssAmt": 51030.0,
+                        "TotItemVal": 60215.4
+                    },
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "Cybersecurity Incident Monitoring of IT infra/OT Set up Period 01-07-2026. to 30-09-2026.",
+                        "HsnCd": "998319",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 703572.5,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 63321.52,
+                        "IgstAmt": 0,
+                        "CgstAmt": 63321.52,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "2",
+                        "TotAmt": 703572.5,
+                        "AssAmt": 703572.5,
+                        "TotItemVal": 830215.54
+                    },
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "Remote Management of supplied items/provided solutions Period 01-07-2026. to 30-09-2026.",
+                        "HsnCd": "998319",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 200154.25,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 18013.88,
+                        "IgstAmt": 0,
+                        "CgstAmt": 18013.88,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "3",
+                        "TotAmt": 200154.25,
+                        "AssAmt": 200154.25,
+                        "TotItemVal": 236182.01
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 954756.75,
+                    "CgstVal": 85928.1,
+                    "SgstVal": 85928.1,
+                    "IgstVal": 0.0,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": 0.05,
+                    "TotInvVal": 1126613.0
+                },
+                "ShipDtls": {
+                    "LglNm": "INDIGRID LIMITED",
+                    "TrdNm": "INDIGRID LIMITED",
+                    "Addr1": "1st Floor, Unit no. 101, Windsor",
+                    "Addr2": "Kalina Santa Cruz East,,",
+                    "Loc": "Mumbai",
+                    "Stcd": "27",
+                    "Pin": "400098"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 122610116167057,
+                "AckDate": "2026-09-23 21:42:52",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "1fcbb417b5e907a1a10c1c8c8530e83a6c76d851aa51b677ec4ffccb8e282037",
+                "DocDtls": {
+                    "No": "27072627010",
+                    "Dt": "23/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "27072627010",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdBQUJDSTk2NjlSMVpIXCIsXCJCdXllckdzdGluXCI6XCIyN0FBT0NTNzU1OE4xWkFcIixcIkRvY05vXCI6XCIyNzA3MjYyNzAxMFwiLFwiRG9jVHlwXCI6XCJJTlZcIixcIkRvY0R0XCI6XCIyMy8wOS8yMDI2XCIsXCJUb3RJbnZWYWxcIjoxMTI2NjEzLjAsXCJJdGVtQ250XCI6MyxcIk1haW5Ic25Db2RlXCI6XCI5OTgzMTlcIixcIklyblwiOlwiMWZjYmI0MTdiNWU5MDdhMWExMGMxYzhjODUzMGU4M2E2Yzc2ZDg1MWFhNTFiNjc3ZWM0ZmZjY2I4ZTI4MjAzN1wiLFwiSXJuRHRcIjpcIjIwMjYtMDktMjMgMjE6NDI6NTJcIn0ifQ.GCyFxhCgxm2ri5YgkAePmCcf6lymrIl5wFMB7soGmthw0BZq40upAW2oOQO6QJLSw7pM-SAlqhJ_MouUeQ5lUH6n7-YgyOUgMvPDdx9IkWRXc5SMX63WCa1RnaEZjLHrxmXtmCpcfDHapWPKe69uYNRvlv1XtQrqzS_G79OBqCIrjvCxJ44diJm0FcQSw8ZYI__ZqXvsRd9T5Ea8MjMBHcK2yGDVOhitfNT7G8u_LZtYDnD5SOhgU4L9MLMKThaHIw7IuXjyw0wpBBNx8a9o1K7j3IMn08jxQvqNgV3Sk0iJd-QrNpZgot3KAAoRvuNPrdOcIjP-MKQqxyWQk6k6EQ",
+                "QrCode": "{\"SellerGstin\":\"27AABCI9669R1ZH\",\"BuyerGstin\":\"27AAOCS7558N1ZA\",\"DocNo\":\"27072627010\",\"DocTyp\":\"INV\",\"DocDt\":\"23/09/2026\",\"TotInvVal\":1126613.0,\"ItemCnt\":3,\"MainHsnCode\":\"998319\",\"Irn\":\"1fcbb417b5e907a1a10c1c8c8530e83a6c76d851aa51b677ec4ffccb8e282037\",\"IrnDt\":\"2026-09-23 21:42:52\"}",
+                "EncodedId": "NDU5MTU4"
+            }
+        ]
+    },
+    "error": null
+}

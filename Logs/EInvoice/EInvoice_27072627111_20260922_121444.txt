@@ -1,0 +1,119 @@
+{
+    "timestamp": "2026-09-22T12:14:44.054047",
+    "document_no": "27072627111",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27072627111",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "27072627111",
+                    "Dt": "22/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "27AAACL0582H1ZM",
+                    "LglNm": "LIFE INSURANCE CORPORATION OF INDIA",
+                    "TrdNm": "LIFE INSURANCE CORPORATION OF INDIA",
+                    "Pos": "27",
+                    "Addr1": " Central Office,Information Technology,(SD",
+                    "Addr2": "DEPT \u201cJeevan Seva\u201d Annexe, II FL,,S V ROAD,Santacruz West",
+                    "Loc": "Mumbai",
+                    "Pin": "400054",
+                    "Stcd": "27"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "N",
+                        "HsnCd": "39269099",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 159221573.91,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 14329941.65,
+                        "IgstAmt": 0,
+                        "CgstAmt": 14329941.65,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 159221573.91,
+                        "AssAmt": 159221573.91,
+                        "TotItemVal": 187881457.21
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 159221573.91,
+                    "CgstVal": 14329941.65,
+                    "SgstVal": 14329941.65,
+                    "IgstVal": 0.0,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": 0.21,
+                    "TotInvVal": 187881457.42
+                },
+                "EwbDtls": {
+                    "TransId": "27AAGCS0674R1ZN",
+                    "TransName": "Satellite Cargo Connexion Private Limited",
+                    "TransMode": "Road",
+                    "Distance": 5,
+                    "TransDocNo": "STN/MUM/2627/01",
+                    "TransDocDt": "22/09/2026",
+                    "VehNo": "MH11BL4238",
+                    "VehType": "O",
+                    "IsEWayBillIntegrated": "true"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 122610116147664,
+                "AckDate": "2026-09-22 12:14:44",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "81ba1cbe9e6cbc44550ec85cfef3e634bd7673579f1c57da6ca81fa805e4ed47",
+                "EwbNo": "231010608980",
+                "EwbDt": "2026-09-22 12:15:00",
+                "DocDtls": {
+                    "No": "27072627111",
+                    "Dt": "22/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "27072627111",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdBQUJDSTk2NjlSMVpIXCIsXCJCdXllckdzdGluXCI6XCIyN0FBQUNMMDU4MkgxWk1cIixcIkRvY05vXCI6XCIyNzA3MjYyNzExMVwiLFwiRG9jVHlwXCI6XCJJTlZcIixcIkRvY0R0XCI6XCIyMi8wOS8yMDI2XCIsXCJUb3RJbnZWYWxcIjoxODc4ODE0NTcuNDIsXCJJdGVtQ250XCI6MSxcIk1haW5Ic25Db2RlXCI6XCIzOTI2OTA5OVwiLFwiSXJuXCI6XCI4MWJhMWNiZTllNmNiYzQ0NTUwZWM4NWNmZWYzZTYzNGJkNzY3MzU3OWYxYzU3ZGE2Y2E4MWZhODA1ZTRlZDQ3XCIsXCJJcm5EdFwiOlwiMjAyNi0wOS0yMiAxMjoxNDo0NFwifSJ9.WsguvhaX_2ahhDuA4h4HubtZMun_vx7ReAfwc2X_mAw4b87mq16i6XCwjNH24qaseDPviJn9qtndvw8A7ouFrxXImWNJ2PYKtdAMyiBpedRJoXrzWvRgvwtvDmGNqUmFlR0cnT_guCL1HcLJdA9cjz1jABh93m7KCxskHoS6ITlYqxb0GK2FoqXFjfH4xlvm_KY9ksxrHfFB1d2BfDEmi2xnFgvw1CbDe9cH8lqKi2LXRE5sqMbBkqFpcGTH_hnoEj4dvE5MNbH13QKDQHEQHA2jWzard98xBO9o2PokXf3JCneNIkMw-v6wf6VZxpwPTpPB_fykOqQZec0Woq27-w",
+                "QrCode": "{\"SellerGstin\":\"27AABCI9669R1ZH\",\"BuyerGstin\":\"27AAACL0582H1ZM\",\"DocNo\":\"27072627111\",\"DocTyp\":\"INV\",\"DocDt\":\"22/09/2026\",\"TotInvVal\":187881457.42,\"ItemCnt\":1,\"MainHsnCode\":\"39269099\",\"Irn\":\"81ba1cbe9e6cbc44550ec85cfef3e634bd7673579f1c57da6ca81fa805e4ed47\",\"IrnDt\":\"2026-09-22 12:14:44\"}",
+                "EwbValidTill": "2026-09-23 23:59:00",
+                "EncodedId": "NDU4OTU4"
+            }
+        ]
+    },
+    "error": null
+}

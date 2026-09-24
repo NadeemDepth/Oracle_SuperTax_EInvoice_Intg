@@ -1,0 +1,115 @@
+{
+    "timestamp": "2026-09-23T21:43:39.335322",
+    "document_no": "27072627027",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27072627027",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "CRN",
+                    "No": "27072627027",
+                    "Dt": "23/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "27AAACC2498P4Z0",
+                    "LglNm": "CENTRAL BANK OF INDIA",
+                    "TrdNm": "CENTRAL BANK OF INDIA",
+                    "Pos": "27",
+                    "Addr1": "Information Security Department,",
+                    "Addr2": "4th floor, Plot no.26, Sector-11,,",
+                    "Loc": "NAVI Mumbai",
+                    "Pin": "400614",
+                    "Stcd": "27"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "ATS for Hardware OEM : HPE Period  01-04-2025 to 30-06-2026",
+                        "HsnCd": "998313",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 764064,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 68765.76,
+                        "IgstAmt": 0,
+                        "CgstAmt": 68765.76,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 764064,
+                        "AssAmt": 764064.0,
+                        "TotItemVal": 901595.52
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 764064.0,
+                    "CgstVal": 68765.76,
+                    "SgstVal": 68765.76,
+                    "IgstVal": 0.0,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": -0.48,
+                    "TotInvVal": 901595.04
+                },
+                "ShipDtls": {
+                    "LglNm": "CENTRAL BANK OF INDIA",
+                    "TrdNm": "CENTRAL BANK OF INDIA",
+                    "Addr1": "Information Security Department,",
+                    "Addr2": "4th floor, Plot no.26, Sector-11,,",
+                    "Loc": "NAVI Mumbai",
+                    "Stcd": "27",
+                    "Pin": "400614"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 122610116167224,
+                "AckDate": "2026-09-23 21:43:41",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "4318293b2e4e7c644546dd61fdbcaaf6b74cff50b1e1f012611e6dff87789959",
+                "DocDtls": {
+                    "No": "27072627027",
+                    "Dt": "23/09/2026",
+                    "Typ": "CRN"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "27072627027",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdBQUJDSTk2NjlSMVpIXCIsXCJCdXllckdzdGluXCI6XCIyN0FBQUNDMjQ5OFA0WjBcIixcIkRvY05vXCI6XCIyNzA3MjYyNzAyN1wiLFwiRG9jVHlwXCI6XCJDUk5cIixcIkRvY0R0XCI6XCIyMy8wOS8yMDI2XCIsXCJUb3RJbnZWYWxcIjo5MDE1OTUuMDQsXCJJdGVtQ250XCI6MSxcIk1haW5Ic25Db2RlXCI6XCI5OTgzMTNcIixcIklyblwiOlwiNDMxODI5M2IyZTRlN2M2NDQ1NDZkZDYxZmRiY2FhZjZiNzRjZmY1MGIxZTFmMDEyNjExZTZkZmY4Nzc4OTk1OVwiLFwiSXJuRHRcIjpcIjIwMjYtMDktMjMgMjE6NDM6NDFcIn0ifQ.PFBmjU_T6zTW2kEIQqKn_h23PszGlj0t5GDdwrlJwCS4BWNrTyfIyv9ZVbGsb1qK8A0trtSlQm3h628IvoAhrMovgy3IOLp2pM2cFlucyW_tUZbT2zKxTPgnw9ECiY77QpekxmppIEa_fRAy3nXYbGRoKDdd5b31A7lrUmpY778pxGXZlfGS7ZEzponVIKLOwHr-uk13Mr8T_ql1QlzhgYlYRs5joBRU0JMYGk3wrYnkmZA2x7bfeoeokGhP2g0uA7MQh3eOMk-zInE8fcaRy0uJKgfYOSNnvkDjoCtYibQiRWyxDvR3NKtyGySsnlhzC33eUaIUD03bsLt88n07gg",
+                "QrCode": "{\"SellerGstin\":\"27AABCI9669R1ZH\",\"BuyerGstin\":\"27AAACC2498P4Z0\",\"DocNo\":\"27072627027\",\"DocTyp\":\"CRN\",\"DocDt\":\"23/09/2026\",\"TotInvVal\":901595.04,\"ItemCnt\":1,\"MainHsnCode\":\"998313\",\"Irn\":\"4318293b2e4e7c644546dd61fdbcaaf6b74cff50b1e1f012611e6dff87789959\",\"IrnDt\":\"2026-09-23 21:43:41\"}",
+                "EncodedId": "NDU5MTc1"
+            }
+        ]
+    },
+    "error": null
+}

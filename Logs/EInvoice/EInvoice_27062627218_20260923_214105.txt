@@ -1,0 +1,187 @@
+{
+    "timestamp": "2026-09-23T21:41:05.018300",
+    "document_no": "27062627218",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27062627218",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "27062627218",
+                    "Dt": "23/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "27AAALM0042L3Z4",
+                    "LglNm": "BRIHANMUMBAI MUNICIPAL CORPORATION",
+                    "TrdNm": "BRIHANMUMBAI MUNICIPAL CORPORATION",
+                    "Pos": "27",
+                    "Addr1": "A.E. (I.T. CELL)",
+                    "Addr2": "Ground Floor Room No. 24B, Municipal Head Office,Extension Building, Fort",
+                    "Loc": "Mumbai",
+                    "Pin": "400001",
+                    "Stcd": "27"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "Security Operations Centre as a service for 300 assets-  (Qtr-07) Period: 28th March 2026 - 27th June 2026",
+                        "HsnCd": "998319",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 3084562.5,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 277610.62,
+                        "IgstAmt": 0,
+                        "CgstAmt": 277610.62,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 3084562.5,
+                        "AssAmt": 3084562.5,
+                        "TotItemVal": 3639783.74
+                    },
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "Network connectivity cost for Worli Data Center (Qtr-07) Period: 28th March 2026 - 27th June 2026",
+                        "HsnCd": "998349",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 120208.5,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 10818.76,
+                        "IgstAmt": 0,
+                        "CgstAmt": 10818.76,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "2",
+                        "TotAmt": 120208.5,
+                        "AssAmt": 120208.5,
+                        "TotItemVal": 141846.02
+                    },
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "On Site Resource- 2 Nos. (Qtr-07) Period: 28th March 2026 - 27th June 2026",
+                        "HsnCd": "998311",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 850368,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 76533.12,
+                        "IgstAmt": 0,
+                        "CgstAmt": 76533.12,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "3",
+                        "TotAmt": 850368,
+                        "AssAmt": 850368.0,
+                        "TotItemVal": 1003434.24
+                    },
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "Brand monitoring : (Qtr-07) Period: 28th March 2026 - 27th June 2026",
+                        "HsnCd": "998349",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 456327.75,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 41069.49,
+                        "IgstAmt": 0,
+                        "CgstAmt": 41069.49,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "4",
+                        "TotAmt": 456327.75,
+                        "AssAmt": 456327.75,
+                        "TotItemVal": 538466.73
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 4511466.75,
+                    "CgstVal": 406031.99,
+                    "SgstVal": 406031.99,
+                    "IgstVal": 0.0,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": 0.27,
+                    "TotInvVal": 5323531.0
+                },
+                "ShipDtls": {
+                    "LglNm": "BRIHANMUMBAI MUNICIPAL CORPORATION",
+                    "TrdNm": "BRIHANMUMBAI MUNICIPAL CORPORATION",
+                    "Addr1": "A.E. (I.T. CELL)",
+                    "Addr2": "Ground Floor Room No. 24B, Municipal Head Office,Extension Building, Fort",
+                    "Loc": "Mumbai",
+                    "Stcd": "27",
+                    "Pin": "400001"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 122610116166915,
+                "AckDate": "2026-09-23 21:41:07",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "209a069b0385b5c7367e18e374ab0fa09d5a62a430513244cdf420d63fb21e2d",
+                "DocDtls": {
+                    "No": "27062627218",
+                    "Dt": "23/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "27062627218",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdBQUJDSTk2NjlSMVpIXCIsXCJCdXllckdzdGluXCI6XCIyN0FBQUxNMDA0MkwzWjRcIixcIkRvY05vXCI6XCIyNzA2MjYyNzIxOFwiLFwiRG9jVHlwXCI6XCJJTlZcIixcIkRvY0R0XCI6XCIyMy8wOS8yMDI2XCIsXCJUb3RJbnZWYWxcIjo1MzIzNTMxLjAsXCJJdGVtQ250XCI6NCxcIk1haW5Ic25Db2RlXCI6XCI5OTgzMTlcIixcIklyblwiOlwiMjA5YTA2OWIwMzg1YjVjNzM2N2UxOGUzNzRhYjBmYTA5ZDVhNjJhNDMwNTEzMjQ0Y2RmNDIwZDYzZmIyMWUyZFwiLFwiSXJuRHRcIjpcIjIwMjYtMDktMjMgMjE6NDE6MDdcIn0ifQ.i56wUFdICtxe2NV9YuByleTIds16gZd_p3PvanfSuJA9Bk2BLV0p3BIowDzGSTogKkfepx-2H69Dp3J1FccZaTDEI5J9x0FnWoW5j6_OHBXJlm0qKtQ9804mcG-dbB1tGAjtU8qThkO4EKgP81Hik1eMS87Ggf9eWFNXrDpwBL2T3ZfxcnkOW9uAxY92tdR0NZo29xIdexHiiWTdyYh3XD_45tU9iMQDG5yD2JcQpcDnxd1VkMHOQ1hu9jVhqq3VkeGnQbAOmwJcQW_DMpK2LGdiRzD1QrBjU4JVmk3yhFKQlBTLCYhJeQsgolsza-T2q9ttojEVCHk8ul5Cczh-5g",
+                "QrCode": "{\"SellerGstin\":\"27AABCI9669R1ZH\",\"BuyerGstin\":\"27AAALM0042L3Z4\",\"DocNo\":\"27062627218\",\"DocTyp\":\"INV\",\"DocDt\":\"23/09/2026\",\"TotInvVal\":5323531.0,\"ItemCnt\":4,\"MainHsnCode\":\"998319\",\"Irn\":\"209a069b0385b5c7367e18e374ab0fa09d5a62a430513244cdf420d63fb21e2d\",\"IrnDt\":\"2026-09-23 21:41:07\"}",
+                "EncodedId": "NDU5MTE4"
+            }
+        ]
+    },
+    "error": null
+}

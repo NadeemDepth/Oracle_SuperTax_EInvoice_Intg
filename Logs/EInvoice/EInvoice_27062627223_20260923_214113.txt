@@ -1,0 +1,139 @@
+{
+    "timestamp": "2026-09-23T21:41:13.925616",
+    "document_no": "27062627223",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27062627223",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "27062627223",
+                    "Dt": "23/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "27AAACZ2157Q1ZQ",
+                    "LglNm": "Zs Associates India Private Limited",
+                    "TrdNm": "Zs Associates India Private Limited",
+                    "Pos": "27",
+                    "Addr1": "World Trade Centre",
+                    "Addr2": "Tower 3 1st to 5th Floor ,Nagar Road S No. 1, Kharadi,",
+                    "Loc": "Pune",
+                    "Pin": "411014",
+                    "Stcd": "27"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "Oniste Resource for Risk Analyst peirod 01-Jun -2026 to 30-Jun-2026  ||",
+                        "HsnCd": "998311",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 100000,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 9000,
+                        "IgstAmt": 0,
+                        "CgstAmt": 9000,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 100000,
+                        "AssAmt": 100000.0,
+                        "TotItemVal": 118000.0
+                    },
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "Oniste Resource for Risk Analyst peirod 13-May -2026 to 31-MAY-2026   ||",
+                        "HsnCd": "998311",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 61290,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 5516.1,
+                        "IgstAmt": 0,
+                        "CgstAmt": 5516.1,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "2",
+                        "TotAmt": 61290,
+                        "AssAmt": 61290.0,
+                        "TotItemVal": 72322.2
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 161290.0,
+                    "CgstVal": 14516.1,
+                    "SgstVal": 14516.1,
+                    "IgstVal": 0.0,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": -0.2,
+                    "TotInvVal": 190322.0
+                },
+                "ShipDtls": {
+                    "LglNm": "Zs Associates India Private Limited",
+                    "TrdNm": "Zs Associates India Private Limited",
+                    "Addr1": "World Trade Centre",
+                    "Addr2": "Tower 3 1st to 5th Floor ,Nagar Road S No. 1, Kharadi,",
+                    "Loc": "Pune",
+                    "Stcd": "27",
+                    "Pin": "411014"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 122610116166942,
+                "AckDate": "2026-09-23 21:41:16",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "981ef4d3c25f8fc8b0384c3978b536efe56c7539ffa383a8e91d77c37531648f",
+                "DocDtls": {
+                    "No": "27062627223",
+                    "Dt": "23/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "27062627223",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdBQUJDSTk2NjlSMVpIXCIsXCJCdXllckdzdGluXCI6XCIyN0FBQUNaMjE1N1ExWlFcIixcIkRvY05vXCI6XCIyNzA2MjYyNzIyM1wiLFwiRG9jVHlwXCI6XCJJTlZcIixcIkRvY0R0XCI6XCIyMy8wOS8yMDI2XCIsXCJUb3RJbnZWYWxcIjoxOTAzMjIuMCxcIkl0ZW1DbnRcIjoyLFwiTWFpbkhzbkNvZGVcIjpcIjk5ODMxMVwiLFwiSXJuXCI6XCI5ODFlZjRkM2MyNWY4ZmM4YjAzODRjMzk3OGI1MzZlZmU1NmM3NTM5ZmZhMzgzYThlOTFkNzdjMzc1MzE2NDhmXCIsXCJJcm5EdFwiOlwiMjAyNi0wOS0yMyAyMTo0MToxNlwifSJ9.eqluVBovunmllA38d9K7qr4cMJcCOLgTPvMoTlAxeDtzfGLBAdc0dY8EPD7VWRonN-Zc5M5OxnzGxsI1s7U01V7ZK5c0NnVjD4TEzL9XO1SEg43wKfdUkT-bWKKnZ5Ic1fAhz6nHopmJDxGNjD0PBZ97CI24UGc9DXCwXwswG3Ffya5h-OpF95VXpIhf7PNHNaG-tgGu15leqN2KPbTUCDHPJAx3pDNnN6Bk0KYCUplcDlFoJmk60JoByg6dgzhsyp30XSRtX8JmYw_Kq91Wryfy6KfocXsoklsORDE5HMyK-0dord9WW_zRvrMKnMOVPrtPLJI5Sl08-oyH3HEWJw",
+                "QrCode": "{\"SellerGstin\":\"27AABCI9669R1ZH\",\"BuyerGstin\":\"27AAACZ2157Q1ZQ\",\"DocNo\":\"27062627223\",\"DocTyp\":\"INV\",\"DocDt\":\"23/09/2026\",\"TotInvVal\":190322.0,\"ItemCnt\":2,\"MainHsnCode\":\"998311\",\"Irn\":\"981ef4d3c25f8fc8b0384c3978b536efe56c7539ffa383a8e91d77c37531648f\",\"IrnDt\":\"2026-09-23 21:41:16\"}",
+                "EncodedId": "NDU5MTIx"
+            }
+        ]
+    },
+    "error": null
+}

@@ -1,0 +1,115 @@
+{
+    "timestamp": "2026-09-23T21:46:28.672464",
+    "document_no": "27072627087",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27072627087",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "27072627087",
+                    "Dt": "23/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "33ABACS2674N1Z2",
+                    "LglNm": "Novac Technology Solutions Pvt. Ltd.",
+                    "TrdNm": "Novac Technology Solutions Pvt. Ltd.",
+                    "Pos": "33",
+                    "Addr1": "The Pavilion, New # 10,13 andamp,",
+                    "Addr2": "100,Abiramapura m 4th Street,,TTK Road,Alwarpet,",
+                    "Loc": "Chennai",
+                    "Pin": "600018",
+                    "Stcd": "33"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "MSSP For Qradar-5K-EPS, Remote SOC Monitoring Services Period : 01-07-2026 to 30-09-2026",
+                        "HsnCd": "998319",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 819864.75,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 147575.66,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 819864.75,
+                        "AssAmt": 819864.75,
+                        "TotItemVal": 967440.41
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 819864.75,
+                    "CgstVal": 0.0,
+                    "SgstVal": 0.0,
+                    "IgstVal": 147575.66,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": -0.41,
+                    "TotInvVal": 967440.0
+                },
+                "ShipDtls": {
+                    "LglNm": "Novac Technology Solutions Pvt. Ltd.",
+                    "TrdNm": "Novac Technology Solutions Pvt. Ltd.",
+                    "Addr1": "The Pavilion, New # 10,13 andamp,",
+                    "Addr2": "100,Abiramapura m 4th Street,,TTK Road,Alwarpet,",
+                    "Loc": "Chennai",
+                    "Stcd": "33",
+                    "Pin": "600018"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 122610116167817,
+                "AckDate": "2026-09-23 21:46:30",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "5dc9656543bc4bfa685f6a5b28b18a53e54b99aa874eb3603ae48cf05e206290",
+                "DocDtls": {
+                    "No": "27072627087",
+                    "Dt": "23/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "27072627087",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdBQUJDSTk2NjlSMVpIXCIsXCJCdXllckdzdGluXCI6XCIzM0FCQUNTMjY3NE4xWjJcIixcIkRvY05vXCI6XCIyNzA3MjYyNzA4N1wiLFwiRG9jVHlwXCI6XCJJTlZcIixcIkRvY0R0XCI6XCIyMy8wOS8yMDI2XCIsXCJUb3RJbnZWYWxcIjo5Njc0NDAuMCxcIkl0ZW1DbnRcIjoxLFwiTWFpbkhzbkNvZGVcIjpcIjk5ODMxOVwiLFwiSXJuXCI6XCI1ZGM5NjU2NTQzYmM0YmZhNjg1ZjZhNWIyOGIxOGE1M2U1NGI5OWFhODc0ZWIzNjAzYWU0OGNmMDVlMjA2MjkwXCIsXCJJcm5EdFwiOlwiMjAyNi0wOS0yMyAyMTo0NjozMFwifSJ9.nUl1rcDDjURy8NhPxWCkWcitg13GCG_LgzxryA_Mtd85hXP7mzSpM7q4dA7NbLcPUZeTbtmN3GHGa7OHp7cxXnwsfGjz57bkV-EZYeueXEKUDm_HGYzoLbw5ID2T0dvQVVcV8G4tUHezSKYFM6ddTprD5hn0gKdC9lqQtwwOIkoPPrXNzGAI94TyJGrJN04MOFnvxl0jZPdm5itELCSsmp4crEMy9Lp5jpQ9TkBbDYN0A-X8_ixFegK2M7Ar8MhSSpjlECBL0Y9lHxZsbuGZf6YmADDkFdHRwjDW84-Uai_k7zx1xntAD0oHi3SIHqzVoopTHy7MQfFr7mxRCehmKA",
+                "QrCode": "{\"SellerGstin\":\"27AABCI9669R1ZH\",\"BuyerGstin\":\"33ABACS2674N1Z2\",\"DocNo\":\"27072627087\",\"DocTyp\":\"INV\",\"DocDt\":\"23/09/2026\",\"TotInvVal\":967440.0,\"ItemCnt\":1,\"MainHsnCode\":\"998319\",\"Irn\":\"5dc9656543bc4bfa685f6a5b28b18a53e54b99aa874eb3603ae48cf05e206290\",\"IrnDt\":\"2026-09-23 21:46:30\"}",
+                "EncodedId": "NDU5MjM4"
+            }
+        ]
+    },
+    "error": null
+}

@@ -1,0 +1,111 @@
+{
+    "timestamp": "2026-09-24T06:53:36.831774",
+    "document_no": "27062627208",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27062627208",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "27062627208",
+                    "Dt": "24/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "27AAAAT0030E2Z4",
+                    "LglNm": "Bharat Co-operative Bank (Mumbai) Ltd.",
+                    "TrdNm": "Bharat Co-operative Bank (Mumbai) Ltd.",
+                    "Pos": "27",
+                    "Addr1": "Plot No 13/9 A, Marutagiri, Samant Estate,",
+                    "Addr2": "Sonawala Road, ,Goregaon East,",
+                    "Loc": "Mumbai",
+                    "Pin": "400063",
+                    "Stcd": "27"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "IBM Security Qradar Suite Software 100 Resource Unit Annual Subscription & Support Renewal",
+                        "HsnCd": "998313",
+                        "Qty": 48,
+                        "Unit": "NOS",
+                        "UnitPrice": 15275.91,
+                        "Discount": 0,
+                        "GstRt": 15,
+                        "SgstAmt": 43994.62,
+                        "IgstAmt": 0,
+                        "CgstAmt": 65991.93,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 733243.68,
+                        "AssAmt": 733243.68,
+                        "TotItemVal": 843230.23
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 733243.68,
+                    "CgstVal": 65991.93,
+                    "SgstVal": 43994.62,
+                    "IgstVal": 0.0,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": -0.23,
+                    "TotInvVal": 843230.0
+                },
+                "ShipDtls": {
+                    "LglNm": "Bharat Co-operative Bank (Mumbai) Ltd.",
+                    "TrdNm": "Bharat Co-operative Bank (Mumbai) Ltd.",
+                    "Addr1": "Plot No 13/9 A, Marutagiri, Samant Estate,",
+                    "Addr2": "Sonawala Road, ,Goregaon East,",
+                    "Loc": "Mumbai",
+                    "Stcd": "27",
+                    "Pin": "400063"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "Record": 1,
+                "Success": false,
+                "Fy": "202627",
+                "Messages": "GST Rate field value is invalid",
+                "Status": "ERROR",
+                "DocDtls": {
+                    "No": "27062627208",
+                    "Dt": "24/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "27062627208",
+                "LineItem": "1",
+                "EncodedId": "MA=="
+            }
+        ]
+    },
+    "error": null
+}

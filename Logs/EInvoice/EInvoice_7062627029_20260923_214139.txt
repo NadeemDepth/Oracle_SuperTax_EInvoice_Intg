@@ -1,0 +1,115 @@
+{
+    "timestamp": "2026-09-23T21:41:39.423178",
+    "document_no": "7062627029",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "7062627029",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "7062627029",
+                    "Dt": "23/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "07AABCI9669R1ZJ",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "202A, 202B, 203 Ashoka Estate",
+                    "Addr2": "24 Barakhamba Road",
+                    "Loc": "New Delhi",
+                    "Pin": "110001",
+                    "Stcd": "07"
+                },
+                "BuyerDtls": {
+                    "Gstin": "24AAACO1598A4ZQ",
+                    "LglNm": "Oil and Natural Gas Corporation Limited",
+                    "TrdNm": "Oil and Natural Gas Corporation Limited",
+                    "Pos": "24",
+                    "Addr1": "I/c receipt section, Material Management department, ONGC Ltd. Cambay Asset, PO Kansari,",
+                    "Addr2": "Khambat,",
+                    "Loc": "Anand",
+                    "Pin": "388630",
+                    "Stcd": "24"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "AMC for Min 1+3 Multi party VC endpoints including Codec, Speaker tracking camera, microphones, touchpanel etc (period 20.01.26 to 19.04.26)",
+                        "HsnCd": "998713",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 5957.85,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 1072.41,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 5957.85,
+                        "AssAmt": 5957.85,
+                        "TotItemVal": 7030.26
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 5957.85,
+                    "CgstVal": 0.0,
+                    "SgstVal": 0.0,
+                    "IgstVal": 1072.41,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": -0.26,
+                    "TotInvVal": 7030.0
+                },
+                "ShipDtls": {
+                    "LglNm": "Oil and Natural Gas Corporation Limited",
+                    "TrdNm": "Oil and Natural Gas Corporation Limited",
+                    "Addr1": "I/c receipt section, Material Management department, ONGC Ltd. Cambay Asset, PO Kansari,",
+                    "Addr2": "Khambat,",
+                    "Loc": "Anand",
+                    "Stcd": "24",
+                    "Pin": "388630"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 172610026358957,
+                "AckDate": "2026-09-23 21:41:41",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "13e270a12bb7f75ffe4760d3f8f984dc0125039eb6d744865b56e6123f1d5a15",
+                "DocDtls": {
+                    "No": "7062627029",
+                    "Dt": "23/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "07AABCI9669R1ZJ"
+                },
+                "CustDocNo": "7062627029",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMDdBQUJDSTk2NjlSMVpKXCIsXCJCdXllckdzdGluXCI6XCIyNEFBQUNPMTU5OEE0WlFcIixcIkRvY05vXCI6XCI3MDYyNjI3MDI5XCIsXCJEb2NUeXBcIjpcIklOVlwiLFwiRG9jRHRcIjpcIjIzLzA5LzIwMjZcIixcIlRvdEludlZhbFwiOjcwMzAuMCxcIkl0ZW1DbnRcIjoxLFwiTWFpbkhzbkNvZGVcIjpcIjk5ODcxM1wiLFwiSXJuXCI6XCIxM2UyNzBhMTJiYjdmNzVmZmU0NzYwZDNmOGY5ODRkYzAxMjUwMzllYjZkNzQ0ODY1YjU2ZTYxMjNmMWQ1YTE1XCIsXCJJcm5EdFwiOlwiMjAyNi0wOS0yMyAyMTo0MTo0MVwifSJ9.UaBd7oFup1lrBpygqMlcAWUVFRzarwVZxku_Qb-Qiitw8BymuCAXeK79GfszgE2-Z6GaWsjeG0ecIOE5q2FL3l0JblqcGThkA8-12sWXLPeP3zoE3s49joQWoq8fWfMoPtg-_-gBr5doUAWSfs7FsN6D9KUiIzzY9lrmVp9h1gyFqqOvF8v1tRsH7ttKN1TlzP2sX9GHZscxwVndqqJFBpYICNNtgUhRuEwJ5l7ZbYlxUIp3MhZQ8wW3k1_PuzlwPTdRITMLiNA0lTo8BmHVmnZTBCovu_CTsICw1jSljchtUAtc8LrEB9IeFGB02UVv5onkpv2UFFwVUuoCY5fiJQ",
+                "QrCode": "{\"SellerGstin\":\"07AABCI9669R1ZJ\",\"BuyerGstin\":\"24AAACO1598A4ZQ\",\"DocNo\":\"7062627029\",\"DocTyp\":\"INV\",\"DocDt\":\"23/09/2026\",\"TotInvVal\":7030.0,\"ItemCnt\":1,\"MainHsnCode\":\"998713\",\"Irn\":\"13e270a12bb7f75ffe4760d3f8f984dc0125039eb6d744865b56e6123f1d5a15\",\"IrnDt\":\"2026-09-23 21:41:41\"}",
+                "EncodedId": "NDU5MTI5"
+            }
+        ]
+    },
+    "error": null
+}

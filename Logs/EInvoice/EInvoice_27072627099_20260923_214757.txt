@@ -1,0 +1,115 @@
+{
+    "timestamp": "2026-09-23T21:47:57.692186",
+    "document_no": "27072627099",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27072627099",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "CRN",
+                    "No": "27072627099",
+                    "Dt": "23/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "27AAACB0472C1Z9",
+                    "LglNm": "Bank of India",
+                    "TrdNm": "Bank of India",
+                    "Pos": "27",
+                    "Addr1": "Risk Management Department,",
+                    "Addr2": "Information Security Cell,7\u2116 floor, Star House 2,,\"G\" Block, Bandra Kurla Complex, Bandra (East)",
+                    "Loc": "Mumbai",
+                    "Pin": "400501",
+                    "Stcd": "27"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "PrdDesc": "2nd Year Q1 L2 Resource cost for the period (Apr, May, Jun 2026)  ||",
+                        "HsnCd": "998311",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 2122875,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 191058.75,
+                        "IgstAmt": 0,
+                        "CgstAmt": 191058.75,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 2122875,
+                        "AssAmt": 2122875.0,
+                        "TotItemVal": 2504992.5
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 2122875.0,
+                    "CgstVal": 191058.75,
+                    "SgstVal": 191058.75,
+                    "IgstVal": 0.0,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": -0.5,
+                    "TotInvVal": 2504992.0
+                },
+                "ShipDtls": {
+                    "LglNm": "Bank of India",
+                    "TrdNm": "Bank of India",
+                    "Addr1": "Risk Management Department,",
+                    "Addr2": "Information Security Cell,7\u2116 floor, Star House 2,,\"G\" Block, Bandra Kurla Complex, Bandra (East)",
+                    "Loc": "Mumbai",
+                    "Stcd": "27",
+                    "Pin": "400501"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 122610116167969,
+                "AckDate": "2026-09-23 21:47:59",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "c7ba565aa433f7fd411d42cf8a2303d50ff7f07747964959d0c35bad88c4e04b",
+                "DocDtls": {
+                    "No": "27072627099",
+                    "Dt": "23/09/2026",
+                    "Typ": "CRN"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "27072627099",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdBQUJDSTk2NjlSMVpIXCIsXCJCdXllckdzdGluXCI6XCIyN0FBQUNCMDQ3MkMxWjlcIixcIkRvY05vXCI6XCIyNzA3MjYyNzA5OVwiLFwiRG9jVHlwXCI6XCJDUk5cIixcIkRvY0R0XCI6XCIyMy8wOS8yMDI2XCIsXCJUb3RJbnZWYWxcIjoyNTA0OTkyLjAsXCJJdGVtQ250XCI6MSxcIk1haW5Ic25Db2RlXCI6XCI5OTgzMTFcIixcIklyblwiOlwiYzdiYTU2NWFhNDMzZjdmZDQxMWQ0MmNmOGEyMzAzZDUwZmY3ZjA3NzQ3OTY0OTU5ZDBjMzViYWQ4OGM0ZTA0YlwiLFwiSXJuRHRcIjpcIjIwMjYtMDktMjMgMjE6NDc6NTlcIn0ifQ.SWIn6N54F99uLB8Vgfkip_IrQj2GZ3519GpOCjvJvMpCx9oyyTloLB5SspJSKpjqrY-xd5mhIhJO7LTts3VKBZu3KymHMZYbFxc7GHCYygx2Y8_2MwG-yyojnSXPJiiWtlmJEllWrSFgyjulXdwutUaVC2IAiLA839yKumm9r8azu9L1DDosCt-ITRtPn9VXjjIrbdYg55v620EzpxUqwFmYeySxTYwtNH3gWPL_gJ7F3bxWjgFrqx4xXiLy0IIpX6a3J_3rpgHsUsPo_30kEp5AWtlHYJIKDkKA74oEmIS7tAIxDpzdLw-QBqoH8aOCsCP5ZDwC_WDL9tV--hZYVQ",
+                "QrCode": "{\"SellerGstin\":\"27AABCI9669R1ZH\",\"BuyerGstin\":\"27AAACB0472C1Z9\",\"DocNo\":\"27072627099\",\"DocTyp\":\"CRN\",\"DocDt\":\"23/09/2026\",\"TotInvVal\":2504992.0,\"ItemCnt\":1,\"MainHsnCode\":\"998311\",\"Irn\":\"c7ba565aa433f7fd411d42cf8a2303d50ff7f07747964959d0c35bad88c4e04b\",\"IrnDt\":\"2026-09-23 21:47:59\"}",
+                "EncodedId": "NDU5MjUy"
+            }
+        ]
+    },
+    "error": null
+}

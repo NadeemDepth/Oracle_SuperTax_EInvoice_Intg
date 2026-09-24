@@ -1,0 +1,110 @@
+{
+    "timestamp": "2026-09-23T18:05:56.319423",
+    "document_no": "27072627101",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27072627101",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "27072627101",
+                    "Dt": "20/08/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "Gstin": "27AAACP1206G2ZW",
+                    "LglNm": "Punjab & Sind Bank",
+                    "TrdNm": "Punjab & Sind Bank",
+                    "Pos": "27",
+                    "Addr1": "C/o Sify Technologies Limited",
+                    "Addr2": "7th floor Reliable Plaza, Plot No. K-10 Kalwa Industrial Area, Airoli , Navi Mumbai ,",
+                    "Loc": "Mumbai",
+                    "Pin": "400708",
+                    "Stcd": "27"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "HsnCd": "998713",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 200000,
+                        "Discount": 0,
+                        "GstRt": 15,
+                        "SgstAmt": 12000,
+                        "IgstAmt": 0,
+                        "CgstAmt": 18000,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 200000,
+                        "AssAmt": 200000.0,
+                        "TotItemVal": 230000.0
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 200000.0,
+                    "CgstVal": 18000,
+                    "SgstVal": 12000,
+                    "IgstVal": 0.0,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": 0.0,
+                    "TotInvVal": 230000.0
+                },
+                "ShipDtls": {
+                    "LglNm": "Punjab & Sind Bank",
+                    "TrdNm": "Punjab & Sind Bank",
+                    "Addr1": "C/o Sify Technologies Limited",
+                    "Addr2": "7th floor Reliable Plaza, Plot No. K-10 Kalwa Industrial Area, Airoli , Navi Mumbai ,",
+                    "Loc": "Mumbai",
+                    "Stcd": "27",
+                    "Pin": "400708"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "Record": 1,
+                "Success": false,
+                "Fy": "202627",
+                "Messages": "GST Rate field value is invalid",
+                "Status": "ERROR",
+                "DocDtls": {
+                    "No": "27072627101",
+                    "Dt": "20/08/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "27072627101",
+                "LineItem": "1",
+                "EncodedId": "MA=="
+            }
+        ]
+    },
+    "error": null
+}

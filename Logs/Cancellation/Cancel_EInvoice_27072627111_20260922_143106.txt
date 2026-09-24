@@ -1,0 +1,29 @@
+{
+    "timestamp": "2026-09-22T14:31:06.163401",
+    "identifier": "27072627111",
+    "request_payload": {
+        "invoices": [
+            {
+                "Irn": "81ba1cbe9e6cbc44550ec85cfef3e634bd7673579f1c57da6ca81fa805e4ed47",
+                "CnlRsn": "2",
+                "CnlRem": "Test"
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "Record": 1,
+                "Success": false,
+                "Fy": "202627",
+                "Messages": "This IRN cannot be cancelled because  e-way bill has been generated , you can cancel   e-way bill and then try cancelling IRN ",
+                "Irn": "81ba1cbe9e6cbc44550ec85cfef3e634bd7673579f1c57da6ca81fa805e4ed47",
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "EncodedId": "NDU4OTU4"
+            }
+        ]
+    },
+    "error": null
+}
