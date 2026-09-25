@@ -1,0 +1,112 @@
+{
+    "timestamp": "2026-09-24T16:02:51.442527",
+    "document_no": "33072627002",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "33072627002",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "SEZWOP",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "33072627002",
+                    "Dt": "24/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "33AABCI9669R1ZO",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "RMZ Millenia Business Park, II",
+                    "Addr2": "Block 2, 10th Floor",
+                    "Loc": "Chennai",
+                    "Pin": "600096",
+                    "Stcd": "33"
+                },
+                "BuyerDtls": {
+                    "Gstin": "33AAACI0886K1ZI",
+                    "LglNm": "TVS ELECTRONICS LIMITED",
+                    "TrdNm": "TVS ELECTRONICS LIMITED",
+                    "Pos": "33",
+                    "Addr1": "9th Floor,Old No 53, New No.117/1",
+                    "Addr2": "Arihant E-Park, L.B.Road, ,Adyar",
+                    "Loc": "Chennai",
+                    "Pin": "600020",
+                    "Stcd": "33"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "HsnCd": "998311",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 866193.33,
+                        "Discount": 0,
+                        "GstRt": 0.0,
+                        "SgstAmt": 0,
+                        "IgstAmt": 0,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 866193.33,
+                        "AssAmt": 866193.33,
+                        "TotItemVal": 866193.33
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 866193.33,
+                    "CgstVal": 0.0,
+                    "SgstVal": 0.0,
+                    "IgstVal": 0.0,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": -0.33,
+                    "TotInvVal": 866193.0
+                },
+                "ShipDtls": {
+                    "LglNm": "TVS ELECTRONICS LIMITED",
+                    "TrdNm": "TVS ELECTRONICS LIMITED",
+                    "Addr1": "9th Floor,Old No 53, New No.117/1",
+                    "Addr2": "Arihant E-Park, L.B.Road, ,Adyar",
+                    "Loc": "Chennai",
+                    "Stcd": "33",
+                    "Pin": "600020"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "Record": 1,
+                "Success": false,
+                "Fy": "202627",
+                "Messages": "Customer does not have access to Gstin 33AABCI9669R1ZO",
+                "Status": "ERROR",
+                "DocDtls": {
+                    "No": "33072627002",
+                    "Dt": "24/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "33AABCI9669R1ZO"
+                },
+                "TranDtls": {
+                    "SupTyp": "SEZWOP"
+                },
+                "CustDocNo": "33072627002",
+                "EncodedId": "MA=="
+            }
+        ]
+    },
+    "error": null
+}

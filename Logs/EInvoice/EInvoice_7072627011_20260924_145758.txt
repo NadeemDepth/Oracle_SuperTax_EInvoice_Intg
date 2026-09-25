@@ -1,0 +1,114 @@
+{
+    "timestamp": "2026-09-24T14:57:58.902026",
+    "document_no": "7072627011",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "7072627011",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "B2B",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "7072627011",
+                    "Dt": "24/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "07AABCI9669R1ZJ",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "202A, 202B, 203 Ashoka Estate",
+                    "Addr2": "24 Barakhamba Road",
+                    "Loc": "New Delhi",
+                    "Pin": "110001",
+                    "Stcd": "07"
+                },
+                "BuyerDtls": {
+                    "Gstin": "06AAACI1681G1ZT",
+                    "LglNm": "Indian Oil Corporation Limited",
+                    "TrdNm": "Indian Oil Corporation Limited",
+                    "Pos": "06",
+                    "Addr1": "Indian Oil Institute of Petroleum Management Complex 83,",
+                    "Addr2": "Institutional Area, Sector 18,",
+                    "Loc": "Gurugram",
+                    "Pin": "122001",
+                    "Stcd": "06"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "HsnCd": "998311",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 737653,
+                        "Discount": 0,
+                        "GstRt": 18,
+                        "SgstAmt": 0,
+                        "IgstAmt": 132777.54,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 737653,
+                        "AssAmt": 737653.0,
+                        "TotItemVal": 870430.54
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 737653.0,
+                    "CgstVal": 0.0,
+                    "SgstVal": 0.0,
+                    "IgstVal": 132777.54,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": 0.46,
+                    "TotInvVal": 870431.0
+                },
+                "ShipDtls": {
+                    "LglNm": "Indian Oil Corporation Limited",
+                    "TrdNm": "Indian Oil Corporation Limited",
+                    "Addr1": "Indian Oil Institute of Petroleum Management Complex 83,",
+                    "Addr2": "Institutional Area, Sector 18,",
+                    "Loc": "Gurugram",
+                    "Stcd": "06",
+                    "Pin": "122001"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 172610026360244,
+                "AckDate": "2026-09-24 14:58:01",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "f227e02f905b0525beb68ed16396589ce77eef6228b7c1fb0daf1378bd6fa272",
+                "DocDtls": {
+                    "No": "7072627011",
+                    "Dt": "24/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "07AABCI9669R1ZJ"
+                },
+                "CustDocNo": "7072627011",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMDdBQUJDSTk2NjlSMVpKXCIsXCJCdXllckdzdGluXCI6XCIwNkFBQUNJMTY4MUcxWlRcIixcIkRvY05vXCI6XCI3MDcyNjI3MDExXCIsXCJEb2NUeXBcIjpcIklOVlwiLFwiRG9jRHRcIjpcIjI0LzA5LzIwMjZcIixcIlRvdEludlZhbFwiOjg3MDQzMS4wLFwiSXRlbUNudFwiOjEsXCJNYWluSHNuQ29kZVwiOlwiOTk4MzExXCIsXCJJcm5cIjpcImYyMjdlMDJmOTA1YjA1MjViZWI2OGVkMTYzOTY1ODljZTc3ZWVmNjIyOGI3YzFmYjBkYWYxMzc4YmQ2ZmEyNzJcIixcIklybkR0XCI6XCIyMDI2LTA5LTI0IDE0OjU4OjAxXCJ9In0.Z2QiGXWJw_K6yZxbVTJvysm-15i_RpEWANlvnw7gv3rPUsSYY0ekEzDC866TZ663CnwF1oiYegTX5mEQBcrWYZHJovmgKqx8CEJDFurfdDyjj0p2tOJW9X_TVe26TVjU5XOTUWX7vIbt-1PKD3mSF-EfFdwzMwAfhPLS13ZzQ-Xdj1lzrZs15RncOUH3s7jcd80In-SOH8Mh5BphB92nMKLO_4pvwSDHCLxLnJm0IcB3N74TWA-XWgvcOJBbpK5HOOZNgupV3KJyXtErio1Mr8gGliaAJsYqs-jVv__Z5y3pSFlrDUOVBAf7WpJw-yQRpL0jn95LZ0Tj7a96Ak9ydA",
+                "QrCode": "{\"SellerGstin\":\"07AABCI9669R1ZJ\",\"BuyerGstin\":\"06AAACI1681G1ZT\",\"DocNo\":\"7072627011\",\"DocTyp\":\"INV\",\"DocDt\":\"24/09/2026\",\"TotInvVal\":870431.0,\"ItemCnt\":1,\"MainHsnCode\":\"998311\",\"Irn\":\"f227e02f905b0525beb68ed16396589ce77eef6228b7c1fb0daf1378bd6fa272\",\"IrnDt\":\"2026-09-24 14:58:01\"}",
+                "EncodedId": "NDYwOTk0"
+            }
+        ]
+    },
+    "error": null
+}

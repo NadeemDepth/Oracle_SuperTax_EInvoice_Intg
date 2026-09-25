@@ -1,0 +1,119 @@
+{
+    "timestamp": "2026-09-24T15:23:18.970985",
+    "document_no": "27072627115",
+    "request_payload": {
+        "invoices": [
+            {
+                "CustDocNo": "27072627115",
+                "Version": "1.01",
+                "TranDtls": {
+                    "TaxSch": "GST",
+                    "SupTyp": "EXPWOP",
+                    "RegRev": "N"
+                },
+                "DocDtls": {
+                    "Typ": "INV",
+                    "No": "27072627115",
+                    "Dt": "24/09/2026"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH",
+                    "LglNm": "Inspira Enterprise India Limited",
+                    "TrdNm": "Inspira Enterprise India Limited",
+                    "Addr1": "Unit No.23, Level-2, Kalptaru Square",
+                    "Addr2": "Kondivita Lane, Ram Krishna Mandir Road, Andheri (E)",
+                    "Loc": "Mumbai",
+                    "Pin": "400059",
+                    "Stcd": "27"
+                },
+                "BuyerDtls": {
+                    "LglNm": "3B-Fibreglass",
+                    "TrdNm": "3B-Fibreglass",
+                    "Addr1": "SPRL Route de Maestricht",
+                    "Addr2": "BELGIQUE,,",
+                    "Loc": "Battice",
+                    "Pin": "999999",
+                    "Gstin": "URP",
+                    "Pos": "96",
+                    "Stcd": "96"
+                },
+                "ItemList": [
+                    {
+                        "IsServc": "Y",
+                        "HsnCd": "998319",
+                        "Qty": 1,
+                        "Unit": "NOS",
+                        "UnitPrice": 1824.58,
+                        "Discount": 0,
+                        "GstRt": 0.0,
+                        "SgstAmt": 0,
+                        "IgstAmt": 0,
+                        "CgstAmt": 0,
+                        "CesRt": 0,
+                        "CesAmt": 0,
+                        "CesNonAdvlAmt": 0,
+                        "StateCesRt": 0,
+                        "StateCesAmt": 0,
+                        "StateCesNonAdvlAmt": 0,
+                        "OthChrg": 0,
+                        "SlNo": "1",
+                        "TotAmt": 1824.58,
+                        "AssAmt": 1824.58,
+                        "TotItemVal": 1824.58
+                    }
+                ],
+                "ValDtls": {
+                    "AssVal": 1824.58,
+                    "CgstVal": 0.0,
+                    "SgstVal": 0.0,
+                    "IgstVal": 0.0,
+                    "CesVal": 0.0,
+                    "StCesVal": 0.0,
+                    "RndOffAmt": 0.42,
+                    "TotInvVal": 1825.0
+                },
+                "ShipDtls": {
+                    "LglNm": "3B-Fibreglass",
+                    "TrdNm": "3B-Fibreglass",
+                    "Addr1": "SPRL Route de Maestricht",
+                    "Addr2": "BELGIQUE,,",
+                    "Loc": "Battice",
+                    "Pin": "999999",
+                    "Stcd": "96",
+                    "Gstin": "URP"
+                },
+                "ExpDtls": {
+                    "RefClm": "N",
+                    "CntCode": "US"
+                }
+            }
+        ]
+    },
+    "response": {
+        "invoices": [
+            {
+                "AckNo": 122610116186478,
+                "AckDate": "2026-09-24 15:23:21",
+                "Record": 1,
+                "Success": true,
+                "Fy": "202627",
+                "Messages": "Saved successfully",
+                "Status": "REGISTERED",
+                "Irn": "d44ab464ffecc78dc9e33c797b67813184de54b24ec8793f395bde7c83729755",
+                "DocDtls": {
+                    "No": "27072627115",
+                    "Dt": "24/09/2026",
+                    "Typ": "INV"
+                },
+                "SellerDtls": {
+                    "Gstin": "27AABCI9669R1ZH"
+                },
+                "CustDocNo": "27072627115",
+                "SignedQRCode": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNCRTE3RTUxNDE5MjUyMjY0N0YwMUZEQkZGNTI3MUFENTI2OEQ3MzUiLCJ4NXQiOiJPLUYtVVVHU1VpWkg4Ql9iXzFKeHJWSm8xelUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJOSUMgU2FuZGJveCIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdBQUJDSTk2NjlSMVpIXCIsXCJCdXllckdzdGluXCI6XCJVUlBcIixcIkRvY05vXCI6XCIyNzA3MjYyNzExNVwiLFwiRG9jVHlwXCI6XCJJTlZcIixcIkRvY0R0XCI6XCIyNC8wOS8yMDI2XCIsXCJUb3RJbnZWYWxcIjoxODI1LjAsXCJJdGVtQ250XCI6MSxcIk1haW5Ic25Db2RlXCI6XCI5OTgzMTlcIixcIklyblwiOlwiZDQ0YWI0NjRmZmVjYzc4ZGM5ZTMzYzc5N2I2NzgxMzE4NGRlNTRiMjRlYzg3OTNmMzk1YmRlN2M4MzcyOTc1NVwiLFwiSXJuRHRcIjpcIjIwMjYtMDktMjQgMTU6MjM6MjFcIn0ifQ.EZHnIvfdRceNEmndlH0UE-ZA8ROx5_nexyupMGBv_czsccwCAHrdfdg5xePaKkk9YOL9uZx680ugtw6Q18uCsHXCQH6v_uXsqwM7f1gifVbko0dt2RHcu53RmcC1hgV1hF3rHIKVOY4U4Gqs0ElXHNEYlZNV0l-Ps_yg2OmGJ6wOr8Tq9b3AoB11SaO5mQS7eC5BMld5pNwUFnXUPdglKlQAhdRK_3uRVCGn24rhBoQZPXHsQtr1VQgCsmIlP6PSKkDYFrkoNIJHPxYLdIO-3hcwheox88L36n9VJFZ5AauSNPFCnq5fbGacr-Gta7sYJuqfFSJz4aTKE3jB-p5ltg",
+                "QrCode": "{\"SellerGstin\":\"27AABCI9669R1ZH\",\"BuyerGstin\":\"URP\",\"DocNo\":\"27072627115\",\"DocTyp\":\"INV\",\"DocDt\":\"24/09/2026\",\"TotInvVal\":1825.0,\"ItemCnt\":1,\"MainHsnCode\":\"998319\",\"Irn\":\"d44ab464ffecc78dc9e33c797b67813184de54b24ec8793f395bde7c83729755\",\"IrnDt\":\"2026-09-24 15:23:21\"}",
+                "EncodedId": "NDYwOTk2"
+            }
+        ]
+    },
+    "error": null
+}
